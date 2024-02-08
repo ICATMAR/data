@@ -1,3 +1,8 @@
 observational/hf_radar/currents/L3/grib/
 observational/hf_radar/currents/L3/netcdf/
+observational/hf_radar/currents/L2/AREN/2023/
+observational/hf_radar/currents/L2/BEGU/2023/
+observational/hf_radar/currents/L2/CREU/2023/
+observational/hf_radar/currents/L2/GNST/2023/
+observational/hf_radar/currents/L2/PBCN/2023/
 scripts/
