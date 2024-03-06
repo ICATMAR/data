@@ -63,7 +63,7 @@
 %QCTest: qc_qartod_maximum_velocity (Q202) - Test applies to each row. Thresholds=[ high_vel=140 (cm/s) max_vel=170 (cm/s) ]: See results in column Q202 below
 %QCTest: qc_qartod_temporal_gradient (Q206) - Test applies to each row. Thresholds=[ gradient_temp_warn=36 (cm/s*hr) gradient_temp_fail=54 (cm/s*hr) ]: See results in column Q206 below
 %QCTest: qc_qartod_spatial_median (Q205) - Test applies to each row. Thresholds=[ range_cell_limit=2.1 (range cells) angular_limit=10 (degrees) current_difference=30 (cm/s) ]: See results in column Q205 below
-%QCTest: qc_qartod_avg_radial_bearing (Q207) - Test applies to entire file. Thresholds=[ reference_bearing=137 (degrees) warning=15 (degrees) failure=30 (degrees) ]: See result in column Q207 below
+%QCTest: qc_qartod_avg_radial_bearing (Q207) - Test applies to entire file. Thresholds=[ reference_bearing=137 (degrees) warning=30 (degrees) failure=30 (degrees) ]: See result in column Q207 below
 %QCTest: qc_qartod_radial_count (Q204) - Test applies to entire file. Thresholds=[ failure=50 (radials) warning_num=140 (radials) <valid_radials=1578> ]:  See results in column Q204 below
 %QCTest: qc_qartod_primary_flag (PRIM) - Primary Flag - Highest flag value of Q201, Q203, Q202, Q206, Q205, Q207, Q204("not_evaluated" flag results ignored)
 %TableType: LLUV RDL9
@@ -1305,7 +1305,7 @@
    3.5311596 41.8513439    5.42 -15.869          0   2.558    3.989      -4.1  17.3   -8.036  -22.529       4        3    17.8802   -51.9279     54.92   161.0  -16.769     341.1      33      1      1      1      2      1      1      1      1
    3.4758110 41.8391835   2.716  -10.98          0   0.582   13.438       0.0  10.5   18.952  -16.769       1        4    13.2864   -53.2886     54.92   166.0  -11.311     346.1      33      1      1      1      2      1      1      1      1
    3.2467477 41.8272957  -0.525  -5.036          0   0.000    2.113       0.0   7.8    -2.88   -8.036       1        3    -5.7407   -54.6191     54.92   186.0   -5.063       6.0      33      1      1      1      2      1      1      1      1
-   3.1896963 41.8336228   9.508  49.305          0   1.638   22.528       0.0   7.2   72.742   27.685       2        2   -10.4792    -53.911     54.92   191.0   50.213      10.9      33      1      1      1      2      4      1      1      4
+   3.1896963 41.8336228   9.508  49.305          0   1.638   22.528       0.0   7.2   72.742   27.685       2        2   -10.4792    -53.911     54.92   191.0   50.213      10.9      33      1      4      1      2      4      1      1      4
    3.0973292 42.7863076  -1.204   3.467          0  16.639   27.794       0.0  11.3   92.391  -32.051       1        5   -17.8802    51.9279     54.92   341.0    -3.67     160.9      33      1      1      1      2      1      1      1      1
    3.1534403 42.7986497   0.037  -0.146          0  10.476   28.026      -1.9  12.1   59.643  -32.051      15        4   -13.2864    53.2886     54.92   346.0    0.151     165.9      33      1      1      1      2      1      1      1      1
    3.2108161 42.8073148  -2.582  16.169          0   4.526    0.451       0.0   7.4  -13.796  -16.769       2        3    -8.5914    54.2438     54.92   351.0  -16.374     170.9      33      1      1      1      2      1      1      1      1

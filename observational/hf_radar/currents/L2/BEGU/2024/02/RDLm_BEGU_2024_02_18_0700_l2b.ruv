@@ -63,7 +63,7 @@
 %QCTest: qc_qartod_maximum_velocity (Q202) - Test applies to each row. Thresholds=[ high_vel=140 (cm/s) max_vel=170 (cm/s) ]: See results in column Q202 below
 %QCTest: qc_qartod_temporal_gradient (Q206) - Test applies to each row. Thresholds=[ gradient_temp_warn=36 (cm/s*hr) gradient_temp_fail=54 (cm/s*hr) ]: See results in column Q206 below
 %QCTest: qc_qartod_spatial_median (Q205) - Test applies to each row. Thresholds=[ range_cell_limit=2.1 (range cells) angular_limit=10 (degrees) current_difference=30 (cm/s) ]: See results in column Q205 below
-%QCTest: qc_qartod_avg_radial_bearing (Q207) - Test applies to entire file. Thresholds=[ reference_bearing=74 (degrees) warning=15 (degrees) failure=30 (degrees) ]: See result in column Q207 below
+%QCTest: qc_qartod_avg_radial_bearing (Q207) - Test applies to entire file. Thresholds=[ reference_bearing=74 (degrees) warning=30 (degrees) failure=30 (degrees) ]: See result in column Q207 below
 %QCTest: qc_qartod_radial_count (Q204) - Test applies to entire file. Thresholds=[ failure=50 (radials) warning_num=140 (radials) <valid_radials=819> ]:  See results in column Q204 below
 %QCTest: qc_qartod_primary_flag (PRIM) - Primary Flag - Highest flag value of Q201, Q203, Q202, Q206, Q205, Q207, Q204("not_evaluated" flag results ignored)
 %TableType: LLUV RDL9
@@ -893,7 +893,7 @@
    4.2825043 41.7213917   3.843  -1.227          0   1.362    2.547      -4.3   9.9   -1.487  -10.219       9        2    87.5338   -26.7618   91.5334   107.0   -4.034     287.7      55      1      1      1      2      1      1      1      1
    4.1606040 41.5266684   6.309  -4.038          0   0.891    0.545      -1.8   8.2   -6.945   -8.036       1        2    77.6247   -48.5053   91.5334   122.0   -7.491     302.6      55      1      1      1      2      1      1      1      1
    3.8330512 42.6771228  -1.382  -2.177          0   0.891    5.458       7.7   7.2   10.219    -2.88       1        2    49.3872     79.036   93.1976    32.0    2.578     212.4      56      1      1      1      2      1      1      1      1
-   3.4021317 42.9930945   0.221   1.774          0   0.000    3.275      -4.9   9.5    1.487   -5.063       1        2    13.9946   113.9769  114.8328     7.0   -1.788     187.1      69      1      1      1      2      1      1      1      1
+   3.4021317 42.9930945   0.221   1.774          0   0.000    3.275      -4.9   9.5    1.487   -5.063       1        2    13.9946   113.9769  114.8328     7.0   -1.788     187.1      69      1      4      1      2      1      1      1      4
 %TableEnd: 
 %%
 %TableType: rads rad1
