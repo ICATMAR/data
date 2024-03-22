@@ -1,7 +1,7 @@
 %CTF: 1.00
 %FileType: LLUV tots "CurrentMap"
 %LLUVSpec: 1.27  2017 01 13
-%UUID: 7d7961fa-f819-4c81-b808-1cc87c1356ba
+%UUID: b8a42314-1897-4e83-910a-7b552008d524
 %Manufacturer: CODAR Ocean Sensors. SeaSonde
 %Site: CATS ""
 %TimeStamp: 2024 03 22  19 00 00
@@ -359,7 +359,7 @@
 %TableType: MRGS src3
 %TableColumns: 15
 %TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
-%TableRows: 3
+%TableRows: 5
 %TableStart: 2
 %%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
 %%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
@@ -367,9 +367,11 @@
 %      1   "CREU"     42.3190500    3.3158500       75.000    1.664243    "Meas"     126.0       925      43.1682444   41.5250442     4.2255273     3.0012202             "/home/icatmar/data/radars/CREU/L2/L2B//2024/03/RDLm_CREU_2024_03_22_1900_l2b.ruv"  "4C7A0143-20C4-4AF9-AC11-02EB0257226B"
 %      2   "BEGU"     41.9671667    3.2305333       75.000    1.664243    "Meas"     132.0       425      42.5686710   41.7358460     3.8322271     3.2136581             "/home/icatmar/data/radars/BEGU/L2/L2B//2024/03/RDLm_BEGU_2024_03_22_1900_l2b.ruv"  "CACA30A0-544B-4030-861C-8A159B8B02A1"
 %      3   "AREN"     41.5775833    2.5577333       75.000    1.664243    "Meas"     199.0       154      41.6684342   41.2576607     2.9945851     2.3923397             "/home/icatmar/data/radars/AREN/L2/L2B//2024/03/RDLm_AREN_2024_03_22_1900_l2b.ruv"  "E6EE3E52-E294-40CA-AF9C-2B1275BA47A8"
+%      4   "PBCN"     41.3475833    2.1740500       75.000    1.664243    "Meas"     177.0       290      41.7585389   41.0055691     2.7586674     2.2097720             "/home/icatmar/data/radars/PBCN/L2/L2B//2024/03/RDLm_PBCN_2024_03_22_1900_l2b.ruv"  "7DAAA053-DF93-440E-B289-8A9583425CC6"
+%      5   "GNST"     41.2560667    1.9221833       75.000    1.664243    "Meas"     208.0       152      41.2611254   41.0032040     2.2315067     1.6096411             "/home/icatmar/data/radars/GNST/L2/L2B//2024/03/RDLm_GNST_2024_03_22_1900_l2b.ruv"  "DCFE73DF-117E-4BDD-BEE3-83514C0A861B"
 %TableEnd: 2
 %%
 %%
-%ProcessedTimeStamp: 2024 03 22  20 52 18
+%ProcessedTimeStamp: 2024 03 22  21 05 37
 %ProcessingTool: merge_radials 0.4.1
 %End:
