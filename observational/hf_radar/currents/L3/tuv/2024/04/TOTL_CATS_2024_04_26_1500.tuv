@@ -1,0 +1,59 @@
+%CTF: 1.00
+%FileType: LLUV tots "CurrentMap"
+%LLUVSpec: 1.27  2017 01 13
+%UUID: 36db8be9-90cc-49ee-b24f-44144f9fdee3
+%Manufacturer: CODAR Ocean Sensors. SeaSonde
+%Site: CATS ""
+%TimeStamp: 2024 04 26  15 00 00
+%TimeZone: "UTC" +0.000 0 "UTC"
+%TimeCoverage: 75.000 Minutes
+%Origin:    40.5061167      1.1244500 
+%GreatCircle: "WGS84" 6378137.000  298.257223562997
+%GeodVersion: "CGEO" 1.90  2018 01 31
+%LLUVTrustData: all %% all lluv xyuv rbvd
+%GridAxisOrientation: 0.0 True
+%GridCreatedBy: SOCAT gengrid 0.1
+%GridVersion: 0
+%GridTimeStamp: 2023 02 20  00 00 00
+%GridLastModified: 2023 02 20  00 00 00
+%GridAxisOrientation: 0.0 DegNCW
+%GridAxisType: 6
+%GridSpacing: 3.000 km
+%AveragingRadius: 6.000 km
+%DistanceAngularLimit: 15.0
+%CurrentVelocityLimit: 100.0 cm/s
+%TableType: LLUV TOT4
+%TableColumns: 16
+%TableColumnTypes: LOND LATD VELU VELV VFLG VELO HEAD UQAL VQAL CQAL GDOP S1CN S2CN S3CN S4CN S5CN
+%TableRows: 10
+%TableStart:
+%%   Longitude   Latitude    U comp   V comp  VectorFlag   Velocity  Direction   Std_U   Std_V     COV     GDOP     Site Contri   Site Contri   Site Contri   Site Contri   Site Contri
+%%     (deg)       (deg)     (cm/s)   (cm/s)  (GridCode)    (cm/s)     (True)   (cm/s)   (cm/s) (cm2/s2) (unitless)       #1            #2            #3            #4            #5
+      3.3854799  41.6371002    4.071   -3.697          0     5.499    132.2       5.198    3.280    0.840     1.225     1       0       2       0       0
+      3.3148000  41.6641006    4.071   -3.697          0     5.499    132.2       5.198    3.280    0.840     1.225     1       0       2       0       0
+      3.3501401  41.6641006    4.071   -3.697          0     5.499    132.2       5.198    3.280    0.840     1.225     1       0       2       0       0
+      3.3854799  41.6641006   -4.373   -4.283          0     6.121    225.6       7.632    3.303    3.001     1.415     1       0       1       0       0
+      3.4561601  41.6911011    6.309   -6.344          0     8.947    135.2       2.748    3.067   -0.554     1.415     1       0       1       0       0
+      3.4914999  41.6911011    5.963   -6.184          0     8.591    136.0       1.687    1.810    0.199     1.002     2       0       2       0       0
+      3.4561601  41.7181015    5.945   -5.015          0     7.778    130.2       2.660    1.406    1.329     1.153     3       0       1       0       0
+      3.4914999  41.7181015    5.945   -5.015          0     7.778    130.2       2.660    1.406    1.329     1.153     3       0       1       0       0
+      3.4561601  41.7450981    6.261   -6.167          0     8.788    134.6       2.659    1.396    1.336     1.117     4       0       1       0       0
+      3.4914999  41.7450981    6.306   -6.331          0     8.936    135.1       2.649    1.035    1.560     1.094     5       0       1       0       0
+%TableEnd:
+%%
+%TableType: MRGS src3
+%TableColumns: 15
+%TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
+%TableRows: 2
+%TableStart: 2
+%%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
+%%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
+%%
+%      1   "CREU"     42.3190500    3.3158500       75.000    1.664243    "Meas"     126.0      1020      43.1559344   41.6912704     4.1493855     3.0505541             "/home/icatmar/data/radars/CREU/L2/L2B//2024/04/RDLm_CREU_2024_04_26_1500_l2b.ruv"  "4DE54594-D0A8-4C7A-AE17-B9765C542ECB"
+%      3   "AREN"     41.5775833    2.5577333       75.000    1.664243    "Meas"     199.0       665      41.7109652   40.8583953     3.5114327     1.9522107             "/home/icatmar/data/radars/AREN/L2/L2B//2024/04/RDLm_AREN_2024_04_26_1500_l2b.ruv"  "5FE381B2-BCD0-4F73-9F45-3129CB2C610C"
+%TableEnd: 2
+%%
+%%
+%ProcessedTimeStamp: 2024 04 26  17 52 33
+%ProcessingTool: merge_radials 0.4.1
+%End:
