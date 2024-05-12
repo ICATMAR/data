@@ -1,0 +1,70 @@
+%CTF: 1.00
+%FileType: LLUV tots "CurrentMap"
+%LLUVSpec: 1.27  2017 01 13
+%UUID: 65472e01-06c0-4841-bf8d-75bc8026e91a
+%Manufacturer: CODAR Ocean Sensors. SeaSonde
+%Site: CATS ""
+%TimeStamp: 2024 05 12  19 00 00
+%TimeZone: "UTC" +0.000 0 "UTC"
+%TimeCoverage: 75.000 Minutes
+%Origin:    40.5061167      1.1244500 
+%GreatCircle: "WGS84" 6378137.000  298.257223562997
+%GeodVersion: "CGEO" 1.90  2018 01 31
+%LLUVTrustData: all %% all lluv xyuv rbvd
+%GridAxisOrientation: 0.0 True
+%GridCreatedBy: SOCAT gengrid 0.1
+%GridVersion: 0
+%GridTimeStamp: 2023 02 20  00 00 00
+%GridLastModified: 2023 02 20  00 00 00
+%GridAxisOrientation: 0.0 DegNCW
+%GridAxisType: 6
+%GridSpacing: 3.000 km
+%AveragingRadius: 6.000 km
+%DistanceAngularLimit: 15.0
+%CurrentVelocityLimit: 100.0 cm/s
+%TableType: LLUV TOT4
+%TableColumns: 16
+%TableColumnTypes: LOND LATD VELU VELV VFLG VELO HEAD UQAL VQAL CQAL GDOP S1CN S2CN S3CN S4CN S5CN
+%TableRows: 20
+%TableStart:
+%%   Longitude   Latitude    U comp   V comp  VectorFlag   Velocity  Direction   Std_U   Std_V     COV     GDOP     Site Contri   Site Contri   Site Contri   Site Contri   Site Contri
+%%     (deg)       (deg)     (cm/s)   (cm/s)  (GridCode)    (cm/s)     (True)   (cm/s)   (cm/s) (cm2/s2) (unitless)       #1            #2            #3            #4            #5
+      2.3959601  41.2051010    2.161   -2.269          0     3.133    136.4       1.849    3.285    0.335     1.150     0       0       1       0       3
+      2.4312999  41.2051010   -0.997   -5.126          0     5.222    191.0       1.941    0.986   -0.576     0.916     0       0       3       0       2
+      2.4666400  41.2051010    2.730   -5.030          0     5.723    151.5       2.158    0.958   -0.757     1.126     0       0       4       0       1
+      2.5373199  41.2051010   -1.993   -1.876          0     2.737    226.7       1.089    0.857   -0.042     1.152     0       0       3       0       1
+      2.5726600  41.2051010    0.470    5.862          0     5.881      4.6       1.283    4.378    2.864     1.434     0       0       1       0       1
+      2.6080000  41.2051010    0.470    5.862          0     5.881      4.6       1.283    4.378    2.864     1.434     0       0       1       0       1
+      2.3959601  41.2321014    2.640   -4.183          0     4.947    147.7       2.159    2.242   -0.875     1.246     0       0       2       0       1
+      2.4312999  41.2321014    2.843   -4.559          0     5.373    148.0       2.141    0.815   -0.896     1.104     0       0       5       0       1
+      2.4666400  41.2321014    2.641   -4.213          0     4.972    147.9       2.116    0.732   -0.786     1.065     0       0       7       0       1
+      2.5019801  41.2321014    1.228   -2.961          0     3.205    157.5       2.083    0.641   -0.655     1.028     0       0       9       0       1
+      2.5373199  41.2321014   -2.033   -2.015          0     2.862    225.2       1.087    0.684   -0.062     1.070     0       0       6       0       1
+      2.5726600  41.2321014   -1.017   -0.513          0     1.139    243.2       1.102    0.954    0.058     1.123     0       0       4       0       1
+      2.6080000  41.2321014    0.470    5.862          0     5.881      4.6       1.283    4.378    2.864     1.434     0       0       1       0       1
+      2.2192600  41.2591019    6.651   -4.652          0     8.116    125.0       9.945   11.074  -70.047     1.643     0       0       1       0       1
+      2.2546000  41.2591019    6.651   -4.652          0     8.116    125.0       9.945   11.074  -70.047     1.643     0       0       1       0       1
+      2.3959601  41.2591019    2.673   -3.630          0     4.508    143.6       2.156    1.124   -1.096     1.175     0       0       3       0       1
+      2.4312999  41.2591019    2.504   -5.109          0     5.690    153.9       2.135    0.794   -0.901     1.062     0       0       8       0       1
+      2.4666400  41.2591019    2.343   -5.280          0     5.777    156.1       2.081    0.643   -0.682     1.023     0       0      11       0       1
+      2.5019801  41.2591019    0.448   -4.211          0     4.235    173.9       2.078    0.615   -0.649     0.990     0       0      14       0       1
+      2.4312999  41.2860985    2.150   -6.482          0     6.830    161.6       2.147    0.976   -1.098     1.058     0       0       9       0       1
+%TableEnd:
+%%
+%TableType: MRGS src3
+%TableColumns: 15
+%TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
+%TableRows: 3
+%TableStart: 2
+%%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
+%%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
+%%
+%      1   "CREU"     42.3190500    3.3158500       75.000    1.664243    "Meas"     126.0       894      43.2599619   41.3967017     4.6072701     2.9648056             "/home/icatmar/data/radars/CREU/L2/L2B//2024/05/RDLm_CREU_2024_05_12_1900_l2b.ruv"  "0A202A23-4B74-4798-AAED-7D34E11734DF"
+%      3   "AREN"     41.5775833    2.5577333       75.000    1.664243    "Meas"     199.0       264      41.6452400   41.2371529     3.3746339     2.2576199             "/home/icatmar/data/radars/AREN/L2/L2B//2024/05/RDLm_AREN_2024_05_12_1900_l2b.ruv"  "C0DBC7AE-E4F8-45EC-8DE3-FF2BC04F73DE"
+%      5   "GNST"     41.2560667    1.9221833       75.000    1.664243    "Meas"     208.0       331      41.2521027   40.8546863     2.5704155     1.7013329             "/home/icatmar/data/radars/GNST/L2/L2B//2024/05/RDLm_GNST_2024_05_12_1900_l2b.ruv"  "A97E2A62-2AFA-4C4B-AFAA-6D8DF8E821AB"
+%TableEnd: 2
+%%
+%%
+%ProcessedTimeStamp: 2024 05 12  21 52 23
+%ProcessingTool: merge_radials 0.4.1
+%End:
