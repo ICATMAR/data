@@ -1,7 +1,7 @@
 %CTF: 1.00
 %FileType: LLUV tots "CurrentMap"
 %LLUVSpec: 1.27  2017 01 13
-%UUID: d3a27300-0274-4e4f-934a-c34b75f9bb08
+%UUID: 8f9bae3f-9f8c-4db6-b090-c149a2c0172e
 %Manufacturer: CODAR Ocean Sensors. SeaSonde
 %Site: CATS ""
 %TimeStamp: 2024 05 19  00 00 00
@@ -1622,6 +1622,6 @@
 %TableEnd: 2
 %%
 %%
-%ProcessedTimeStamp: 2024 05 19  03 08 54
+%ProcessedTimeStamp: 2024 05 19  03 21 35
 %ProcessingTool: merge_radials 0.4.1
 %End:
