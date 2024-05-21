@@ -1,0 +1,72 @@
+%CTF: 1.00
+%FileType: LLUV tots "CurrentMap"
+%LLUVSpec: 1.27  2017 01 13
+%UUID: 16311a8c-d954-462e-b311-0ca3a0c1bcfc
+%Manufacturer: CODAR Ocean Sensors. SeaSonde
+%Site: CATS ""
+%TimeStamp: 2024 05 21  08 00 00
+%TimeZone: "UTC" +0.000 0 "UTC"
+%TimeCoverage: 75.000 Minutes
+%Origin:    40.5061167      1.1244500 
+%GreatCircle: "WGS84" 6378137.000  298.257223562997
+%GeodVersion: "CGEO" 1.90  2018 01 31
+%LLUVTrustData: all %% all lluv xyuv rbvd
+%GridAxisOrientation: 0.0 True
+%GridCreatedBy: SOCAT gengrid 0.1
+%GridVersion: 0
+%GridTimeStamp: 2023 02 20  00 00 00
+%GridLastModified: 2023 02 20  00 00 00
+%GridAxisOrientation: 0.0 DegNCW
+%GridAxisType: 6
+%GridSpacing: 3.000 km
+%AveragingRadius: 6.000 km
+%DistanceAngularLimit: 15.0
+%CurrentVelocityLimit: 100.0 cm/s
+%TableType: LLUV TOT4
+%TableColumns: 16
+%TableColumnTypes: LOND LATD VELU VELV VFLG VELO HEAD UQAL VQAL CQAL GDOP S1CN S2CN S3CN S4CN S5CN
+%TableRows: 23
+%TableStart:
+%%   Longitude   Latitude    U comp   V comp  VectorFlag   Velocity  Direction   Std_U   Std_V     COV     GDOP     Site Contri   Site Contri   Site Contri   Site Contri   Site Contri
+%%     (deg)       (deg)     (cm/s)   (cm/s)  (GridCode)    (cm/s)     (True)   (cm/s)   (cm/s) (cm2/s2) (unitless)       #1            #2            #3            #4            #5
+      3.4208200  41.5021019    1.097  -27.586          0    27.608    177.7       2.682    2.616    3.457     1.379     0       2       1       0       0
+      3.4208200  41.5290985    2.272  -26.595          0    26.692    175.1       0.436    2.029    0.393     0.975     0       4       2       0       0
+      3.3854799  41.5560989    2.216  -27.307          0    27.397    175.4       0.417    1.230    0.187     1.126     0       2       2       0       0
+      3.4208200  41.5560989    1.119  -27.303          0    27.326    177.7       2.677    1.534    3.103     1.204     0       7       1       0       0
+      3.3854799  41.5830994    1.031  -28.426          0    28.445    177.9       2.677    1.648    3.132     1.259     0       4       1       0       0
+      3.3501401  41.6371002   17.601  -19.285          0    26.109    137.6       1.452    3.301   -1.224     1.145     0       4       1       0       0
+      3.3501401  41.6641006   12.580  -19.316          0    23.052    146.9       1.006    2.773   -1.082     0.648     0       5       5       0       0
+      3.3854799  41.6641006   11.044  -21.866          0    24.496    153.2       1.112    1.696    0.061     0.660     0      13       3       0       0
+      3.4208200  41.6641006    8.910  -24.178          0    25.767    159.8       1.852    1.594    1.487     0.763     0      18       2       0       0
+      3.4561601  41.6641006    6.700  -26.453          0    27.289    165.8       1.973    1.646    2.094     1.010     0      21       1       0       0
+      3.3148000  41.6911011   14.843  -16.991          0    22.561    138.9       1.049    2.983   -1.286     0.724     0       3       6       0       0
+      3.3501401  41.6911011   12.244  -17.766          0    21.577    145.4       0.922    1.793   -0.229     0.575     0       9       5       0       0
+      3.3854799  41.6911011   11.087  -19.705          0    22.610    150.6       1.087    1.343    0.300     0.649     0      16       3       0       0
+      3.4208200  41.6911011    9.233  -23.115          0    24.890    158.2       1.831    1.488    1.668     0.762     0      19       2       0       0
+      3.4561601  41.6911011    8.409  -24.318          0    25.731    160.9       1.958    1.585    2.248     0.992     0      24       1       0       0
+      3.3148000  41.7181015   14.221  -16.566          0    21.833    139.4       1.012    1.830   -0.203     0.687     0       5       4       0       0
+      3.3501401  41.7181015    9.560  -17.166          0    19.649    150.9       0.912    1.356    0.047     0.590     0      13       4       0       0
+      3.3854799  41.7181015    7.936  -19.709          0    21.247    158.1       1.813    1.315    1.698     0.760     0      19       2       0       0
+      3.4208200  41.7181015    9.103  -20.485          0    22.417    156.0       1.790    1.342    1.821     0.745     0      24       2       0       0
+      3.4561601  41.7181015    7.437  -23.857          0    24.989    162.7       1.849    1.513    2.408     1.041     0      21       1       0       0
+      3.3501401  41.7450981   10.047  -15.174          0    18.199    146.5       4.084    2.381    9.079     1.031     0      18       1       0       0
+      3.3854799  41.7450981    6.335  -19.074          0    20.099    161.6       1.936    1.316    2.074     0.978     0      24       1       0       0
+      3.4208200  41.7450981    7.334  -20.708          0    21.968    160.5       1.946    1.426    2.253     0.992     0      24       1       0       0
+%TableEnd:
+%%
+%TableType: MRGS src3
+%TableColumns: 15
+%TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
+%TableRows: 2
+%TableStart: 2
+%%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
+%%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
+%%
+%      2   "BEGU"     41.9671667    3.2305333       75.000    1.664243    "Meas"     132.0      1062      42.7261074   41.3621404     4.3396516     3.2115397             "/home/icatmar/data/radars/BEGU/L2/L2B//2024/05/RDLm_BEGU_2024_05_21_0800_l2b.ruv"  "0E5ED080-CBFC-46A2-AABC-1E887D86612E"
+%      3   "AREN"     41.5775833    2.5577333       75.000    1.664243    "Meas"     199.0       892      41.7121324   40.8966584     3.4107782     1.9291817             "/home/icatmar/data/radars/AREN/L2/L2B//2024/05/RDLm_AREN_2024_05_21_0800_l2b.ruv"  "47BD26B8-75BA-483D-847C-DC7B3C425DBA"
+%TableEnd: 2
+%%
+%%
+%ProcessedTimeStamp: 2024 05 21  10 52 41
+%ProcessingTool: merge_radials 0.4.1
+%End:
