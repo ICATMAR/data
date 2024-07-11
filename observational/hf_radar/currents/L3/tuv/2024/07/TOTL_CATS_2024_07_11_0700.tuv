@@ -1,7 +1,7 @@
 %CTF: 1.00
 %FileType: LLUV tots "CurrentMap"
 %LLUVSpec: 1.27  2017 01 13
-%UUID: 9d248687-1da1-4ed8-b2e8-0218379ed064
+%UUID: 271081ac-e304-4854-926d-840cbb74fd5c
 %Manufacturer: CODAR Ocean Sensors. SeaSonde
 %Site: CATS ""
 %TimeStamp: 2024 07 11  07 00 00
@@ -631,16 +631,17 @@
 %TableType: MRGS src3
 %TableColumns: 15
 %TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
-%TableRows: 2
+%TableRows: 3
 %TableStart: 2
 %%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
 %%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
 %%
 %      1   "CREU"     42.3190500    3.3158500       75.000    1.664243    "Meas"     126.0       988      43.2477432   41.4115854     4.6060289     3.0012202             "/home/icatmar/data/radars/CREU/L2/L2B//2024/07/RDLm_CREU_2024_07_11_0700_l2b.ruv"  "15F8215E-A33B-4A6D-8A5D-C2D0AB4DFAB9"
 %      2   "BEGU"     41.9671667    3.2305333       75.000    1.664243    "Meas"     132.0       947      42.7442990   41.3751408     4.2737170     3.2115397             "/home/icatmar/data/radars/BEGU/L2/L2B//2024/07/RDLm_BEGU_2024_07_11_0700_l2b.ruv"  "301BAFD0-EF97-4FD3-904F-FFF1847BE0FB"
+%      5   "GNST"     41.2560667    1.9221833       75.000    1.664243    "Meas"     208.0      1429      41.3414937   40.2832596     3.0410134     1.0603248             "/home/icatmar/data/radars/GNST/L2/L2B//2024/07/RDLm_GNST_2024_07_11_0700_l2b.ruv"  "FD174398-E78D-4762-BE7D-057A2D3C2422"
 %TableEnd: 2
 %%
 %%
-%ProcessedTimeStamp: 2024 07 11  09 52 26
+%ProcessedTimeStamp: 2024 07 11  10 06 54
 %ProcessingTool: merge_radials 0.4.1
 %End:
