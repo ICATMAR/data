@@ -1,7 +1,7 @@
 %CTF: 1.00
 %FileType: LLUV tots "CurrentMap"
 %LLUVSpec: 1.27  2017 01 13
-%UUID: d3108c8a-adba-4062-b763-cc8600db1cd5
+%UUID: 71b7708f-8568-4600-a012-988632f130ca
 %Manufacturer: CODAR Ocean Sensors. SeaSonde
 %Site: CATS ""
 %TimeStamp: 2024 07 29  23 00 00
@@ -1000,11 +1000,12 @@
 %TableType: MRGS src3
 %TableColumns: 15
 %TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
-%TableRows: 4
+%TableRows: 5
 %TableStart: 2
 %%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
 %%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
 %%
+%      1   "CREU"     42.3190500    3.3158500       75.000    1.664243    "Meas"     126.0      1626      43.2725136   41.3752194     4.6072701     2.9864529             "/home/icatmar/data/radars/CREU/L2/L2B//2024/07/RDLm_CREU_2024_07_29_2300_l2b.ruv"  "EFB5F53D-C4DC-4896-BB96-0A1BBBDAB24A"
 %      2   "BEGU"     41.9671667    3.2305333       75.000    1.664243    "Meas"     132.0      1001      42.8262720   41.4128216     4.2707573     3.2115397             "/home/icatmar/data/radars/BEGU/L2/L2B//2024/07/RDLm_BEGU_2024_07_29_2300_l2b.ruv"  "DBEE68D4-AC52-495A-8204-567B7C4AA21B"
 %      3   "AREN"     41.5775833    2.5577333       75.000    1.664243    "Meas"     199.0      1267      41.8266118   40.8323725     3.7354669     1.8103581             "/home/icatmar/data/radars/AREN/L2/L2B//2024/07/RDLm_AREN_2024_07_29_2300_l2b.ruv"  "8BA0BEBB-56D3-4375-B89D-B12A1FFA9C69"
 %      4   "PBCN"     41.3475833    2.1740500       75.000    1.664243    "Meas"     177.0      1312      42.0948726   40.6591669     3.2470312     1.2809456             "/home/icatmar/data/radars/PBCN/L2/L2B//2024/07/RDLm_PBCN_2024_07_29_2300_l2b.ruv"  "CEEBAC41-9EC4-4C11-9E2B-E40985F6FF05"
@@ -1012,6 +1013,6 @@
 %TableEnd: 2
 %%
 %%
-%ProcessedTimeStamp: 2024 07 30  01 55 33
+%ProcessedTimeStamp: 2024 07 30  02 08 51
 %ProcessingTool: merge_radials 0.4.1
 %End:
