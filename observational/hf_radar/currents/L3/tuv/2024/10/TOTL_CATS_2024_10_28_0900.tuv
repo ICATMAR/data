@@ -1,7 +1,7 @@
 %CTF: 1.00
 %FileType: LLUV tots "CurrentMap"
 %LLUVSpec: 1.27  2017 01 13
-%UUID: 4798785e-c113-4c6c-92e8-347988e215ae
+%UUID: 525fb05f-d022-44b4-8333-3f3cebe521f9
 %Manufacturer: CODAR Ocean Sensors. SeaSonde
 %Site: CATS ""
 %TimeStamp: 2024 10 28  09 00 00
@@ -25,7 +25,7 @@
 %TableType: LLUV TOT4
 %TableColumns: 16
 %TableColumnTypes: LOND LATD VELU VELV VFLG VELO HEAD UQAL VQAL CQAL GDOP S1CN S2CN S3CN S4CN S5CN
-%TableRows: 218
+%TableRows: 225
 %TableStart:
 %%   Longitude   Latitude    U comp   V comp  VectorFlag   Velocity  Direction   Std_U   Std_V     COV     GDOP     Site Contri   Site Contri   Site Contri   Site Contri   Site Contri
 %%     (deg)       (deg)     (cm/s)   (cm/s)  (GridCode)    (cm/s)     (True)   (cm/s)   (cm/s) (cm2/s2) (unitless)       #1            #2            #3            #4            #5
@@ -247,21 +247,29 @@
       2.7846999  41.3670998    0.410   -4.285          0     4.305    174.5       1.675    1.595    2.112     0.925     0       0       8       0       2
       2.8200400  41.3670998    5.345   -1.091          0     5.455    101.5       1.674    1.610    2.180     0.953     0       0       9       0       2
       2.8553801  41.3670998    3.860  -16.368          0    16.817    166.7       1.701    2.302    2.150     0.995     0       0       9       0       2
+      3.2087801  41.6371002  -12.782   11.118          0    16.941    311.0       2.104    9.492  -16.963     1.143     5       0       1       0       0
+      3.2441199  41.6371002   -9.766    6.127          0    11.529    302.1       1.703    6.848   -8.839     1.102     7       0       1       0       0
+      3.2087801  41.6641006  -12.916   11.846          0    17.526    312.5       2.427   11.489  -24.790     1.166     4       0       1       0       0
+      3.2441199  41.6641006  -11.280    8.723          0    14.259    307.7       1.713    6.934   -9.044     1.097     7       0       1       0       0
+      3.2087801  41.6911011  -11.382    3.613          0    11.942    287.6       2.066    9.248  -16.109     1.127     6       0       1       0       0
+      3.2441199  41.6911011   -9.851    1.374          0     9.946    277.9       1.620    6.249   -7.366     1.074    10       0       1       0       0
+      3.2087801  41.7181015   -8.538  -11.607          0    14.409    216.3       1.957    8.543  -13.765     1.127     6       0       1       0       0
 %TableEnd:
 %%
 %TableType: MRGS src3
 %TableColumns: 15
 %TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
-%TableRows: 2
+%TableRows: 3
 %TableStart: 2
 %%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
 %%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
 %%
+%      1   "CREU"     42.3190500    3.3158500       75.000    1.664243    "Meas"     126.0      2412      43.2725136   41.3602362     4.6072701     2.9648056             "/home/icatmar/data/radars/CREU/L2/L2B//2024/10/RDLm_CREU_2024_10_28_0900_l2b.ruv"  "9C3743C0-3A8E-4F81-924D-A7D75A92A63B"
 %      3   "AREN"     41.5775833    2.5577333       75.000    1.664243    "Meas"     199.0       596      41.6673635   41.0299030     3.8074688     2.0479558             "/home/icatmar/data/radars/AREN/L2/L2B//2024/10/RDLm_AREN_2024_10_28_0900_l2b.ruv"  "F1BB898E-7E7A-449B-B496-0C3E6CBF18A5"
 %      5   "GNST"     41.2560667    1.9221833       75.000    1.664243    "Meas"     208.0      1402      41.3464597   40.5221858     2.9485239     1.0785890             "/home/icatmar/data/radars/GNST/L2/L2B//2024/10/RDLm_GNST_2024_10_28_0900_l2b.ruv"  "71F9FD1C-2D38-44C5-91BC-CAC7E6BEE300"
 %TableEnd: 2
 %%
 %%
-%ProcessedTimeStamp: 2024 10 28  10 52 49
+%ProcessedTimeStamp: 2024 10 28  11 07 27
 %ProcessingTool: merge_radials 0.4.1
 %End:
