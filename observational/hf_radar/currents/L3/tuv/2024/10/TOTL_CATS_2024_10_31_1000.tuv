@@ -1,0 +1,58 @@
+%CTF: 1.00
+%FileType: LLUV tots "CurrentMap"
+%LLUVSpec: 1.27  2017 01 13
+%UUID: 691ba7b1-d718-44d0-b14f-14355fa1ace6
+%Manufacturer: CODAR Ocean Sensors. SeaSonde
+%Site: CATS ""
+%TimeStamp: 2024 10 31  10 00 00
+%TimeZone: "UTC" +0.000 0 "UTC"
+%TimeCoverage: 75.000 Minutes
+%Origin:    40.5061167      1.1244500 
+%GreatCircle: "WGS84" 6378137.000  298.257223562997
+%GeodVersion: "CGEO" 1.90  2018 01 31
+%LLUVTrustData: all %% all lluv xyuv rbvd
+%GridAxisOrientation: 0.0 True
+%GridCreatedBy: SOCAT gengrid 0.1
+%GridVersion: 0
+%GridTimeStamp: 2023 02 20  00 00 00
+%GridLastModified: 2023 02 20  00 00 00
+%GridAxisOrientation: 0.0 DegNCW
+%GridAxisType: 6
+%GridSpacing: 3.000 km
+%AveragingRadius: 6.000 km
+%DistanceAngularLimit: 15.0
+%CurrentVelocityLimit: 100.0 cm/s
+%TableType: LLUV TOT4
+%TableColumns: 16
+%TableColumnTypes: LOND LATD VELU VELV VFLG VELO HEAD UQAL VQAL CQAL GDOP S1CN S2CN S3CN S4CN S5CN
+%TableRows: 9
+%TableStart:
+%%   Longitude   Latitude    U comp   V comp  VectorFlag   Velocity  Direction   Std_U   Std_V     COV     GDOP     Site Contri   Site Contri   Site Contri   Site Contri   Site Contri
+%%     (deg)       (deg)     (cm/s)   (cm/s)  (GridCode)    (cm/s)     (True)   (cm/s)   (cm/s) (cm2/s2) (unitless)       #1            #2            #3            #4            #5
+      3.3501401  41.6371002   23.235  -12.396          0    26.335    118.1      10.821    5.142   48.290     1.145     0       4       1       0       0
+      3.3501401  41.6641006   16.447  -19.675          0    25.644    140.1       3.828    3.634    4.055     0.748     0       5       3       0       0
+      3.3854799  41.6641006   21.596  -11.056          0    24.262    117.1       9.928    4.941   47.020     1.060     0      13       1       0       0
+      3.3148000  41.6911011   17.814  -27.049          0    32.388    146.6       3.911    5.648    0.593     0.836     0       3       3       0       0
+      3.3501401  41.6911011   16.623  -23.659          0    28.915    144.9       3.738    2.678    6.092     0.686     0       9       3       0       0
+      3.3854799  41.6911011   19.918  -17.307          0    26.387    131.0       9.529    5.170   47.155     1.042     0      16       1       0       0
+      3.3148000  41.7181015   19.034  -33.629          0    38.642    150.5       3.816    3.272    4.528     0.748     0       5       3       0       0
+      3.3501401  41.7181015   21.503  -26.008          0    33.746    140.4       3.886    2.505    6.762     0.781     0      13       2       0       0
+      3.3854799  41.7181015   18.486  -24.036          0    30.323    142.4       9.082    5.030   43.648     1.026     0      19       1       0       0
+%TableEnd:
+%%
+%TableType: MRGS src3
+%TableColumns: 15
+%TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
+%TableRows: 2
+%TableStart: 2
+%%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
+%%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
+%%
+%      2   "BEGU"     41.9671667    3.2305333       75.000    1.664243    "Meas"     132.0      1144      42.9246885   41.3873953     4.4774540     3.1622568             "/home/icatmar/data/radars/BEGU/L2/L2B//2024/10/RDLm_BEGU_2024_10_31_1000_l2b.ruv"  "8CB46379-3DBF-42DF-A385-82EBD9C6512A"
+%      3   "AREN"     41.5775833    2.5577333       75.000    1.664243    "Meas"     199.0       701      41.6892719   40.9706842     3.3426636     1.9522107             "/home/icatmar/data/radars/AREN/L2/L2B//2024/10/RDLm_AREN_2024_10_31_1000_l2b.ruv"  "2249D6FF-D006-4754-BFE4-23A18AB10C7A"
+%TableEnd: 2
+%%
+%%
+%ProcessedTimeStamp: 2024 10 31  11 53 25
+%ProcessingTool: merge_radials 0.4.1
+%End:
