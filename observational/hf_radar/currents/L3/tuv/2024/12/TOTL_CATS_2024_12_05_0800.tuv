@@ -1,0 +1,64 @@
+%CTF: 1.00
+%FileType: LLUV tots "CurrentMap"
+%LLUVSpec: 1.27  2017 01 13
+%UUID: ddeb27ac-f2ee-4a9d-8445-45dc22967ae8
+%Manufacturer: CODAR Ocean Sensors. SeaSonde
+%Site: CATS ""
+%TimeStamp: 2024 12 05  08 00 00
+%TimeZone: "UTC" +0.000 0 "UTC"
+%TimeCoverage: 75.000 Minutes
+%Origin:    40.5061167      1.1244500 
+%GreatCircle: "WGS84" 6378137.000  298.257223562997
+%GeodVersion: "CGEO" 1.90  2018 01 31
+%LLUVTrustData: all %% all lluv xyuv rbvd
+%GridAxisOrientation: 0.0 True
+%GridCreatedBy: SOCAT gengrid 0.1
+%GridVersion: 0
+%GridTimeStamp: 2023 02 20  00 00 00
+%GridLastModified: 2023 02 20  00 00 00
+%GridAxisOrientation: 0.0 DegNCW
+%GridAxisType: 6
+%GridSpacing: 3.000 km
+%AveragingRadius: 6.000 km
+%DistanceAngularLimit: 15.0
+%CurrentVelocityLimit: 100.0 cm/s
+%TableType: LLUV TOT4
+%TableColumns: 16
+%TableColumnTypes: LOND LATD VELU VELV VFLG VELO HEAD UQAL VQAL CQAL GDOP S1CN S2CN S3CN S4CN S5CN
+%TableRows: 15
+%TableStart:
+%%   Longitude   Latitude    U comp   V comp  VectorFlag   Velocity  Direction   Std_U   Std_V     COV     GDOP     Site Contri   Site Contri   Site Contri   Site Contri   Site Contri
+%%     (deg)       (deg)     (cm/s)   (cm/s)  (GridCode)    (cm/s)     (True)   (cm/s)   (cm/s) (cm2/s2) (unitless)       #1            #2            #3            #4            #5
+      3.3854799  41.5560989   14.024  -21.566          0    25.725    147.0       3.413    4.393    6.226     1.379     0       2       1       0       0
+      3.3501401  41.6371002   22.283  -19.258          0    29.452    130.8       2.211    2.102    1.350     0.887     0       4       2       0       0
+      3.3501401  41.6641006   24.681  -23.419          0    34.024    133.5       0.742    2.025   -0.574     0.620     0       5       6       0       0
+      3.3854799  41.6641006   23.682  -20.449          0    31.289    130.8       1.500    0.926    1.115     0.590     0      13       4       0       0
+      3.4208200  41.6641006   23.123  -18.623          0    29.690    128.8       2.069    1.194    2.214     0.763     0      18       2       0       0
+      3.3148000  41.6911011   26.296  -26.090          0    37.043    134.8       0.820    2.847   -1.323     0.707     0       3       7       0       0
+      3.3501401  41.6911011   24.935  -24.959          0    35.280    135.0       0.696    1.524   -0.230     0.543     0       9       6       0       0
+      3.3854799  41.6911011   23.295  -22.368          0    32.295    133.8       1.515    1.291    0.916     0.578     0      16       4       0       0
+      3.4208200  41.6911011   22.653  -20.507          0    30.556    132.2       2.066    1.197    2.221     0.762     0      19       2       0       0
+      3.3148000  41.7181015   25.953  -28.512          0    38.555    137.7       0.733    1.914   -0.491     0.648     0       5       5       0       0
+      3.3501401  41.7181015   24.818  -26.290          0    36.154    136.6       1.417    1.432    0.606     0.543     0      13       5       0       0
+      3.3854799  41.7181015   23.525  -23.465          0    33.227    134.9       1.866    1.364    1.567     0.640     0      19       3       0       0
+      3.4208200  41.7181015   17.637  -21.086          0    27.489    140.1       2.041    1.462    2.238     0.745     0      24       2       0       0
+      3.3501401  41.7450981   26.746  -26.457          0    37.621    134.7       2.195    1.642    2.044     1.031     0      18       1       0       0
+      3.3854799  41.7450981   10.682  -30.028          0    31.871    160.4       5.498    3.290   17.036     0.978     0      24       1       0       0
+%TableEnd:
+%%
+%TableType: MRGS src3
+%TableColumns: 15
+%TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
+%TableRows: 2
+%TableStart: 2
+%%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
+%%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
+%%
+%      2   "BEGU"     41.9671667    3.2305333       75.000    1.664243    "Meas"     132.0      1081      42.7690369   41.2906716     4.2463878     3.2125992             "/home/icatmar/data/radars/BEGU/L2/L2B//2024/12/RDLm_BEGU_2024_12_05_0800_l2b.ruv"  "69D65046-C812-40FB-900B-79B93B36933D"
+%      3   "AREN"     41.5775833    2.5577333       75.000    1.664243    "Meas"     199.0       586      41.6947154   41.0595117     3.3819809     1.9291817             "/home/icatmar/data/radars/AREN/L2/L2B//2024/12/RDLm_AREN_2024_12_05_0800_l2b.ruv"  "FB8AC1AC-3067-4CA7-B63F-5EA110A8F8F3"
+%TableEnd: 2
+%%
+%%
+%ProcessedTimeStamp: 2024 12 05  09 52 13
+%ProcessingTool: merge_radials 0.4.1
+%End:
