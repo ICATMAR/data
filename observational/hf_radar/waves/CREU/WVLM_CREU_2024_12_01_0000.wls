@@ -44,7 +44,7 @@
 %TableType: WAVL WVM9
 %TableColumns: 22
 %TableColumnTypes: TIME MWHT MWPD WAVB WNDB PMWH ACNT DIST RCLL LOND LATD WDPT MTHD FLAG WHNM WHSD TYRS TMON TDAY THRS TMIN TSEC 
-%TableRows: 3508
+%TableRows: 3509
 %TableStart:
 %%     Time     ----------Wave----------    Wind    WaveNF                                  Placement   Placement                                Height    Height                        
 %%   FromStart   Height  Period   From      From    Height   Spectra   Distance   Range     Longitude    Latitude   Doppler    Wave    Vector    Valid      StdDv    Time                
@@ -3556,11 +3556,12 @@
        2115000    999.00 999.00     0.0    312.4      2.06       98        nan        2      0.0000000   0.0000000       4        2      368           0     0.00    2024 12 25  11 30 00
        2115600    999.00 999.00     0.0     43.1      1.93       98        nan        2      0.0000000   0.0000000       3        2      368           0     0.00    2024 12 25  11 40 00
        2116200    999.00 999.00     0.0     65.2      1.87       98        nan        2      0.0000000   0.0000000       3        2      368           0     0.00    2024 12 25  11 50 00
-       2116800    999.00 999.00     0.0     60.0      1.23       98        nan        2            nan         nan       4        2      368           0     0.00    2024 12 25  12 00 00
+       2116800    999.00 999.00     0.0     60.0      1.23       98        nan        2      0.0000000   0.0000000       4        2      368           0     0.00    2024 12 25  12 00 00
+       2117400    999.00 999.00     0.0     24.9      1.20       98        nan        2            nan         nan       3        2      368           0     0.00    2024 12 25  12 10 00
 %TableEnd:
 %%
 %%
-%ProcessedTimeStamp: 2024 12 25  12 39 12
+%ProcessedTimeStamp: 2024 12 25  12 52 16
 %ProcessingTool: "WaveModelFilter" 4.0.4
 %ProcessingTool: "SpectraToWavesModel" 11.10.0
 %ProcessingTool: "WaveModelForFive" 11.8.0
