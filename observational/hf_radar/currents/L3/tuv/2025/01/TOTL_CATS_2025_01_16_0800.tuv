@@ -1,7 +1,7 @@
 %CTF: 1.00
 %FileType: LLUV tots "CurrentMap"
 %LLUVSpec: 1.27  2017 01 13
-%UUID: 5071a423-99e7-4f69-86af-d75ebcb6e793
+%UUID: e3e6204d-8232-4848-9c0c-c79d8f29233d
 %Manufacturer: CODAR Ocean Sensors. SeaSonde
 %Site: CATS ""
 %TimeStamp: 2025 01 16  08 00 00
@@ -657,11 +657,12 @@
 %TableType: MRGS src3
 %TableColumns: 15
 %TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
-%TableRows: 4
+%TableRows: 5
 %TableStart: 2
 %%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
 %%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
 %%
+%      1   "CREU"     42.3190500    3.3158500       75.000    1.664243    "Meas"     126.0       541      43.2477432   41.5553169     4.5986984     3.0244281             "/home/icatmar/data/radars/CREU/L2/L2B//2025/01/RDLm_CREU_2025_01_16_0800_l2b.ruv"  "5BA48772-107F-4AEB-9374-2502FB6892F2"
 %      2   "BEGU"     41.9671667    3.2305333       75.000    1.664243    "Meas"     132.0       958      42.6831747   41.4938113     4.1129036     3.2115397             "/home/icatmar/data/radars/BEGU/L2/L2B//2025/01/RDLm_BEGU_2025_01_16_0800_l2b.ruv"  "6CD9F80C-DEED-4872-B99F-9BBABCF1312E"
 %      3   "AREN"     41.5775833    2.5577333       75.000    1.664243    "Meas"     199.0       904      41.6838149   40.9333149     3.3203895     1.9932171             "/home/icatmar/data/radars/AREN/L2/L2B//2025/01/RDLm_AREN_2025_01_16_0800_l2b.ruv"  "E206C32A-9484-4583-A8DC-77A0A72A666D"
 %      4   "PBCN"     41.3475833    2.1740500       75.000    1.664243    "Meas"     177.0       939      41.9634749   40.7925974     2.9886120     1.7769843             "/home/icatmar/data/radars/PBCN/L2/L2B//2025/01/RDLm_PBCN_2025_01_16_0800_l2b.ruv"  "13873D07-2490-4AE6-8919-D2AB3CA50A36"
@@ -669,6 +670,6 @@
 %TableEnd: 2
 %%
 %%
-%ProcessedTimeStamp: 2025 01 16  09 55 05
+%ProcessedTimeStamp: 2025 01 16  10 08 03
 %ProcessingTool: merge_radials 0.4.1
 %End:
