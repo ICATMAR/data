@@ -1,0 +1,59 @@
+%CTF: 1.00
+%FileType: LLUV tots "CurrentMap"
+%LLUVSpec: 1.27  2017 01 13
+%UUID: 4f183eb9-4e50-4308-9090-25bd9fb63b9e
+%Manufacturer: CODAR Ocean Sensors. SeaSonde
+%Site: CATS ""
+%TimeStamp: 2025 02 28  10 00 00
+%TimeZone: "UTC" +0.000 0 "UTC"
+%TimeCoverage: 75.000 Minutes
+%Origin:    40.5061167      1.1244500 
+%GreatCircle: "WGS84" 6378137.000  298.257223562997
+%GeodVersion: "CGEO" 1.90  2018 01 31
+%LLUVTrustData: all %% all lluv xyuv rbvd
+%GridAxisOrientation: 0.0 True
+%GridCreatedBy: SOCAT gengrid 0.1
+%GridVersion: 0
+%GridTimeStamp: 2023 02 20  00 00 00
+%GridLastModified: 2023 02 20  00 00 00
+%GridAxisOrientation: 0.0 DegNCW
+%GridAxisType: 6
+%GridSpacing: 3.000 km
+%AveragingRadius: 6.000 km
+%DistanceAngularLimit: 15.0
+%CurrentVelocityLimit: 100.0 cm/s
+%TableType: LLUV TOT4
+%TableColumns: 16
+%TableColumnTypes: LOND LATD VELU VELV VFLG VELO HEAD UQAL VQAL CQAL GDOP S1CN S2CN S3CN S4CN S5CN
+%TableRows: 9
+%TableStart:
+%%   Longitude   Latitude    U comp   V comp  VectorFlag   Velocity  Direction   Std_U   Std_V     COV     GDOP     Site Contri   Site Contri   Site Contri   Site Contri   Site Contri
+%%     (deg)       (deg)     (cm/s)   (cm/s)  (GridCode)    (cm/s)     (True)   (cm/s)   (cm/s) (cm2/s2) (unitless)       #1            #2            #3            #4            #5
+      3.3501401  41.6371002   15.551  -12.877          0    20.190    129.6       0.944    3.395   -1.906     0.935     0       3       2       0       0
+      3.3501401  41.6641006   16.296  -16.897          0    23.475    136.0       0.869    2.749   -1.171     0.857     0       5       2       0       0
+      3.3854799  41.6641006   15.247  -14.496          0    21.038    133.6       0.834    2.440   -0.863     0.798     0      10       2       0       0
+      3.3148000  41.6911011   16.447  -24.679          0    29.657    146.3       0.780    2.812   -1.311     0.836     0       3       3       0       0
+      3.3501401  41.6911011   16.909  -19.410          0    25.743    138.9       0.801    2.094   -0.573     0.803     0       9       2       0       0
+      3.3854799  41.6911011   17.126  -18.440          0    25.166    137.1       0.744    1.493   -0.135     0.772     0      15       2       0       0
+      3.3148000  41.7181015   17.486  -23.331          0    29.157    143.1       0.904    3.057   -1.502     0.857     0       5       2       0       0
+      3.3501401  41.7181015   17.506  -22.075          0    28.174    141.6       0.783    1.910   -0.426     0.781     0      13       2       0       0
+      3.3854799  41.7181015   19.931  -21.924          0    29.630    137.7       1.041    1.525    0.175     1.027     0      18       1       0       0
+%TableEnd:
+%%
+%TableType: MRGS src3
+%TableColumns: 15
+%TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
+%TableRows: 3
+%TableStart: 2
+%%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
+%%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
+%%
+%      2   "BEGU"     41.9671667    3.2305333       75.000    1.664243    "Meas"     132.0       926      42.8119642   41.2768513     4.2536445     3.2115397             "/home/icatmar/data/radars/BEGU/L2/L2B//2025/02/RDLm_BEGU_2025_02_28_1000_l2b.ruv"  "44477A21-F083-42D9-BB43-C711AAC4028D"
+%      3   "AREN"     41.5775833    2.5577333       75.000    1.664243    "Meas"     199.0       574      41.6892719   40.9958221     3.3426636     1.9522107             "/home/icatmar/data/radars/AREN/L2/L2B//2025/02/RDLm_AREN_2025_02_28_1000_l2b.ruv"  "B0DE2765-A8A7-4D65-9CE8-E9843F584FA0"
+%      4   "PBCN"     41.3475833    2.1740500       75.000    1.664243    "Meas"     177.0       490      41.9062088   40.9097751     2.9824528     1.7209327             "/home/icatmar/data/radars/PBCN/L2/L2B//2025/02/RDLm_PBCN_2025_02_28_1000_l2b.ruv"  "42384F7F-0B05-4E5F-A42C-FC2ED218E10B"
+%TableEnd: 2
+%%
+%%
+%ProcessedTimeStamp: 2025 02 28  11 52 49
+%ProcessingTool: merge_radials 0.4.1
+%End:
