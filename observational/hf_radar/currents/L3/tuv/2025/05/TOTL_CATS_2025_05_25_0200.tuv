@@ -1,0 +1,49 @@
+%CTF: 1.00
+%FileType: LLUV tots "CurrentMap"
+%LLUVSpec: 1.27  2017 01 13
+%UUID: 950e97f3-ddc1-434e-a5d7-f8ce88667632
+%Manufacturer: CODAR Ocean Sensors. SeaSonde
+%Site: CATS ""
+%TimeStamp: 2025 05 25  02 00 00
+%TimeZone: "UTC" +0.000 0 "UTC"
+%TimeCoverage: 75.000 Minutes
+%Origin:    40.5061167      1.1244500 
+%GreatCircle: "WGS84" 6378137.000  298.257223562997
+%GeodVersion: "CGEO" 1.90  2018 01 31
+%LLUVTrustData: all %% all lluv xyuv rbvd
+%GridAxisOrientation: 0.0 True
+%GridCreatedBy: SOCAT gengrid 0.1
+%GridVersion: 0
+%GridTimeStamp: 2023 02 20  00 00 00
+%GridLastModified: 2023 02 20  00 00 00
+%GridAxisOrientation: 0.0 DegNCW
+%GridAxisType: 6
+%GridSpacing: 3.000 km
+%AveragingRadius: 6.000 km
+%DistanceAngularLimit: 15.0
+%CurrentVelocityLimit: 100.0 cm/s
+%TableType: LLUV TOT4
+%TableColumns: 16
+%TableColumnTypes: LOND LATD VELU VELV VFLG VELO HEAD UQAL VQAL CQAL GDOP S1CN S2CN S3CN S4CN S5CN
+%TableRows: 0
+%TableStart:
+%%   Longitude   Latitude    U comp   V comp  VectorFlag   Velocity  Direction   Std_U   Std_V     COV     GDOP     Site Contri   Site Contri   Site Contri   Site Contri   Site Contri
+%%     (deg)       (deg)     (cm/s)   (cm/s)  (GridCode)    (cm/s)     (True)   (cm/s)   (cm/s) (cm2/s2) (unitless)       #1            #2            #3            #4            #5
+%TableEnd:
+%%
+%TableType: MRGS src3
+%TableColumns: 15
+%TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
+%TableRows: 2
+%TableStart: 2
+%%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
+%%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
+%%
+%      2   "BEGU"     41.9671667    3.2305333       75.000    1.664243    "Meas"     132.0      1059      42.7547277   41.3046980     4.4543794     3.2137448             "/home/icatmar/data/radars/BEGU/L2/L2B//2025/05/RDLm_BEGU_2025_05_25_0200_l2b.ruv"  "A70CA770-D0EC-4DB0-AA3F-387C52AA873B"
+%      5   "GNST"     41.2560667    1.9221833       75.000    1.664243    "Meas"     208.0      1418      41.3563000   40.3655165     3.0671258     0.9895911             "/home/icatmar/data/radars/GNST/L2/L2B//2025/05/RDLm_GNST_2025_05_25_0200_l2b.ruv"  "50032E08-D112-4E74-A08A-97795F9C8272"
+%TableEnd: 2
+%%
+%%
+%ProcessedTimeStamp: 2025 05 25  04 53 02
+%ProcessingTool: merge_radials 0.4.1
+%End:
