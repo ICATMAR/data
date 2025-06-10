@@ -1,7 +1,7 @@
 %CTF: 1.00
 %FileType: LLUV tots "CurrentMap"
 %LLUVSpec: merge_radials 0.5 2025 03 13
-%UUID: 96783865-b895-4fee-affb-de267b6e3de2
+%UUID: a8e5de05-4b7d-43ee-b244-833fc8412af1
 %Manufacturer: CODAR Ocean Sensors. SeaSonde
 %Site: CATS ""
 %TimeStamp: 2025 06 10  08 00 00
@@ -33,11 +33,12 @@
 %TableType: MRGS src3
 %TableColumns: 15
 %TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
-%TableRows: 5
+%TableRows: 6
 %TableStart: 2
 %%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
 %%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
 %%
+%      1   "CREU"     42.3190500    3.3158500       75.000    1.664243    "Meas"     126.0       213      43.2725136   42.3144116     4.3947074     3.0762110             "/home/icatmar/data/radars/CREU/L2/L2B//2025/06/RDLm_CREU_2025_06_10_0800_l2b.ruv"  "7013E162-E754-4C32-BDB1-633A1C2C0D89"
 %      1   "CREU"     42.3190500    3.3158500       75.000    1.664243    "Meas"     126.0       213      43.2725136   42.3144116     4.3947074     3.0762110             "/home/icatmar/data/radars/CREU/L2/L2B//2025/06/RDLm_CREU_2025_06_10_0800_l2b.ruv"  "7013E162-E754-4C32-BDB1-633A1C2C0D89"
 %      1   "CREU"     42.3190500    3.3158500       75.000    1.664243    "Meas"     126.0       213      43.2725136   42.3144116     4.3947074     3.0762110             "/home/icatmar/data/radars/CREU/L2/L2B//2025/06/RDLm_CREU_2025_06_10_0800_l2b.ruv"  "7013E162-E754-4C32-BDB1-633A1C2C0D89"
 %      1   "CREU"     42.3190500    3.3158500       75.000    1.664243    "Meas"     126.0       213      43.2725136   42.3144116     4.3947074     3.0762110             "/home/icatmar/data/radars/CREU/L2/L2B//2025/06/RDLm_CREU_2025_06_10_0800_l2b.ruv"  "7013E162-E754-4C32-BDB1-633A1C2C0D89"
@@ -46,6 +47,6 @@
 %TableEnd: 2
 %%
 %%
-%ProcessedTimeStamp: 2025 06 10  10 51 51
+%ProcessedTimeStamp: 2025 06 10  11 17 44
 %ProcessingTool: merge_radials 0.5
 %End:
