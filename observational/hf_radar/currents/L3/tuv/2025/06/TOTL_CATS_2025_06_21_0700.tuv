@@ -1,7 +1,7 @@
 %CTF: 1.00
 %FileType: LLUV tots "CurrentMap"
 %LLUVSpec: merge_radials 0.5 2025 03 13
-%UUID: 377ac1e7-a695-44d5-94e4-63c65b23aa9e
+%UUID: cd45c26b-dd55-4a95-b8f6-dd7e7b7f585f
 %Manufacturer: CODAR Ocean Sensors. SeaSonde
 %Site: CATS ""
 %TimeStamp: 2025 06 21  07 00 00
@@ -1481,7 +1481,7 @@
 %TableType: MRGS src3
 %TableColumns: 15
 %TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
-%TableRows: 4
+%TableRows: 5
 %TableStart: 2
 %%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
 %%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
@@ -1489,10 +1489,11 @@
 %      4   "AREN"     41.5775833    2.5577333       75.000    1.664243    "Meas"     199.0      1218      41.7457567   40.6700206     3.9147815     1.7362389             "/home/icatmar/data/radars/AREN/L2/L2B//2025/06/RDLm_AREN_2025_06_21_0700_l2b.ruv"  "B795B94E-0E67-4BBB-BD05-4836995ECE6A"
 %      5   "PBCN"     41.3475833    2.1740500       75.000    1.664243    "Meas"     177.0      1186      42.2100823   40.5203902     3.2391950     1.3813405             "/home/icatmar/data/radars/PBCN/L2/L2B//2025/06/RDLm_PBCN_2025_06_21_0700_l2b.ruv"  "8B27A1D8-69F4-4931-BC3E-94C29AC9D5CA"
 %      6   "GNST"     41.2560667    1.9221833       75.000    1.664243    "Meas"     208.0      1443      41.3513952   40.3655165     3.1440775     0.9690486             "/home/icatmar/data/radars/GNST/L2/L2B//2025/06/RDLm_GNST_2025_06_21_0700_l2b.ruv"  "6F5AF42A-624C-4C93-889A-A70185A92D25"
+%      3   "TOSS"     41.7157000    2.9339000       75.000    1.664243    "Meas"     201.0       674      42.0655301   41.0792182     3.6677791     1.7880464             "/home/icatmar/data/radars/TOSS/L2/L2B//2025/06/RDLm_TOSS_2025_06_21_0700_l2b.ruv"  "BC446A5C-D774-47C9-AE5C-B43FD2D25B36"
 %      7   "SCAL"     41.1862833    1.6073000       75.000    1.664243    "Meas"     217.0      1331      41.3575742   40.1676679     2.9688364     0.3096715             "/home/icatmar/data/radars/SCAL/L2/L2B//2025/06/RDLm_SCAL_2025_06_21_0700_l2b.ruv"  "81D31D10-F826-42F6-8B96-4C7CFD2DE09C"
 %TableEnd: 2
 %%
 %%
-%ProcessedTimeStamp: 2025 06 21  09 55 32
+%ProcessedTimeStamp: 2025 06 21  10 08 28
 %ProcessingTool: merge_radials 0.5
 %End:
