@@ -1,7 +1,7 @@
 %CTF: 1.00
 %FileType: LLUV tots "CurrentMap"
 %LLUVSpec: merge_radials 0.5 2025 03 13
-%UUID: 054e0149-8ada-41e4-8545-506febd03528
+%UUID: 0592ef91-0fd8-4ef1-98be-d8fd2a063a2e
 %Manufacturer: CODAR Ocean Sensors. SeaSonde
 %Site: CATS ""
 %TimeStamp: 2025 06 24  23 00 00
@@ -1224,11 +1224,12 @@
 %TableType: MRGS src3
 %TableColumns: 15
 %TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
-%TableRows: 5
+%TableRows: 6
 %TableStart: 2
 %%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
 %%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
 %%
+%      1   "CREU"     42.3190500    3.3158500       75.000    1.664243    "Meas"     126.0       946      43.2401432   41.4257775     4.5949452     3.0845253             "/home/icatmar/data/radars/CREU/L2/L2B//2025/06/RDLm_CREU_2025_06_24_2300_l2b.ruv"  "538D0758-FEAB-4B6D-87BC-8C1BB56DA15F"
 %      4   "AREN"     41.5775833    2.5577333       75.000    1.664243    "Meas"     199.0       391      41.6535616   40.8374353     3.3746339     2.0589680             "/home/icatmar/data/radars/AREN/L2/L2B//2025/06/RDLm_AREN_2025_06_24_2300_l2b.ruv"  "657D9ED5-22E9-4211-9375-7CDBE743AD8D"
 %      5   "PBCN"     41.3475833    2.1740500       75.000    1.664243    "Meas"     177.0       639      41.9923329   40.7201663     3.1601771     2.0069354             "/home/icatmar/data/radars/PBCN/L2/L2B//2025/06/RDLm_PBCN_2025_06_24_2300_l2b.ruv"  "956A709A-88E2-4B1F-9711-4CFA0ECBC24D"
 %      6   "GNST"     41.2560667    1.9221833       75.000    1.664243    "Meas"     208.0      1087      41.3464597   40.4329352     2.9485239     1.0596165             "/home/icatmar/data/radars/GNST/L2/L2B//2025/06/RDLm_GNST_2025_06_24_2300_l2b.ruv"  "BF36E67E-EE2F-4AB5-8D77-40EAB1362EB3"
@@ -1237,6 +1238,6 @@
 %TableEnd: 2
 %%
 %%
-%ProcessedTimeStamp: 2025 06 25  01 54 42
+%ProcessedTimeStamp: 2025 06 25  02 08 11
 %ProcessingTool: merge_radials 0.5
 %End:
