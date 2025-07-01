@@ -1,62 +1,64 @@
 %CTF: 1.00
-%FileType: WVMD WVM9 "Wave History"
-%UUID: 24F8721C-C431-44F1-8BEB-2D2B72F1EDEB
+%FileType: WVMD WVMT "Wave History"
+%UUID: 1FE6D01C-2FBA-4C6E-9119-5C029432C92F
 %Manufacturer: CODAR Ocean Sensors. SeaSonde
-%Site: PBCN ""
+%Site: SCAL ""
 %TimeMarks: start
 %TimeStamp: 2025 07 01  00 00 00
-%TimeZone: "UTC" +0.000 0
-%Origin:  41.3475833    2.1740500
+%TimeZone: "UTC" +0.000 0 "Atlantic/Reykjavik"
+%Origin:  41.1862833    1.6073000
 %%
 %%
 %% Note: Parameters for Last processed item...
 %TimeCoverage: 0.250 hours
-%AntennaBearing: 177.0
+%RangeResolutionKMeters: 1.66424 km
+%AntennaBearing: 217.0
 %RangeCells: 31
 %DopplerCells: 512
 %TransmitCenterFreqMHz: 13.500000
 %TransmitBandwidthKHz: -90.068695
 %TransmitSweepRateHz: 2.000000
-%CoastlineSector: 50.0 190.0  %% Start CW to Stop in Deg NCW
+%CoastlineSector: 75.0 250.0  %% Start CW to Stop in Deg NCW
 %CurrentVelocityLimit: 180
-%BraggSmoothingPoints: 5
-%BraggHasSecondOrder: 1
-%WaveBraggNoiseThreshold: 1.6
-%WaveBraggPeakDropOff: 100.0
+%BraggSmoothingPoints: 4
+%WaveBraggNoiseThreshold: 3.2
+%WaveBraggPeakDropOff: 80.0
 %WaveBraggPeakNull: 10.0
-%WaveSplitBraggRatio: 6.30
+%WaveSplitBraggRatio: 2.00
 %MaximumWavePeriod: 17.0
-%WaveBearingLimits: 104.0 296.0  %% Start CW to Stop in Deg NCW
+%WaveBearingLimits: 78.0 252.0  %% Start CW to Stop in Deg NCW
 %WaveUseInnerBragg: 0  %% 0 No, 1 Yes
 %WaveSecondOrderMethod: 1   %% 0/1 OnShore, 2 OffShore
 %WaveSaturationRatio: 0.80
 %WaveHeightLimit: 20.0
 %WavePeriodSetLimit: 10.0
-%PatternUUID: PatternUUID
 %WaveMergeMethod: 1  %% 0 None, 1 Average, 2 Median, 3 Outlier
 %WaveReductionMethod: 3  %% 0 None, 1=Temporal, 2=Spatial, 3=Both
 %WaveMinDopplerPoints: 10
 %WaveMinVectors: 1
-%WaveMaximumWaveHeight: 1.0
+%WaveMaximumWaveHeight: 10.0
+%WaveMaximumWaveHeightChange: 1.00
 %WaveMaximumWavePeriodChange: 7.00
 %%
-%TableType: WAVL WVM9
+%TableType: WAVL WVMT
 %TableColumns: 22
 %TableColumnTypes: TIME MWHT MWPD WAVB WNDB PMWH ACNT DIST RCLL LOND LATD WDPT MTHD FLAG WHNM WHSD TYRS TMON TDAY THRS TMIN TSEC 
-%TableRows: 2
+%TableRows: 4
 %TableStart:
 %%     Time     ----------Wave----------    Wind    WaveNF                                  Placement   Placement                                Height    Height                        
 %%   FromStart   Height  Period   From      From    Height   Spectra   Distance   Range     Longitude    Latitude   Doppler    Wave    Vector    Valid      StdDv    Time                
 %%   (seconds)     (m)     (s)   (True)    (True)     (m)     count      (km)      cell       (deg)       (deg)       bins    Method    Flag     points      (m)     Year Mo Dy  Hr Mn  S
-             0    999.00 999.00     0.0    337.3      2.02       96        nan        2      0.0000000   0.0000000       0        2       48           0     0.00    2025 07 01  00 00 00
-          1200    999.00 999.00     0.0    339.9      2.06       96        nan        2            nan         nan       0        2       16           0     0.00    2025 07 01  00 20 00
+             0      9.05   7.00    82.0    157.0      2.22        1        nan        8      1.6579087  41.0647902      15        2     1040           1     0.00    2025 07 01  00 00 00
+           600      9.05   7.00    82.0    157.0      2.22        1        nan        8      1.6579087  41.0647902      15        2        0           1     0.00    2025 07 01  00 10 00
+          1200    999.00 999.00     0.0    347.5      4.11       98        nan        2      1.6579087  41.0647902       0        2       16           0     0.00    2025 07 01  00 20 00
+          1800    999.00 999.00     0.0    332.0      4.39       98        nan        2      1.6579087  41.0647902       0        2       16           0     0.00    2025 07 01  00 30 00
 %TableEnd:
 %%
 %%
-%ProcessedTimeStamp: 2025 07 01  01 01 50
-%ProcessingTool: "WaveModelFilter" 4.0.4
+%ProcessedTimeStamp: 2025 07 01  01 11 30
 %ProcessingTool: "SpectraToWavesModel" 11.10.0
-%ProcessingTool: "WaveModelForFive" 11.8.0
-%ProcessingTool: "WaveModelArchiver" 13.2.1
-%ProcessingTool: "AnalyzeSpectra" 12.0.0
+%ProcessingTool: "WaveModelForFive" 11.8.1
+%ProcessingTool: "WaveModelFilter" 5.1.9
+%ProcessingTool: "WaveModelArchiver" 14.0.6
+%ProcessingTool: "AnalyzeSpectra" 12.1.0
 %End:
