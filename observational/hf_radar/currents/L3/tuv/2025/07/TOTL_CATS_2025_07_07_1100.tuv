@@ -1,0 +1,48 @@
+%CTF: 1.00
+%FileType: LLUV tots "CurrentMap"
+%LLUVSpec: merge_radials 0.5 2025 03 13
+%UUID: 9112fde3-6625-4f49-a8e5-f056d063f160
+%Manufacturer: CODAR Ocean Sensors. SeaSonde
+%Site: CATS ""
+%TimeStamp: 2025 07 07  11 00 00
+%TimeZone: "UTC" +0.000 0 "UTC"
+%TimeCoverage: 75.000 Minutes
+%Origin:    40.5061167      1.1244500 
+%GreatCircle: "WGS84" 6378137.000  298.257223562997
+%DistanceMethod: "haversine" 1.0 2023 02 27 defined in merge_radials 0.5
+%LLUVTrustData: all %% all lluv xyuv rbvd
+%GridAxisOrientation: 0.0 True
+%GridFileName: "hfradar_totals_grid_icatmar.nc"
+%GridVersion: 1.0
+%GridTimeStamp: 2024 03 07  15 45 03
+%GridLastModified: 2024 03 07  15 45 03
+%GridAxisOrientation: 0.0 DegNCW
+%GridSpacing: 3.000 km
+%AveragingRadius: 6100.0 km
+%DistanceAngularLimit: None
+%CurrentVelocityLimit: None
+%TableType: LLUV TOT4
+%TableColumns: 18
+%TableColumnTypes: LOND LATD VELU VELV VFLG VELO HEAD UQAL VQAL CQAL GDOP S1CN S2CN S3CN S4CN S5CN S6CN S7CN
+%TableRows: 0
+%TableStart:
+%%   Longitude   Latitude    U comp   V comp  VectorFlag   Velocity  Direction   Std_U   Std_V     COV     GDOP     Site Contri   Site Contri   Site Contri   Site Contri   Site Contri   Site Contri   Site Contri
+%%     (deg)       (deg)     (cm/s)   (cm/s)  (GridCode)    (cm/s)     (True)   (cm/s)   (cm/s) (cm2/s2) (unitless)       #1            #2            #3            #4            #5            #6            #7
+%TableEnd:
+%%
+%TableType: MRGS src3
+%TableColumns: 15
+%TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
+%TableRows: 2
+%TableStart: 2
+%%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
+%%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
+%%
+%      2   "BEGU"     41.9671667    3.2305333       25.000    1.664243    "Meas"      85.0       670      42.6904640   41.3049325     4.3146289     3.2006677             "/home/icatmar/data/radars/BEGU/L2/L2B//2025/07/RDLm_BEGU_2025_07_07_1100_l2b.ruv"  "757796D1-579C-4C34-9A6D-212D2F0EFE73"
+%      3   "TOSS"     41.7157000    2.9339000       75.000    1.664243    "Meas"     201.0       548      41.9442510   41.0344874     3.3183204     2.0247828             "/home/icatmar/data/radars/TOSS/L2/L2B//2025/07/RDLm_TOSS_2025_07_07_1100_l2b.ruv"  "434C3C22-DFC0-4D9C-9836-DA953DCC5F39"
+%TableEnd: 2
+%%
+%%
+%ProcessedTimeStamp: 2025 07 07  13 51 36
+%ProcessingTool: merge_radials 0.5
+%End:
