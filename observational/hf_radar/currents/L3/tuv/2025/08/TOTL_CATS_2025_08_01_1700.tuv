@@ -1,7 +1,7 @@
 %CTF: 1.00
 %FileType: LLUV tots "CurrentMap"
 %LLUVSpec: merge_radials 0.5 2025 03 13
-%UUID: 572b9d66-65e2-47c5-9a31-f4c7ab85d0be
+%UUID: a018b2ae-be22-497e-a192-ebf25cf98e08
 %Manufacturer: CODAR Ocean Sensors. SeaSonde
 %Site: CATS ""
 %TimeStamp: 2025 08 01  17 00 00
@@ -1149,11 +1149,12 @@
 %TableType: MRGS src3
 %TableColumns: 15
 %TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
-%TableRows: 6
+%TableRows: 7
 %TableStart: 2
 %%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
 %%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
 %%
+%      1   "CREU"     42.3190500    3.3158500       75.000    1.664243    "Meas"      79.0       347      42.6866772   42.0494002     4.2806927     3.2189815             "/home/icatmar/data/radars/CREU/L2/L2B//2025/08/RDLm_CREU_2025_08_01_1700_l2b.ruv"  "8691C254-BAF1-4D30-A1DA-7B5A82F8D238"
 %      1   "CREU"     42.3190500    3.3158500       75.000    1.664243    "Meas"      79.0       347      42.6866772   42.0494002     4.2806927     3.2189815             "/home/icatmar/data/radars/CREU/L2/L2B//2025/08/RDLm_CREU_2025_08_01_1700_l2b.ruv"  "8691C254-BAF1-4D30-A1DA-7B5A82F8D238"
 %      4   "AREN"     41.5775833    2.5577333       75.000    1.664243    "Meas"     199.0       700      41.7136616   40.8600201     3.7950299     1.9230481             "/home/icatmar/data/radars/AREN/L2/L2B//2025/08/RDLm_AREN_2025_08_01_1700_l2b.ruv"  "6516FD2B-0F1D-44E8-B293-7C3129B488A6"
 %      5   "PBCN"     41.3475833    2.1740500       75.000    1.664243    "Meas"     177.0       741      41.9491585   40.9473312     3.0021947     1.9953459             "/home/icatmar/data/radars/PBCN/L2/L2B//2025/08/RDLm_PBCN_2025_08_01_1700_l2b.ruv"  "6CAF90D6-9208-4029-8E2C-ACF1A13C4D1E"
@@ -1163,6 +1164,6 @@
 %TableEnd: 2
 %%
 %%
-%ProcessedTimeStamp: 2025 08 01  20 21 22
+%ProcessedTimeStamp: 2025 08 01  21 35 51
 %ProcessingTool: merge_radials 0.5
 %End:
