@@ -1,0 +1,48 @@
+%CTF: 1.00
+%FileType: LLUV tots "CurrentMap"
+%LLUVSpec: merge_radials 0.5 2025 03 13
+%UUID: 384a4355-3144-47e9-88b8-01df99ad6d9e
+%Manufacturer: CODAR Ocean Sensors. SeaSonde
+%Site: CATS ""
+%TimeStamp: 2025 09 26  16 00 00
+%TimeZone: "UTC" +0.000 0 "UTC"
+%TimeCoverage: 75.000 Minutes
+%Origin:    40.5061167      1.1244500 
+%GreatCircle: "WGS84" 6378137.000  298.257223562997
+%DistanceMethod: "haversine" 1.0 2023 02 27 defined in merge_radials 0.5
+%LLUVTrustData: all %% all lluv xyuv rbvd
+%GridAxisOrientation: 0.0 True
+%GridFileName: "hfradar_totals_grid_icatmar.nc"
+%GridVersion: 1.0
+%GridTimeStamp: 2024 03 07  15 45 03
+%GridLastModified: 2024 03 07  15 45 03
+%GridAxisOrientation: 0.0 DegNCW
+%GridSpacing: 3.000 km
+%AveragingRadius: 6100.0 km
+%DistanceAngularLimit: None
+%CurrentVelocityLimit: None
+%TableType: LLUV TOT4
+%TableColumns: 18
+%TableColumnTypes: LOND LATD VELU VELV VFLG VELO HEAD UQAL VQAL CQAL GDOP S1CN S2CN S3CN S4CN S5CN S6CN S7CN
+%TableRows: 0
+%TableStart:
+%%   Longitude   Latitude    U comp   V comp  VectorFlag   Velocity  Direction   Std_U   Std_V     COV     GDOP     Site Contri   Site Contri   Site Contri   Site Contri   Site Contri   Site Contri   Site Contri
+%%     (deg)       (deg)     (cm/s)   (cm/s)  (GridCode)    (cm/s)     (True)   (cm/s)   (cm/s) (cm2/s2) (unitless)       #1            #2            #3            #4            #5            #6            #7
+%TableEnd:
+%%
+%TableType: MRGS src3
+%TableColumns: 15
+%TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
+%TableRows: 2
+%TableStart: 2
+%%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
+%%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
+%%
+%      1   "CREU"     42.3190500    3.3158500       75.000    1.664243    "Meas"      79.0      1423      43.0979648   41.4800974     4.5826382     3.0811224             "/home/icatmar/data/radars/CREU/L2/L2B//2025/09/RDLm_CREU_2025_09_26_1600_l2b.ruv"  "F4485EF0-5FB9-4F34-9ABA-E4BE5234C724"
+%      7   "SCAL"     41.1862833    1.6073000       75.000    1.664243    "Meas"     217.0      1035      41.2901809   40.1521963     2.8040477     0.2906680             "/home/icatmar/data/radars/SCAL/L2/L2B//2025/09/RDLm_SCAL_2025_09_26_1600_l2b.ruv"  "72A64DCD-454E-4E03-AF92-48A7AA7BE572"
+%TableEnd: 2
+%%
+%%
+%ProcessedTimeStamp: 2025 09 26  18 53 07
+%ProcessingTool: merge_radials 0.5
+%End:
