@@ -1,0 +1,53 @@
+%CTF: 1.00
+%FileType: LLUV tots "CurrentMap"
+%LLUVSpec: merge_radials 0.5 2025 03 13
+%UUID: 396f0f9a-3882-40c9-ba80-6ef6a83dd311
+%Manufacturer: CODAR Ocean Sensors. SeaSonde
+%Site: CATS ""
+%TimeStamp: 2025 10 08  06 00 00
+%TimeZone: "UTC" +0.000 0 "UTC"
+%TimeCoverage: 75.000 Minutes
+%Origin:    40.5061167      1.1244500 
+%GreatCircle: "WGS84" 6378137.000  298.257223562997
+%DistanceMethod: "haversine" 1.0 2023 02 27 defined in merge_radials 0.5
+%LLUVTrustData: all %% all lluv xyuv rbvd
+%GridAxisOrientation: 0.0 True
+%GridFileName: "hfradar_totals_grid_icatmar.nc"
+%GridVersion: 1.0
+%GridTimeStamp: 2024 03 07  15 45 03
+%GridLastModified: 2024 03 07  15 45 03
+%GridAxisOrientation: 0.0 DegNCW
+%GridSpacing: 3.000 km
+%AveragingRadius: 6100.0 km
+%DistanceAngularLimit: None
+%CurrentVelocityLimit: None
+%TableType: LLUV TOT4
+%TableColumns: 18
+%TableColumnTypes: LOND LATD VELU VELV VFLG VELO HEAD UQAL VQAL CQAL GDOP S1CN S2CN S3CN S4CN S5CN S6CN S7CN
+%TableRows: 0
+%TableStart:
+%%   Longitude   Latitude    U comp   V comp  VectorFlag   Velocity  Direction   Std_U   Std_V     COV     GDOP     Site Contri   Site Contri   Site Contri   Site Contri   Site Contri   Site Contri   Site Contri
+%%     (deg)       (deg)     (cm/s)   (cm/s)  (GridCode)    (cm/s)     (True)   (cm/s)   (cm/s) (cm2/s2) (unitless)       #1            #2            #3            #4            #5            #6            #7
+%TableEnd:
+%%
+%TableType: MRGS src3
+%TableColumns: 15
+%TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
+%TableRows: 7
+%TableStart: 2
+%%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
+%%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
+%%
+%      1   "CREU"     42.3190500    3.3158500       75.000    1.664243    "Meas"      79.0        70      43.1578761   41.5350027     4.4905251     3.1642351             "/home/icatmar/data/radars/CREU/L2/L2B//2025/10/RDLm_CREU_2025_10_08_0600_l2b.ruv"  "8647ACC8-0055-4929-BD97-A5F6FBAF6CBE"
+%      1   "CREU"     42.3190500    3.3158500       75.000    1.664243    "Meas"      79.0        70      43.1578761   41.5350027     4.4905251     3.1642351             "/home/icatmar/data/radars/CREU/L2/L2B//2025/10/RDLm_CREU_2025_10_08_0600_l2b.ruv"  "8647ACC8-0055-4929-BD97-A5F6FBAF6CBE"
+%      4   "AREN"     41.5775833    2.5577333       75.000    1.664243    "Meas"     199.0        13      41.5861457   41.4919741     2.8126247     2.5075348             "/home/icatmar/data/radars/AREN/L2/L2B//2025/10/RDLm_AREN_2025_10_08_0600_l2b.ruv"  "0F7A3AA0-6C29-4268-AEDD-1E2975742C34"
+%      5   "PBCN"     41.3475833    2.1740500       75.000    1.664243    "Meas"     177.0        13      41.8311797   41.2941442     2.5094209     2.1864615             "/home/icatmar/data/radars/PBCN/L2/L2B//2025/10/RDLm_PBCN_2025_10_08_0600_l2b.ruv"  "A948EC5D-9BCB-4631-A8EA-6477E64EB427"
+%      6   "GNST"     41.2560667    1.9221833       75.000    1.664243    "Meas"     208.0        40      41.2497950   41.1042992     2.0500566     1.8250136             "/home/icatmar/data/radars/GNST/L2/L2B//2025/10/RDLm_GNST_2025_10_08_0600_l2b.ruv"  "3C7DCC43-CB19-41C1-B546-7A8D07FE434C"
+%      3   "TOSS"     41.7157000    2.9339000       75.000    1.664243    "Meas"     201.0        40      41.6989372   41.1174770     2.9028255     1.8489773             "/home/icatmar/data/radars/TOSS/L2/L2B//2025/10/RDLm_TOSS_2025_10_08_0600_l2b.ruv"  "CCA56876-5660-4352-A8FB-656473E9D001"
+%      7   "SCAL"     41.1862833    1.6073000       75.000    1.664243    "Meas"     217.0       381      41.3463571   40.1676679     2.9239320     0.3286762             "/home/icatmar/data/radars/SCAL/L2/L2B//2025/10/RDLm_SCAL_2025_10_08_0600_l2b.ruv"  "8831A9E5-6392-49C2-9AA7-D8511A848965"
+%TableEnd: 2
+%%
+%%
+%ProcessedTimeStamp: 2025 10 08  15 32 44
+%ProcessingTool: merge_radials 0.5
+%End:
