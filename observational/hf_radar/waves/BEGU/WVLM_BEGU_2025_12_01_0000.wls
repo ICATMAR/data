@@ -1,46 +1,47 @@
 %CTF: 1.00
-%FileType: WVMD WVMT "Wave History"
-%UUID: 170979BC-D5C9-4D4C-B111-6F03AE6677AC
+%FileType: WVMD WVM9 "Wave History"
+%UUID: 52B1209D-88BC-4240-8BA3-BE0D13CA6834
 %Manufacturer: CODAR Ocean Sensors. SeaSonde
-%Site: SCAL ""
+%Site: BEGU ""
 %TimeMarks: start
 %TimeStamp: 2025 12 01  00 00 00
-%TimeZone: "UTC" +0.000 0 "Atlantic/Reykjavik"
-%Origin:  41.1862833    1.6073000
+%TimeZone: "UTC" +0.000 0
+%Origin:  41.9671667    3.2305333
 %%
 %%
 %% Note: Parameters for Last processed item...
 %TimeCoverage: 0.250 hours
-%RangeResolutionKMeters: 1.66424 km
-%AntennaBearing: 217.0
+%AntennaBearing: 132.0
 %RangeCells: 31
 %DopplerCells: 512
 %TransmitCenterFreqMHz: 13.500000
 %TransmitBandwidthKHz: -90.068695
 %TransmitSweepRateHz: 2.000000
-%CoastlineSector: 75.0 250.0  %% Start CW to Stop in Deg NCW
-%CurrentVelocityLimit: 180
-%BraggSmoothingPoints: 4
+%CoastlineSector: 345.0 175.0  %% Start CW to Stop in Deg NCW
+%CurrentVelocityLimit: 150
+%BraggSmoothingPoints: 3
+%BraggHasSecondOrder: 1
 %WaveBraggNoiseThreshold: 3.2
-%WaveBraggPeakDropOff: 80.0
-%WaveBraggPeakNull: 10.0
-%WaveSplitBraggRatio: 2.00
+%WaveBraggPeakDropOff: 1000.0
+%WaveBraggPeakNull: 316.2
+%WaveSplitBraggRatio: 6.30
 %MaximumWavePeriod: 17.0
-%WaveBearingLimits: 78.0 252.0  %% Start CW to Stop in Deg NCW
+%WaveBearingLimits: 345.0 175.0  %% Start CW to Stop in Deg NCW
 %WaveUseInnerBragg: 0  %% 0 No, 1 Yes
 %WaveSecondOrderMethod: 1   %% 0/1 OnShore, 2 OffShore
 %WaveSaturationRatio: 0.80
 %WaveHeightLimit: 20.0
 %WavePeriodSetLimit: 10.0
+%PatternType: 1
+%PatternUUID: CEE17C0B-1B01-4A50-94D2-D0FC2654E743
 %WaveMergeMethod: 1  %% 0 None, 1 Average, 2 Median, 3 Outlier
 %WaveReductionMethod: 3  %% 0 None, 1=Temporal, 2=Spatial, 3=Both
 %WaveMinDopplerPoints: 10
 %WaveMinVectors: 1
-%WaveMaximumWaveHeight: 10.0
-%WaveMaximumWaveHeightChange: 1.00
+%WaveMaximumWaveHeight: 1.0
 %WaveMaximumWavePeriodChange: 7.00
 %%
-%TableType: WAVL WVMT
+%TableType: WAVL WVM9
 %TableColumns: 22
 %TableColumnTypes: TIME MWHT MWPD WAVB WNDB PMWH ACNT DIST RCLL LOND LATD WDPT MTHD FLAG WHNM WHSD TYRS TMON TDAY THRS TMIN TSEC 
 %TableRows: 2
@@ -48,15 +49,15 @@
 %%     Time     ----------Wave----------    Wind    WaveNF                                  Placement   Placement                                Height    Height                        
 %%   FromStart   Height  Period   From      From    Height   Spectra   Distance   Range     Longitude    Latitude   Doppler    Wave    Vector    Valid      StdDv    Time                
 %%   (seconds)     (m)     (s)   (True)    (True)     (m)     count      (km)      cell       (deg)       (deg)       bins    Method    Flag     points      (m)     Year Mo Dy  Hr Mn  S
-             0    999.00 999.00     0.0    162.4      0.65       98        nan        2      1.6579087  41.0647902       0        2       16           0     0.00    2025 12 01  00 00 00
-           600    999.00 999.00     0.0    163.8      0.66       98        nan        2      1.6579087  41.0647902       0        2       16           0     0.00    2025 12 01  00 10 00
+             0      2.15   4.95   112.3     42.0      0.08       98        nan       15      0.0000000   0.0000000      22        2        0          21     0.12    2025 12 01  00 00 00
+           600      2.12   4.95   109.7     42.0      0.08       98        nan       15            nan         nan      22        2        0          22     0.13    2025 12 01  00 10 00
 %TableEnd:
 %%
 %%
-%ProcessedTimeStamp: 2025 12 01  00 51 10
+%ProcessedTimeStamp: 2025 12 01  00 49 12
+%ProcessingTool: "WaveModelFilter" 4.0.4
 %ProcessingTool: "SpectraToWavesModel" 11.10.0
-%ProcessingTool: "WaveModelForFive" 11.8.1
-%ProcessingTool: "WaveModelFilter" 5.1.9
-%ProcessingTool: "WaveModelArchiver" 14.0.6
-%ProcessingTool: "AnalyzeSpectra" 12.1.0
+%ProcessingTool: "WaveModelForFive" 11.8.0
+%ProcessingTool: "WaveModelArchiver" 13.2.1
+%ProcessingTool: "AnalyzeSpectra" 12.0.0
 %End:
