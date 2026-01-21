@@ -1,7 +1,7 @@
 %CTF: 1.00
 %FileType: LLUV tots "CurrentMap"
 %LLUVSpec: merge_radials 0.5 2025 03 13
-%UUID: b59aa1be-d6cb-44c4-b367-e801085e67e1
+%UUID: cbd9a259-52b2-4b8f-aaf8-813d8c7102ef
 %Manufacturer: CODAR Ocean Sensors. SeaSonde
 %Site: CATS ""
 %TimeStamp: 2026 01 21  16 00 00
@@ -880,18 +880,19 @@
       2.9614000  41.7181015    0.873   -9.896          0     9.934    175.0       0.255    0.319   -0.005     0.233     0       0      77       1       0       0       0
       3.0320799  41.7181015    4.412    8.186          0     9.299     28.3       0.216    0.618    0.002     0.313     0       0      84       1       0       0       0
       3.4914999  41.7181015   16.444  -69.894          0    71.802    166.8       1.022   19.134    3.468     4.424     0       0       6       1       0       0       0
-      3.5268400  42.0150986   11.645   -5.916          0    13.062    116.9      12.369    9.048  107.657     1.226     2       0       1       0       0       0       0
-      3.4914999  42.0420990   14.377  -10.021          0    17.525    124.9      13.268    8.605   92.919     1.416     1       0       1       0       0       0       0
+      3.5268400  42.0150986   11.644   -5.916          0    13.061    116.9      12.344    8.970  108.592     1.119     4       0       1       0       0       0       0
+      3.4914999  42.0420990   14.377  -10.021          0    17.525    124.9      13.158    8.212   97.325     1.226     2       0       1       0       0       0       0
 %TableEnd:
 %%
 %TableType: MRGS src3
 %TableColumns: 15
 %TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
-%TableRows: 5
+%TableRows: 6
 %TableStart: 2
 %%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
 %%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
 %%
+%      1   "CREU"     42.3190500    3.3158500       75.000    1.664243    "Meas"      79.0       337      43.2658615   41.9548584     3.9111737     3.1046790             "/home/icatmar/data/radars/CREU/L2/L2B//2026/01/RDLm_CREU_2026_01_21_1600_l2b.ruv"  "0149A104-8EED-4203-B06F-7102E1CCF19F"
 %      1   "CREU"     42.3190500    3.3158500       75.000    1.664243    "Meas"      79.0       337      43.2658615   41.9548584     3.9111737     3.1046790             "/home/icatmar/data/radars/CREU/L2/L2B//2026/01/RDLm_CREU_2026_01_21_1600_l2b.ruv"  "0149A104-8EED-4203-B06F-7102E1CCF19F"
 %      4   "AREN"     41.5775833    2.5577333       75.000    1.664243    "Meas"     199.0       865      41.7244140   40.8226297     3.5983434     1.7806968             "/home/icatmar/data/radars/AREN/L2/L2B//2026/01/RDLm_AREN_2026_01_21_1600_l2b.ruv"  "BD5C6747-3D69-447D-8F89-85765C323530"
 %      5   "PBCN"     41.3475833    2.1740500       75.000    1.664243    "Meas"     177.0      1100      41.9630340   40.7539338     3.0021947     1.6644014             "/home/icatmar/data/radars/PBCN/L2/L2B//2026/01/RDLm_PBCN_2026_01_21_1600_l2b.ruv"  "A5410F30-55D5-4C30-A525-04BCCE5A19F9"
@@ -900,6 +901,6 @@
 %TableEnd: 2
 %%
 %%
-%ProcessedTimeStamp: 2026 01 21  18 20 52
+%ProcessedTimeStamp: 2026 01 21  19 06 43
 %ProcessingTool: merge_radials 0.5
 %End:
