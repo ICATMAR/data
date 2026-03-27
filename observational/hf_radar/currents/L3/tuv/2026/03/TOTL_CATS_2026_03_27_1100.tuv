@@ -1,0 +1,56 @@
+%CTF: 1.00
+%FileType: LLUV tots "CurrentMap"
+%LLUVSpec: merge_radials 0.6 2026 02 23
+%UUID: 19fa6c08-1243-48c4-9d8a-fa84bb4ee140
+%Manufacturer: CODAR Ocean Sensors. SeaSonde
+%Site: CATS 
+%TimeStamp: 2026 03 27  11 00 00
+%TimeZone: "UTC" +0.000 0 "UTC"
+%TimeCoverage: 75.000 Minutes
+%Origin:    40.5061167      1.1244500 
+%GreatCircle: "WGS84" 6378137.000  298.257223562997
+%DistanceMethod: "haversine" 1.0 2023 02 27 defined in merge_radials 0.6
+%LLUVTrustData: all %% all lluv xyuv rbvd
+%GridAxisOrientation: 0.0 True
+%GridFileName: "hfradar_totals_grid_icatmar.nc"
+%GridVersion: 2.1
+%GridTimeStamp: 2024 03 07  15 45 03
+%GridLastModified: 2026 03 05  11 18 19
+%GridAxisOrientation: 0.0 DegNCW
+%GridSpacing: 3 km
+%AveragingRadius: 6100.0 m
+%DistanceAngularLimit: None
+%CurrentVelocityLimit: None
+%TableType: LLUV TOT4
+%TableColumns: 19
+%TableColumnTypes: LOND LATD VELU VELV VFLG VELO HEAD UQAL VQAL CQAL GDOP S1CN S2CN S3CN S4CN S5CN S6CN S7CN S8CN
+%TableRows: 8
+%TableStart:
+%%   Longitude   Latitude    U comp   V comp  VectorFlag   Velocity  Direction   Std_U   Std_V     COV     GDOP     Site Contri   Site Contri   Site Contri   Site Contri   Site Contri   Site Contri   Site Contri   Site Contri
+%%     (deg)       (deg)     (cm/s)   (cm/s)  (GridCode)    (cm/s)     (True)   (cm/s)   (cm/s) (cm2/s2) (unitless)       #1            #2            #3            #4            #5            #6            #7            #8
+      3.4208200  42.5010986   -1.821  -12.439          0    12.572    188.3       6.867   11.588   77.640     1.244     2       0       1       0       0       0       0       0
+      3.4561601  42.5010986    0.832   -8.427          0     8.468    174.4       2.885    4.208    9.258     1.244     1       0       2       0       0       0       0       0
+      3.4914999  42.5280991   10.117    7.489          0    12.587     53.5       1.648    1.115   -0.349     1.436     1       0       1       0       0       0       0       0
+      3.4561601  42.5550995   13.750    6.847          0    15.360     63.5       1.353    1.060   -0.024     1.165     3       0       1       0       0       0       0       0
+      3.4914999  42.5550995   20.424    3.697          0    20.756     79.7      10.737    4.068  -41.862     1.420     1       0       1       0       0       0       0       0
+      3.4561601  42.5820999   13.750    6.847          0    15.360     63.5       1.353    1.060   -0.024     1.165     3       0       1       0       0       0       0       0
+      3.4914999  42.5820999   20.424    3.697          0    20.756     79.7      10.737    4.068  -41.862     1.420     1       0       1       0       0       0       0       0
+      3.5268400  42.6091003   14.904    5.728          0    15.967     69.0       1.563    1.231   -0.667     1.436     1       0       1       0       0       0       0       0
+%TableEnd:
+%%
+%TableType: MRGS src3
+%TableColumns: 15
+%TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
+%TableRows: 2
+%TableStart: 2
+%%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
+%%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
+%%
+%      3   "BEGU"     41.9671667    3.2305333       25.000    1.664243    "Meas"      85.0       721      42.5581192   41.5186861     4.0665810     3.2165751             "/home/icatmar/data/radars/BEGU/L2/L2B//2026/03/RDLm_BEGU_2026_03_27_1100_l2b.ruv"  "553BF2DA-AD99-4954-9421-F13E45E4463B"
+%      1   "CNET"     42.7020167    3.0380167       75.000    1.510147    "Meas"     132.0       556      43.1205928   42.5005753     3.5707772     3.0506193             "/home/icatmar/data/radars/CNET/L2/L2B//2026/03/RDLm_CNET_2026_03_27_1100_l2b.ruv"  "4361E78F-3BC9-45A6-89FB-A5EA063F2029"
+%TableEnd: 2
+%%
+%%
+%ProcessedTimeStamp: 2026 03 27  12 52 28
+%ProcessingTool: merge_radials 0.6
+%End:
