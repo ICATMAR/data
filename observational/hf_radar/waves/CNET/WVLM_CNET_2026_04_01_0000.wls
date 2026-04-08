@@ -45,7 +45,7 @@
 %TableType: WAVL WM11
 %TableColumns: 33
 %TableColumnTypes: TIME MWHT MWPD WAVB WNDB PMWH ACNT DIST RCLL LOND LATD WDPT MTHD FLAG WHNM WHSD WWHT WWPD WWFB WWDP WWFL SWHT SWPD SWFB SWDP SWFL SWBD TYRS TMON TDAY THRS TMIN TSEC 
-%TableRows: 1085
+%TableRows: 1093
 %TableStart:
 %%     Time     ----------Wave----------    Wind    WaveNF                                  Placement   Placement                                Height    Height   --Wind----------------------------Wind--  -Swell---------------------------Swell-- -Bimodal-                       
 %%   FromStart   Height  Period   From      From    Height   Spectra   Distance   Range     Longitude    Latitude   Doppler    Wave    Vector    Valid      StdDv    Height  Period   From   Doppler Vector    Height  Period   From   Doppler Vector   Boundary   Time                
@@ -1135,10 +1135,18 @@
         650400    999.00 999.00  1080.0     60.0      1.13       91        nan        3      3.2025210  42.7178682       6        2      496           0     0.00       0.00   0.00     0.0       0       0       0.00   0.00     0.0       0       0       0.00   2026 04 08  12 40 00
         651000    999.00 999.00  1080.0     61.6      1.04       91        nan        3      3.2025210  42.7178682       6        2      496           0     0.00       0.00   0.00     0.0       0       0       0.00   0.00     0.0       0       0       0.00   2026 04 08  12 50 00
         651600    999.00 999.00  1080.0     62.6      0.92       91        nan        3      3.2025210  42.7178682       6        2      496           0     0.00       0.00   0.00     0.0       0       0       0.00   0.00     0.0       0       0       0.00   2026 04 08  13 00 00
+        652200      5.45   5.00   157.0     32.0      1.66        1        nan       14      3.2025210  42.7178682      12        2        0           1     0.00     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 04 08  13 10 00
+        652800      5.45   5.00   157.0     32.0      1.66        1        nan       14      3.2025210  42.7178682      12        2        0           1     0.00     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 04 08  13 20 00
+        653400      5.45   5.00   157.0     32.0      1.66        1        nan       14      3.2025210  42.7178682      12        2        0           1     0.00     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 04 08  13 30 00
+        654000      5.45   5.00   157.0     32.0      1.66        1        nan       14      3.2025210  42.7178682      12        2        0           1     0.00     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 04 08  13 40 00
+        654600    999.00 999.00  1080.0     69.7      0.48       91        nan        3      3.2025210  42.7178682       5        2      496           0     0.00       0.00   0.00     0.0       0       0       0.00   0.00     0.0       0       0       0.00   2026 04 08  13 50 00
+        655200    999.00 999.00  1080.0     70.5      0.45       91        nan        3      3.2025210  42.7178682       5        2      336           0     0.00       0.00   0.00     0.0       0       0       0.00   0.00     0.0       0       0       0.00   2026 04 08  14 00 00
+        655800    999.00 999.00  1080.0     70.5      0.44       91        nan        3      3.2025210  42.7178682       5        2      336           0     0.00       0.00   0.00     0.0       0       0       0.00   0.00     0.0       0       0       0.00   2026 04 08  14 10 00
+        656400    999.00 999.00  1080.0     72.0      0.45        0        nan        3      3.2025210  42.7178682       0        0        0           1     0.00     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 04 08  14 20 00
 %TableEnd:
 %%
 %%
-%ProcessedTimeStamp: 2026 04 08  13 38 05
+%ProcessedTimeStamp: 2026 04 08  14 59 03
 %ProcessingTool: "SpectraToWavesModel" 11.10.0
 %ProcessingTool: "WaveModelForFive" 11.8.1
 %ProcessingTool: "WaveModelFilter" 6.1.2
