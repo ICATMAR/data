@@ -1,7 +1,7 @@
 %CTF: 1.00
 %FileType: LLUV tots "CurrentMap"
 %LLUVSpec: merge_radials 0.6 2026 02 23
-%UUID: 2d4bc3bc-8b75-427f-9eb8-809f53210b90
+%UUID: 2a287e1e-079d-48a8-a547-dc55a57ceb3f
 %Manufacturer: CODAR Ocean Sensors. SeaSonde
 %Site: CATS 
 %TimeStamp: 2026 04 16  12 00 00
@@ -33,19 +33,21 @@
 %TableType: MRGS src3
 %TableColumns: 15
 %TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
-%TableRows: 5
+%TableRows: 7
 %TableStart: 2
 %%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
 %%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
 %%
 %      2   "CREU"     42.3190500    3.3158500       75.000    1.664243    "Meas"      79.0       692      43.0982927   41.5550088     4.4905251     3.0385845             "/home/icatmar/data/radars/CREU/L2/L2B//2026/04/RDLm_CREU_2026_04_16_1200_l2b.ruv"  "19B11864-9DF1-4E3A-8663-D75028F17F41"
-%      3   "BEGU"     41.9671667    3.2305333       45.000    1.664243    "Meas"      85.0       497      42.5242856   41.6094046     3.9631798     3.2041936             "/home/icatmar/data/radars/BEGU/L2/L2B//2026/04/RDLm_BEGU_2026_04_16_1200_l2b.ruv"  "6D49AB29-E406-4A42-B736-4BFAD902C10C"
-%      3   "BEGU"     41.9671667    3.2305333       45.000    1.664243    "Meas"      85.0       497      42.5242856   41.6094046     3.9631798     3.2041936             "/home/icatmar/data/radars/BEGU/L2/L2B//2026/04/RDLm_BEGU_2026_04_16_1200_l2b.ruv"  "6D49AB29-E406-4A42-B736-4BFAD902C10C"
-%      3   "BEGU"     41.9671667    3.2305333       45.000    1.664243    "Meas"      85.0       497      42.5242856   41.6094046     3.9631798     3.2041936             "/home/icatmar/data/radars/BEGU/L2/L2B//2026/04/RDLm_BEGU_2026_04_16_1200_l2b.ruv"  "6D49AB29-E406-4A42-B736-4BFAD902C10C"
+%      3   "BEGU"     41.9671667    3.2305333       65.000    1.664243    "Meas"      85.0       616      42.6046673   41.5996967     3.9631798     3.1989034             "/home/icatmar/data/radars/BEGU/L2/L2B//2026/04/RDLm_BEGU_2026_04_16_1200_l2b.ruv"  "972D5565-830B-46CB-A6F7-2AF269758242"
+%      3   "BEGU"     41.9671667    3.2305333       65.000    1.664243    "Meas"      85.0       616      42.6046673   41.5996967     3.9631798     3.1989034             "/home/icatmar/data/radars/BEGU/L2/L2B//2026/04/RDLm_BEGU_2026_04_16_1200_l2b.ruv"  "972D5565-830B-46CB-A6F7-2AF269758242"
+%      3   "BEGU"     41.9671667    3.2305333       65.000    1.664243    "Meas"      85.0       616      42.6046673   41.5996967     3.9631798     3.1989034             "/home/icatmar/data/radars/BEGU/L2/L2B//2026/04/RDLm_BEGU_2026_04_16_1200_l2b.ruv"  "972D5565-830B-46CB-A6F7-2AF269758242"
+%      3   "BEGU"     41.9671667    3.2305333       65.000    1.664243    "Meas"      85.0       616      42.6046673   41.5996967     3.9631798     3.1989034             "/home/icatmar/data/radars/BEGU/L2/L2B//2026/04/RDLm_BEGU_2026_04_16_1200_l2b.ruv"  "972D5565-830B-46CB-A6F7-2AF269758242"
 %      8   "SCAL"     41.1862833    1.6073000       75.000    1.664243    "Meas"     217.0       235      41.2852425   40.4334567     2.3703314     0.6521210             "/home/icatmar/data/radars/SCAL/L2/L2B//2026/04/RDLm_SCAL_2026_04_16_1200_l2b.ruv"  "474BC4F8-A6CD-4398-ABB7-75A243A71582"
+%      1   "CNET"     42.7020167    3.0380167       75.000    1.510147    "Meas"     132.0       126      42.9112268   42.4654482     3.6093784     3.0571954             "/home/icatmar/data/radars/CNET/L2/L2B//2026/04/RDLm_CNET_2026_04_16_1200_l2b.ruv"  "4BCC56EE-5911-453F-883B-0B0ADEB67717"
 %TableEnd: 2
 %%
 %%
-%ProcessedTimeStamp: 2026 04 16  14 53 20
+%ProcessedTimeStamp: 2026 04 16  15 08 19
 %ProcessingTool: merge_radials 0.6
 %End:
