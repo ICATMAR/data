@@ -1,0 +1,131 @@
+%CTF: 1.00
+%FileType: LLUV rdls "RadialMap"
+%LLUVSpec: 1.60  2024 03 30
+%UUID: 0415D25D-5371-402B-84B0-31B3ADC5EA4C
+%Manufacturer: CODAR Ocean Sensors. SeaSonde
+%Site: CNET ""
+%TimeStamp: 2026 05 28  16 00 00
+%TimeZone: "UTC" +0.000 0 "Atlantic/Reykjavik"
+%TimeCoverage: 75.000 Minutes
+%Origin: 42.7020167    3.0380167
+%GreatCircle: "WGS84" 6378137.000  298.257223562997
+%GeodVersion: "CGEO" 3.00  2024 03 19
+%LLUVTrustData: all  all lluv xyuv rbvd
+%LLUVDataQuality: 2 Flawed "Bragg on A3 is missing or low."
+%RangeStart: 2
+%RangeEnd: 63
+%RangeResolutionKMeters: 1.510147
+%RangeCells: 62
+%DopplerCells: 1024
+%DopplerInterpolation: 2
+%AntennaBearing: 132.0 True
+%ReferenceBearing: 0 True
+%AngularResolution: 5 Deg
+%RiverBearing: 0.0 True
+%PatternType: Measured
+%PatternDate: 2025 12 05  08 54 51
+%PatternResolution: 1.0 deg
+%PatternSmoothing: 20.0 deg
+%PatternUUID: DCF9542D-4989-44F3-BF2F-8594415C771E
+%AverSignalToNoise: 7.5
+%AverDistanceToPattern: 1.1
+%TransmitCenterFreqMHz: 13.500000
+%TransmitBandwidthKHz: -99.259377
+%TransmitSweepRateHz: 2.000000
+%TransmitTimingAlignmentUs: 39765 us
+%FirstOrderMethod: 0  2 64
+%BraggSmoothingPoints: 2
+%CurrentVelocityLimit: 180.0
+%BraggHasSecondOrder: 0
+%RadialBraggPeakDropOff: 316.230
+%RadialBraggPeakNull: 10.000
+%RadialBraggNoiseThreshold: 2.000
+%RadialSplitBraggRatio: 3.160 0
+%RadialDCBlock: 5.100 0
+%PatternAmplitudeCorrections: 7.1371  1.8478
+%PatternPhaseCorrections: 72.92  75.11
+%PatternAmplitudeCalculations: 999.0000  999.0000
+%PatternPhaseCalculations: 22.79  -19.50
+%RadialMusicParameters: 40.000 20.000 2.000
+%FirstOrderCalc: 0
+%MergeMethod: 1 MedianVectors
+%MergedCount: 7
+%MergeMedianMethod: 1 balance
+%MergeCloseness: 0.0001 km
+%MergeMinimumVectors: 2
+%MergeVectorLocation: False
+%MergeSources: 7
+%QCFileVersion: 2.0.0
+%QCReference: Quality control reference: IOOS QARTOD HF Radar ver 2.0 June 2022
+%QCFlagDefinitions: 1=pass 2=not_evaluated 3=suspect 4=fail 9=missing_data
+%QCTestFormat: "test_name [qc_thresholds]: test_result"
+%QCTest: qc_qartod_syntax (Q201) - Test applies to entire file. Thresholds=[N/A]: See results in column Q201
+%QCTest: qc_qartod_valid_location (Q203) - Test applies to each row. Thresholds=[VFLG==128]: See results in column Q203 below
+%QCTest: qc_qartod_maximum_velocity (Q202) - Test applies to each row. Thresholds=[ high_vel=140 (cm/s) max_vel=170 (cm/s) ]: See results in column Q202 below
+%QCTest: qc_qartod_temporal_gradient (Q206) - Test applies to each row. Thresholds=[ gradient_temp_warn=36 (cm/s*hr) gradient_temp_fail=54 (cm/s*hr) ]: See results in column Q206 below
+%QCTest: qc_qartod_spatial_median (Q205) - Test applies to each row. Thresholds=[ range_cell_limit=2.1 (range cells) angular_limit=10 (degrees) current_difference=30 (cm/s) ]: See results in column Q205 below
+%QCTest: qc_qartod_avg_radial_bearing (Q207) - Test applies to entire file. Thresholds=[ reference_bearing=84 (degrees) warning=30 (degrees) failure=30 (degrees) ]: See result in column Q207 below
+%QCTest: qc_qartod_radial_count (Q204) - Test applies to entire file. Thresholds=[ failure=50 (radials) warning_num=140 (radials) <valid_radials=8> ]:  See results in column Q204 below
+%QCTest: qc_qartod_primary_flag (PRIM) - Primary Flag - Highest flag value of Q201, Q203, Q202, Q206, Q205, Q207, Q204("not_evaluated" flag results ignored)
+%TableType: LLUV RDL9
+%TableColumns: 28
+%TableColumnTypes: LOND LATD VELU VELV VFLG ESPC ETMP EDTP EASN MAXV MINV ERSC ERTC XDST YDST RNGE BEAR VELO HEAD SPRC Q201 Q203 Q202 Q206 Q205 Q207 Q204 PRIM
+%TableRows: 8
+%TableStart: 
+%% Longitude   Latitude  U comp  V comp VectorFlag Spatial Temporal   Pattern   SNR Velocity Velocity Spatial Temporal X Distance Y Distance    Range Bearing Velocity Direction Spectra   Q201   Q203   Q202   Q206   Q205   Q207   Q204   PRIM
+%%     (deg)      (deg)  (cm/s)  (cm/s) (GridCode) Quality  Quality  Distance  (dB)  Maximum  Minimum   Count    Count       (km)       (km)     (km)  (True)   (cm/s)    (True) RngCell (flag) (flag) (flag) (flag) (flag) (flag) (flag) (flag)
+   3.0803340 42.7465519   9.336  13.319          0   1.084    1.170      -4.2   5.7  -15.095  -19.603       4        2     3.4647     4.9482   6.0406    35.0  -16.265     215.0       4      1      1      1      2      1      1      4      4
+   3.1114670 42.7067324  10.718   0.928          0   0.000    0.000       0.0   8.2  -10.758  -10.758       1        2     6.0176     0.5265   6.0406    85.0  -10.758     265.0       4      1      1      1      2      1      1      4      4
+   3.1106109 42.6925512   -2.22   0.393          0   0.000    4.338       0.0  10.7    6.592   -2.083       1        2     5.9488    -1.0489   6.0406   100.0    2.254     280.0       4      1      1      1      2      1      1      4      4
+   3.1085628 42.6583038  -3.386   2.846          0   0.000    2.169       7.2  11.0    6.592    2.254       1        2     5.7842    -4.8535   7.5507   130.0    4.423     310.0       5      1      1      1      2      1      1      4      4
+   3.1469493 42.7161287  17.005   2.976          0   0.000    2.168       4.3   4.6  -15.095  -19.432       1        2     8.9232     1.5734   9.0609    80.0  -17.263     260.1       6      1      1      1      2      1      1      4      4
+   3.1333156 42.8021981   5.863   8.354          0   1.787    8.799      -4.6   5.7   -6.592  -28.107       6        3     7.7956    11.1333  13.5913    35.0  -10.206     215.1       9      1      1      1      2      1      1      4      4
+   3.1439238 42.8133248    6.28   8.945          0   2.324    2.704       1.1   7.9   -6.592  -17.435       8        3     8.6619    12.3704  15.1015    35.0  -10.929     215.1      10      1      1      1      2      1      1      4      4
+   3.4011605 42.6037997   -4.15   1.531          0   0.000    2.169       4.9   6.3    6.592    2.254       1        2    29.8006   -10.8465  31.7131   110.0    4.423     290.2      21      1      1      1      2      1      1      4      4
+%TableEnd: 
+%%
+%TableType: rads rad3
+%TableColumns: 33
+%TableColumnTypes: TIME AMP1 AMP2 PH13 PH23 CPH1 CPH2 SNF1 SNF2 SNF3 SSN1 SSN2 SSN3 DGRC DOPV DDAP RADV RAPR RARC RADR RMCV RACV RABA RTYP STYP DDTP DSNR TYRS TMON TDAY THRS TMIN TSEC
+%TableRows: 7
+%TableStart: 2
+%%  TIME  AMP1  AMP2  PH13  PH23  CPH1  CPH2  SNF1   SNF2   SNF3   SSN1  SSN2  SSN3  DGRC  DOPV  DDAP  RADV  RAPR  RARC  RADR  RMCV  RACV  RABA  RTYP  STYP  DDTP  DSNR  TYRS  TMON  TDAY  THRS  TMIN  TSEC
+%  -1800  0.0   0.0   10.2  -2.2  72.9  75.1 -132.0 -129.0 -126.0  5.0   2.0   10.0    5   232    2      3    1     62    0.0 -28.1  13.6 114.2   2     0    4.2    6.1  2026   5     28    15    30    0  
+%  -1200  0.0   0.0   22.8 -19.5  72.9  75.1 -132.0 -129.0 -126.0  8.0   3.0   11.0    7   272    4      8    1     62    0.0 -15.1  10.0  89.5   2     0    5.6    6.8  2026   5     28    15    40    0  
+%   -600  0.0   0.0    9.5  -6.5  72.9  75.1 -132.0 -130.0 -126.0  6.0   6.0   10.0    4   219    2      1    1     62    0.0   6.6   6.6 161.0   2     0    7.5   10.0  2026   5     28    15    50    0  
+%      0  0.0   0.0   10.6  -3.0  72.9  75.1 -132.0 -130.0 -126.0  7.0   7.0   11.0    4   232    4      4    1     62    0.0   6.6   6.6 106.4   2     0    5.3    6.1  2026   5     28    16     0    0  
+%    600  0.0   0.0   14.9 -10.0  72.9  75.1 -131.0 -129.0 -126.0  5.0   5.0    9.0    9   271    4     13    2     62    0.0 -19.4   9.5  79.7   2     0    1.4    6.3  2026   5     28    16    10    0  
+%   1200  0.0   0.0    6.4   5.0  72.9  75.1 -132.0 -129.0 -126.0  9.0   9.0   12.0   10   306    4     19    2     62    9.1 -19.6   8.6  83.4   2     0    1.3    6.8  2026   5     28    16    20    0  
+%   1800  0.0   0.0    5.0  -0.1  72.9  75.1 -131.0 -129.0 -126.0  6.0   6.0   11.0    5   462    2     38    2     62   27.2  23.9  11.5 103.3   2     0    4.9    6.7  2026   5     28    16    30    0  
+%TableEnd: 2
+%%
+%TableType: rcvr rcv3
+%TableColumns: 33
+%TableColumnTypes: TIME RTMP MTMP XTRP RUNT SP24 SP05 SN05 SP12 XPHT XAHT XAFW XARW X1VR XP28 XP05 GRMD GDMD GSLK GSUL PLLL HTMP HUMI RBIA EXTA EXTB CRUN TYRS TMON TDAY THRS TMIN TSEC
+%TableRows: 15
+%TableStart: 3
+%%   Minutes  Rcvr  Awg XmitTrip  AwgRun   Supply  +5VDC  -5VDC +12VDC XInt XAmp XForw XRefl  Xmit  X+Ampl  X+5V   GpsRcv GpsDsp GpsSat GpsSat   PLL   HiRcvr  Humid Supply Extern Extern CompRunTime    Date
+%%  FromStart degC degC  HexCode  Seconds   Volts  Volts  Volts  Volts degC degC Watts Watts  VSWR   Volts  Volts   Mode   Mode   Lock  Unlock Unlock   degC     %    Amps  InputA InputB   Minutes      Year Mo Dy Hr Mn Sec
+% -35.0 31 41 0 972965 0.0 5.21 -5.16 12.38 29 34 31 5 2.3 23.85 4.98 0 0 19 1 0 31.3 44 0.0 0 0 445.41 2026 5 28 15 25 0
+% -30.0 31 41 0 973265 0.0 5.21 -5.16 12.38 29 34 32 5 2.3 23.85 4.98 0 0 20 0 0 31.4 43 0.0 0 0 450.60 2026 5 28 15 30 0
+% -25.0 31 41 0 973565 0.0 5.21 -5.16 12.38 29 34 31 5 2.3 23.85 4.98 0 0 20 0 0 31.2 44 0.0 0 0 455.43 2026 5 28 15 35 0
+% -20.0 31 41 0 973864 0.0 5.21 -5.16 12.38 29 34 31 5 2.3 23.85 4.98 0 0 19 1 0 31.5 43 0.0 0 0 460.44 2026 5 28 15 40 0
+% -15.0 31 41 0 974163 0.0 5.21 -5.16 12.38 29 34 31 5 2.2 23.85 4.98 0 0 18 2 0 31.5 43 0.0 0 0 465.67 2026 5 28 15 45 0
+% -10.0 31 41 0 974463 0.0 5.21 -5.16 12.38 29 34 31 5 2.3 23.85 4.98 0 0 17 3 0 31.5 43 0.0 0 0 470.46 2026 5 28 15 50 0
+%  -5.0 31 41 0 974762 0.0 5.21 -5.16 12.38 29 34 31 5 2.3 23.85 4.98 0 0 18 2 0 31.2 44 0.0 0 0 475.47 2026 5 28 15 55 0
+%   0.0 31 41 0 975062 0.0 5.21 -5.16 12.38 29 34 31 5 2.3 23.85 4.98 0 0 17 3 0 31.2 44 0.0 0 0 480.48 2026 5 28 16  0 0
+%   5.0 31 41 0 975361 0.0 5.21 -5.16 12.38 29 34 31 5 2.3 23.85 4.98 0 0 18 2 0 31.2 44 0.0 0 0 485.73 2026 5 28 16  5 0
+%  10.0 31 41 0 975660 0.0 5.21 -5.16 12.38 29 34 32 5 2.3 23.85 4.98 0 0 18 2 0 31.5 43 0.0 0 0 490.50 2026 5 28 16 10 0
+%  15.0 31 41 0 975959 0.0 5.21 -5.16 12.38 29 34 32 5 2.3 23.85 4.98 0 0 20 0 0 31.4 43 0.0 0 0 495.52 2026 5 28 16 15 0
+%  20.0 31 41 0 976258 0.0 5.21 -5.16 12.38 29 34 31 5 2.3 23.85 4.98 0 0 20 0 0 31.5 43 0.0 0 0 500.53 2026 5 28 16 20 0
+%  25.0 31 41 0 976557 0.0 5.21 -5.16 12.38 29 34 31 5 2.3 23.85 4.98 0 0 19 1 0 31.2 44 0.0 0 0 505.78 2026 5 28 16 25 0
+%  30.0 31 41 0 976857 0.0 5.21 -5.16 12.38 29 34 31 5 2.3 23.85 4.98 0 0 20 0 0 31.3 44 0.0 0 0 510.55 2026 5 28 16 30 0
+%  35.0 31 41 0 977156 0.0 5.21 -5.16 12.38 29 34 31 5 2.3 23.85 4.98 0 0 20 0 0 31.5 43 0.0 0 0 515.56 2026 5 28 16 35 0
+%TableEnd: 3
+%%
+%ProcessedTimeStamp: 2026 05 28  16 37 41
+%ProcessingTool: "LLUVMusic" 14.0.7
+%ProcessingTool: "LLUVMerger" 4.0.3
+%ProcessingTool: "LLUVCutoff" 4.0.1
+%ProcessingTool: "LLUVArchiver" 2.0.2
+%End:
