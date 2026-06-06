@@ -1,0 +1,161 @@
+%CTF: 1.00
+%FileType: LLUV rdls "RadialMap"
+%LLUVSpec: 1.60  2024 03 30
+%UUID: 32A5303F-7706-4536-9E8D-623B08B63CDB
+%Manufacturer: CODAR Ocean Sensors. SeaSonde
+%Site: CNET ""
+%TimeStamp: 2026 06 06  07 00 00
+%TimeZone: "UTC" +0.000 0 "Atlantic/Reykjavik"
+%TimeCoverage: 75.000 Minutes
+%Origin: 42.7020167    3.0380167
+%GreatCircle: "WGS84" 6378137.000  298.257223562997
+%GeodVersion: "CGEO" 3.00  2024 03 19
+%LLUVTrustData: all  all lluv xyuv rbvd
+%LLUVDataQuality: 2 Flawed "Bragg on A3 is missing or low."
+%RangeStart: 2
+%RangeEnd: 63
+%RangeResolutionKMeters: 1.510147
+%RangeCells: 62
+%DopplerCells: 1024
+%DopplerInterpolation: 2
+%AntennaBearing: 132.0 True
+%ReferenceBearing: 0 True
+%AngularResolution: 5 Deg
+%RiverBearing: 0.0 True
+%PatternType: Measured
+%PatternDate: 2025 12 05  08 54 51
+%PatternResolution: 1.0 deg
+%PatternSmoothing: 20.0 deg
+%PatternUUID: DCF9542D-4989-44F3-BF2F-8594415C771E
+%AverSignalToNoise: 9.0
+%AverDistanceToPattern: 1.7
+%TransmitCenterFreqMHz: 13.500000
+%TransmitBandwidthKHz: -99.259377
+%TransmitSweepRateHz: 2.000000
+%TransmitTimingAlignmentUs: 39765 us
+%FirstOrderMethod: 0  2 64
+%BraggSmoothingPoints: 2
+%CurrentVelocityLimit: 180.0
+%BraggHasSecondOrder: 0
+%RadialBraggPeakDropOff: 316.230
+%RadialBraggPeakNull: 10.000
+%RadialBraggNoiseThreshold: 2.000
+%RadialSplitBraggRatio: 3.160 0
+%RadialDCBlock: 5.100 0
+%PatternAmplitudeCorrections: 7.1371  1.8478
+%PatternPhaseCorrections: 72.92  75.11
+%PatternAmplitudeCalculations: 999.0000  999.0000
+%PatternPhaseCalculations: 31.78  -116.53
+%RadialMusicParameters: 40.000 20.000 2.000
+%FirstOrderCalc: 0
+%MergeMethod: 1 MedianVectors
+%MergedCount: 7
+%MergeMedianMethod: 1 balance
+%MergeCloseness: 0.0001 km
+%MergeMinimumVectors: 2
+%MergeVectorLocation: False
+%MergeSources: 7
+%QCFileVersion: 2.0.0
+%QCReference: Quality control reference: IOOS QARTOD HF Radar ver 2.0 June 2022
+%QCFlagDefinitions: 1=pass 2=not_evaluated 3=suspect 4=fail 9=missing_data
+%QCTestFormat: "test_name [qc_thresholds]: test_result"
+%QCTest: qc_qartod_syntax (Q201) - Test applies to entire file. Thresholds=[N/A]: See results in column Q201
+%QCTest: qc_qartod_valid_location (Q203) - Test applies to each row. Thresholds=[VFLG==128]: See results in column Q203 below
+%QCTest: qc_qartod_maximum_velocity (Q202) - Test applies to each row. Thresholds=[ high_vel=140 (cm/s) max_vel=170 (cm/s) ]: See results in column Q202 below
+%QCTest: qc_qartod_temporal_gradient (Q206) - Test applies to each row. Thresholds=[ gradient_temp_warn=36 (cm/s*hr) gradient_temp_fail=54 (cm/s*hr) ]: See results in column Q206 below
+%QCTest: qc_qartod_spatial_median (Q205) - Test applies to each row. Thresholds=[ range_cell_limit=2.1 (range cells) angular_limit=10 (degrees) current_difference=30 (cm/s) ]: See results in column Q205 below
+%QCTest: qc_qartod_avg_radial_bearing (Q207) - Test applies to entire file. Thresholds=[ reference_bearing=84 (degrees) warning=30 (degrees) failure=30 (degrees) ]: See result in column Q207 below
+%QCTest: qc_qartod_radial_count (Q204) - Test applies to entire file. Thresholds=[ failure=50 (radials) warning_num=140 (radials) <valid_radials=38> ]:  See results in column Q204 below
+%QCTest: qc_qartod_primary_flag (PRIM) - Primary Flag - Highest flag value of Q201, Q203, Q202, Q206, Q205, Q207, Q204("not_evaluated" flag results ignored)
+%TableType: LLUV RDL9
+%TableColumns: 28
+%TableColumnTypes: LOND LATD VELU VELV VFLG ESPC ETMP EDTP EASN MAXV MINV ERSC ERTC XDST YDST RNGE BEAR VELO HEAD SPRC Q201 Q203 Q202 Q206 Q205 Q207 Q204 PRIM
+%TableRows: 38
+%TableStart: 
+%% Longitude   Latitude  U comp  V comp VectorFlag Spatial Temporal   Pattern   SNR Velocity Velocity Spatial Temporal X Distance Y Distance    Range Bearing Velocity Direction Spectra   Q201   Q203   Q202   Q206   Q205   Q207   Q204   PRIM
+%%     (deg)      (deg)  (cm/s)  (cm/s) (GridCode) Quality  Quality  Distance  (dB)  Maximum  Minimum   Count    Count       (km)       (km)     (km)  (True)   (cm/s)    (True) RngCell (flag) (flag) (flag) (flag) (flag) (flag) (flag) (flag)
+   3.0924638 42.6949220  -3.737   0.661          0   2.076    2.797       6.6   7.1   10.929   -0.086       4        2     4.4616    -0.7867   4.5304   100.0    3.795     280.0       3      1      1      1      2      1      1      4      4
+   3.0899638 42.6880565  -1.099   0.401          0   1.062    1.352       4.8  10.3    4.423   -4.252       4        3     4.2572    -1.5495   4.5304   110.0     1.17     290.0       3      1      1      1      2      1      1      4      4
+   3.0881156 42.6847703  -4.007   1.872          0   0.605    1.534       2.2  12.7     8.76    0.086       1        4     4.1059    -1.9146   4.5304   115.0    4.423     295.0       3      1      1      1      2      1      1      4      4
+   3.0858865 42.6816154  -5.707   3.299          0   1.069    4.367       2.4  11.7    7.676   -2.083       1        3     3.9234    -2.2652   4.5304   120.0    6.592     300.0       3      1      1      1      2      1      1      4      4
+   3.0832934 42.6786158  -6.285   4.406          0   0.000    1.084       6.1  10.4     8.76    6.592       1        2     3.7111    -2.5985   4.5304   125.0    7.676     305.0       3      1      1      1      2      1      1      4      4
+   3.0691990 42.7512948   6.843  14.661          0   0.723   35.711       0.0   5.0   58.468  -18.348       4        3     2.5529     5.4746   6.0406    25.0  -16.179     205.0       4      1      1      1      2      1      1      4      4
+   3.0803340 42.7465519    4.93   7.033          0   0.795   12.085       5.8   3.6   15.266  -19.432       1        3     3.4647     4.9482   6.0406    35.0   -8.589     215.0       4      1      1      1      2      1      1      4      4
+   3.1117420 42.7019930  -0.542     0.0          0   0.714    7.134       0.0  13.2     8.76   -6.592       1        2     6.0406        0.0   6.0406    90.0    0.542     270.0       4      1      1      1      2      1      1      4      4
+   3.1114558 42.6972539   -3.24   0.286          0   0.542    1.170       0.0   5.7    4.423    2.083       1        2     6.0176    -0.5265   6.0406    95.0    3.253     275.0       4      1      1      1      2      1      1      4      4
+   3.1106109 42.6925512  -3.779    0.67          0   1.669    4.837      -0.6   9.4    8.675   -0.999       2        2     5.9488    -1.0489   6.0406   100.0    3.838     280.0       4      1      1      1      2      1      1      4      4
+   3.1072751 42.6833976  -2.117   0.773          0   1.366    1.534       4.1  11.6    6.592   -4.252       2        4     5.6763     -2.066   6.0406   110.0    2.254     290.0       4      1      1      1      2      1      1      4      4
+   3.1048099 42.6790164  -0.077   0.036          0   0.542    2.168       5.0  12.2    2.254   -2.083       2        2     5.4746    -2.5529   6.0406   115.0    0.085     295.0       4      1      1      1      2      1      1      4      4
+   3.1018368 42.6748102   0.864    -0.5          0   0.542    1.084       0.0  11.7    0.086   -2.083       1        2     5.2313    -3.0203   6.0406   120.0   -0.999     300.0       4      1      1      1      2      1      1      4      4
+   3.0983787 42.6708112   3.481  -2.441          0   0.000    4.456       6.1  10.2    0.086  -10.758       1        3     4.9482    -3.4647   6.0406   125.0   -4.252     305.0       4      1      1      1      2      1      1      4      4
+   3.0944619 42.6670497   1.595   -1.34          0   0.000    3.541       7.2  20.0    2.254    -6.42       1        3     4.6274    -3.8828   6.0406   130.0   -2.083     310.0       4      1      1      1      2      1      1      4      4
+   3.0695683 42.7658839   9.252  25.389          0   0.000    5.422       0.0   6.8  -21.601  -32.444       1        2     2.5825     7.0953   7.5507    20.0  -27.022     200.0       5      1      1      1      2      1      1      4      4
+   3.0770021 42.7636125   6.386  13.677          0   0.000    2.168       0.0   4.1  -12.926  -17.263       1        2     3.1911     6.8433   7.5507    25.0  -15.095     205.0       5      1      1      1      2      1      1      4      4
+   3.1287554 42.6901777   5.338  -0.947          0   0.000    3.339       4.4  11.8   -2.083    -8.76       1        2      7.436    -1.3112   7.5507   100.0   -5.422     280.1       5      1      1      1      2      1      1      4      4
+   3.1270074 42.6843899   3.058  -0.823          0   0.000    3.253       7.7   6.3    0.086    -6.42       1        2     7.2934    -1.9543   7.5507   105.0   -3.167     285.1       5      1      1      1      2      1      1      4      4
+   3.1245827 42.6787365   0.938  -0.343          0   0.542    3.253       0.0  20.4    2.254   -4.252       1        2     7.0953    -2.5825   7.5507   110.0   -0.999     290.1       5      1      1      1      2      1      1      4      4
+   3.1214999 42.6732604  -0.569   0.266          0   0.542    2.470       0.0  13.4    2.254   -4.252       2        4     6.8433    -3.1911   7.5507   115.0    0.628     295.1       5      1      1      1      2      1      1      4      4
+   3.1085628 42.6583038   2.425  -2.038          0   0.361    3.859       6.6   9.5    4.423   -4.252       4        3     5.7842    -4.8535   7.5507   130.0   -3.167     310.0       5      1      1      1      2      1      1      4      4
+   3.0758866 42.7786568   4.456  12.225          0   0.000    2.254       0.0   9.6  -10.758  -15.266       1        2      3.099     8.5145   9.0609    20.0  -13.012     200.0       6      1      1      1      2      1      1      4      4
+   3.0848087 42.7759304   5.469  11.712          0   0.000    0.000       0.0   6.4  -12.926  -12.926       1        2     3.8293      8.212   9.0609    25.0  -12.926     205.0       6      1      1      1      2      1      1      4      4
+   3.1015154 42.7688136   7.422  10.583          0   0.000    2.168      -3.7   3.4  -10.758  -15.095       1        2     5.1971     7.4223   9.0609    35.0  -12.926     215.0       6      1      1      1      2      1      1      4      4
+   3.1228033 42.7544146   5.054   4.232          0   0.000    0.000       2.0   3.7   -6.592   -6.592       1        2     6.9411     5.8242   9.0609    50.0   -6.592     230.1       6      1      1      1      2      1      1      4      4
+   3.1382988 42.7364439     5.9   2.743          0   0.000    2.083       5.8   5.1   -4.423   -8.589       1        2      8.212     3.8293   9.0609    65.0   -6.506     245.1       6      1      1      1      2      1      1      4      4
+   3.1418888 42.6740724  -2.118   0.774          0   0.542    4.338       0.0  17.8    6.592   -2.083       2        2     8.5145     -3.099   9.0609   110.0    2.254     290.1       6      1      1      1      2      1      1      4      4
+   3.1337260 42.6611936  -4.297   2.488          0   1.428    0.542       5.1   8.1    6.592    2.254       6        2      7.847    -4.5304   9.0609   120.0    4.965     300.1       6      1      1      1      2      1      1      4      4
+   3.1121115 42.7799425    4.72   6.728          0   0.542    1.626      -0.3  10.5   -6.592  -10.929       4        2     6.0633     8.6593   10.571    35.0   -8.218     215.1       7      1      1      1      2      1      1      4      4
+   3.1210454 42.7748827    4.94   5.875          0   0.000    1.084       4.6   7.6   -6.592    -8.76       1        2     6.7949     8.0979   10.571    40.0   -7.676     220.1       7      1      1      1      2      1      1      4      4
+   3.1004308 42.8005639   7.766  16.623          0   0.000    3.253       0.0   6.6  -15.095  -21.601       1        2     5.1057    10.9493  12.0812    25.0  -18.348     205.0       8      1      1      1      2      1      1      4      4
+   3.1227120 42.7910712   3.786   5.396          0   1.056    1.314       3.4   7.3   -4.423   -8.675       1        3     6.9295     9.8963  12.0812    35.0   -6.592     215.1       8      1      1      1      2      1      1      4      4
+   3.1439238 42.8133248     8.1  11.537          0   2.470    3.339      -5.3   7.7  -10.758  -17.435       4        2     8.6619    12.3704  15.1015    35.0  -14.096     215.1      10      1      1      1      2      1      1      4      4
+   3.1681451 42.6058156  -1.531   1.536          0   0.542   13.097       0.0   4.0   15.266  -10.929       1        2    10.6784   -10.6784  15.1015   135.0    2.168     315.1      10      1      1      1      2      1      1      4      4
+   3.3502558 42.7217331   7.564   0.634          0   0.000    1.170       0.0   7.4    -6.42    -8.76       1        2    25.5748     2.2375  25.6725    85.0    -7.59     265.2      17      1      1      1      2      1      1      4      4
+   3.4001001 43.1605750  22.351  38.331          0   0.000   22.771       0.0   9.6  -21.601  -67.142       1        2    29.4479    51.0052  58.8957    30.0  -44.372     210.2      39      1      1      1      2      1      1      4      4
+   3.3837667 43.2435787  15.256  32.367          0   0.000   14.010       0.0  13.9  -21.772  -49.793       1        2    28.0815     60.221  66.4465    25.0  -35.783     205.2      44      1      1      1      2      1      1      4      4
+%TableEnd: 
+%%
+%TableType: rads rad3
+%TableColumns: 33
+%TableColumnTypes: TIME AMP1 AMP2 PH13 PH23 CPH1 CPH2 SNF1 SNF2 SNF3 SSN1 SSN2 SSN3 DGRC DOPV DDAP RADV RAPR RARC RADR RMCV RACV RABA RTYP STYP DDTP DSNR TYRS TMON TDAY THRS TMIN TSEC
+%TableRows: 7
+%TableStart: 2
+%%  TIME  AMP1  AMP2  PH13  PH23   CPH1  CPH2  SNF1   SNF2   SNF3   SSN1  SSN2  SSN3  DGRC  DOPV  DDAP  RADV  RAPR  RARC  RADR  RMCV  RACV  RABA  RTYP  STYP  DDTP  DSNR  TYRS  TMON  TDAY  THRS  TMIN  TSEC
+%  -1800  0.0   0.0   31.8 -116.5  72.9  75.1 -142.0 -142.0 -137.0  18.0  19.0  22.0   5    4117   12   281    6     62   87.6 140.9  25.9  84.9   2     0    3.7   9.2   2026   6     6     6     30    0  
+%  -1200  0.0   0.0   37.5  -17.0  72.9  75.1 -134.0 -133.0 -130.0  14.0   6.0  16.0   3     448    4    38    6     62   13.6 -21.6   8.0  99.5   2     0    2.2   8.3   2026   6     6     6     40    0  
+%   -600  0.0   0.0   33.0  -94.9  72.9  75.1 -134.0 -132.0 -129.0  10.0  10.0  14.0   5     339    2    22    3     62    7.6 -15.1   5.6  84.7   2     0    2.5   9.1   2026   6     6     6     50    0  
+%      0  0.0   0.0   22.7  -12.5  72.9  75.1 -134.0 -133.0 -129.0   7.0   8.0  14.0   4     373    4    38    5     62   10.6 -15.1   7.7  84.2   2     0    1.9   8.0   2026   6     6     7      0    0  
+%    600  0.0   0.0   31.6 -100.9  72.9  75.1 -134.0 -132.0 -129.0   8.0   5.0  12.0   6     339    4    23    2     62   10.6 -13.1   4.4  86.0   2     0    3.2   7.8   2026   6     6     7     10    0  
+%   1200  0.0   0.0   27.5  -41.0  72.9  75.1 -134.0 -133.0 -130.0   7.0   7.0  12.0   4     319    6    25    2     62    6.0 -21.8  12.5  69.8   2     0    1.4   5.6   2026   6     6     7     20    0  
+%   1800  0.0   0.0   26.9  -40.8  72.9  75.1 -134.0 -133.0 -130.0   9.0   7.0  12.0   4     374    2    14    1     62    0.0  69.3  13.5 107.1   2     0    4.9   8.2   2026   6     6     7     30    0  
+%TableEnd: 2
+%%
+%TableType: rcvr rcv3
+%TableColumns: 33
+%TableColumnTypes: TIME RTMP MTMP XTRP RUNT SP24 SP05 SN05 SP12 XPHT XAHT XAFW XARW X1VR XP28 XP05 GRMD GDMD GSLK GSUL PLLL HTMP HUMI RBIA EXTA EXTB CRUN TYRS TMON TDAY THRS TMIN TSEC
+%TableRows: 15
+%TableStart: 3
+%%   Minutes  Rcvr  Awg XmitTrip  AwgRun   Supply  +5VDC  -5VDC +12VDC XInt XAmp XForw XRefl  Xmit  X+Ampl  X+5V   GpsRcv GpsDsp GpsSat GpsSat   PLL   HiRcvr  Humid Supply Extern Extern CompRunTime    Date
+%%  FromStart degC degC  HexCode  Seconds   Volts  Volts  Volts  Volts degC degC Watts Watts  VSWR   Volts  Volts   Mode   Mode   Lock  Unlock Unlock   degC     %    Amps  InputA InputB   Minutes      Year Mo Dy Hr Mn Sec
+% -35.0 31 42 0 1714868 0.0 5.21 -5.16 12.38 30 35 31 5 2.3 23.85 4.98 0 0 17 3 0 32.0 38 0.0 0 0 1345.39 2026 6 6 6 25 0
+% -30.0 31 42 0 1715167 0.0 5.21 -5.16 12.38 30 35 31 5 2.3 23.85 4.98 0 0 19 1 0 31.8 38 0.0 0 0 1350.66 2026 6 6 6 30 0
+% -25.0 31 42 0 1715466 0.0 5.21 -5.16 12.38 30 35 31 5 2.3 23.85 5.00 0 0 19 1 0 32.0 38 0.0 0 0 1355.38 2026 6 6 6 35 0
+% -20.0 31 42 0 1715765 0.0 5.21 -5.16 12.38 30 35 31 5 2.4 23.85 4.98 0 0 19 1 0 31.9 38 0.0 0 0 1360.39 2026 6 6 6 40 0
+% -15.0 32 42 0 1716064 0.0 5.21 -5.16 12.38 30 35 31 5 2.3 23.85 4.98 0 0 18 2 0 31.8 38 0.0 0 0 1365.75 2026 6 6 6 45 0
+% -10.0 31 42 0 1716364 0.0 5.21 -5.16 12.38 30 35 31 5 2.3 23.85 4.98 0 0 19 1 0 31.8 38 0.0 0 0 1370.41 2026 6 6 6 50 0
+%  -5.0 31 42 0 1716663 0.0 5.21 -5.16 12.38 30 35 32 5 2.3 23.85 4.98 0 0 20 0 0 31.9 38 0.0 0 0 1375.42 2026 6 6 6 55 0
+%   0.0 31 42 0 1716963 0.0 5.21 -5.16 12.38 30 35 31 5 2.2 23.85 4.98 0 0 15 2 0 31.8 38 0.0 0 0 1380.54 2026 6 6 7  0 0
+%   5.0 31 42 0 1717262 0.0 5.21 -5.16 12.38 30 35 31 5 2.3 23.85 4.98 0 0 19 1 0 31.8 38 0.0 0 0 1385.43 2026 6 6 7  5 0
+%  10.0 31 42 0 1717561 0.0 5.21 -5.16 12.38 30 35 31 5 2.3 23.85 4.98 0 0 18 1 0 32.0 38 0.0 0 0 1390.44 2026 6 6 7 10 0
+%  15.0 31 42 0 1717860 0.0 5.21 -5.16 12.38 30 35 31 5 2.3 23.85 4.98 0 0 19 1 0 31.9 38 0.0 0 0 1395.46 2026 6 6 7 15 0
+%  20.0 32 42 0 1718160 0.0 5.21 -5.16 12.38 30 35 31 5 2.3 23.85 4.98 0 0 19 1 0 31.8 38 0.0 0 0 1400.64 2026 6 6 7 20 0
+%  25.0 31 42 0 1718459 0.0 5.21 -5.16 12.38 30 35 32 5 2.3 23.85 4.98 0 0 20 0 0 32.0 38 0.0 0 0 1405.50 2026 6 6 7 25 0
+%  30.0 31 42 0 1718759 0.0 5.21 -5.16 12.38 30 35 31 5 2.3 23.85 4.98 0 0 19 1 0 31.8 38 0.0 0 0 1410.50 2026 6 6 7 30 0
+%  35.0 31 42 0 1719058 0.0 5.21 -5.16 12.38 30 35 31 5 2.3 23.85 4.98 0 0 19 1 0 31.9 38 0.0 0 0 1415.52 2026 6 6 7 35 0
+%TableEnd: 3
+%%
+%ProcessedTimeStamp: 2026 06 06  07 38 06
+%ProcessingTool: "LLUVMusic" 14.0.7
+%ProcessingTool: "LLUVMerger" 4.0.3
+%ProcessingTool: "LLUVCutoff" 4.0.1
+%ProcessingTool: "LLUVArchiver" 2.0.2
+%End:
