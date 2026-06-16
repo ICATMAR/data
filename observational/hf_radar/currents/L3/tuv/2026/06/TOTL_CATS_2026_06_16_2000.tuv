@@ -1,7 +1,7 @@
 %CTF: 1.00
 %FileType: LLUV tots "CurrentMap"
 %LLUVSpec: merge_radials 0.6 2026 02 23
-%UUID: ebba6d76-170f-43ad-996f-7b18b7310bc7
+%UUID: 808fef44-bd2b-48ad-bc28-210e6e3bc16d
 %Manufacturer: CODAR Ocean Sensors. SeaSonde
 %Site: CATS 
 %TimeStamp: 2026 06 16  20 00 00
@@ -1600,7 +1600,7 @@
 %TableType: MRGS src3
 %TableColumns: 15
 %TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
-%TableRows: 5
+%TableRows: 6
 %TableStart: 2
 %%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
 %%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
@@ -1610,9 +1610,10 @@
 %      7   "GNST"     41.2560667    1.9221833       75.000    1.664243    "Meas"     208.0      1020      41.3414937   40.2825287     2.8892352     1.0421042             "/home/icatmar/data/radars/GNST/L2/L2B//2026/06/RDLm_GNST_2026_06_16_2000_l2b.ruv"  "13C18CA4-179B-42D8-90C4-3880959CE4C4"
 %      4   "TOSS"     41.7157000    2.9339000       75.000    1.664243    "Meas"     201.0       935      42.1182805   40.9932283     3.9880275     1.7363679             "/home/icatmar/data/radars/TOSS/L2/L2B//2026/06/RDLm_TOSS_2026_06_16_2000_l2b.ruv"  "F4D14A32-414E-4C5D-9F87-D6C66B1F6F15"
 %      8   "SCAL"     41.1862833    1.6073000       75.000    1.664243    "Meas"     217.0      1594      41.4462627   40.1521963     2.9759086     0.2906680             "/home/icatmar/data/radars/SCAL/L2/L2B//2026/06/RDLm_SCAL_2026_06_16_2000_l2b.ruv"  "E1837EA0-AF61-4112-AC28-0EC21D0EDE4F"
+%      1   "CNET"     42.7020167    3.0380167       75.000    1.510147    "Meas"     132.0       363      43.2353714   42.4781922     3.7254850     3.0569165             "/home/icatmar/data/radars/CNET/L2/L2B//2026/06/RDLm_CNET_2026_06_16_2000_l2b.ruv"  "2798C597-4F19-44D3-9DC2-CD285DC1DB91"
 %TableEnd: 2
 %%
 %%
-%ProcessedTimeStamp: 2026 06 16  23 26 37
+%ProcessedTimeStamp: 2026 06 17  00 24 03
 %ProcessingTool: merge_radials 0.6
 %End:
