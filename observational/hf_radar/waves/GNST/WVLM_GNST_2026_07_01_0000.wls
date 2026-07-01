@@ -1,32 +1,32 @@
 %CTF: 1.00
 %FileType: WVMD WVM9 "Wave History"
-%UUID: 44B3AD03-5335-4671-98FF-2F1E6B6AD7D2
+%UUID: 8E34A1D5-90A7-4753-B940-F55B47875E3C
 %Manufacturer: CODAR Ocean Sensors. SeaSonde
-%Site: PBCN ""
+%Site: GNST ""
 %TimeMarks: start
 %TimeStamp: 2026 07 01  00 00 00
 %TimeZone: "UTC" +0.000 0
-%Origin:  41.3475833    2.1740500
+%Origin:  41.2560667    1.9221833
 %%
 %%
 %% Note: Parameters for Last processed item...
 %TimeCoverage: 0.250 hours
-%AntennaBearing: 177.0
+%AntennaBearing: 208.0
 %RangeCells: 31
 %DopplerCells: 512
 %TransmitCenterFreqMHz: 13.500000
 %TransmitBandwidthKHz: -90.068695
 %TransmitSweepRateHz: 2.000000
-%CoastlineSector: 50.0 190.0  %% Start CW to Stop in Deg NCW
+%CoastlineSector: 82.0 250.0  %% Start CW to Stop in Deg NCW
 %CurrentVelocityLimit: 180
-%BraggSmoothingPoints: 5
+%BraggSmoothingPoints: 4
 %BraggHasSecondOrder: 1
-%WaveBraggNoiseThreshold: 1.6
+%WaveBraggNoiseThreshold: 3.2
 %WaveBraggPeakDropOff: 100.0
 %WaveBraggPeakNull: 10.0
 %WaveSplitBraggRatio: 6.30
 %MaximumWavePeriod: 17.0
-%WaveBearingLimits: 104.0 296.0  %% Start CW to Stop in Deg NCW
+%WaveBearingLimits: 116.0 284.0  %% Start CW to Stop in Deg NCW
 %WaveUseInnerBragg: 0  %% 0 No, 1 Yes
 %WaveSecondOrderMethod: 1   %% 0/1 OnShore, 2 OffShore
 %WaveSaturationRatio: 0.80
@@ -48,15 +48,15 @@
 %%     Time     ----------Wave----------    Wind    WaveNF                                  Placement   Placement                                Height    Height                        
 %%   FromStart   Height  Period   From      From    Height   Spectra   Distance   Range     Longitude    Latitude   Doppler    Wave    Vector    Valid      StdDv    Time                
 %%   (seconds)     (m)     (s)   (True)    (True)     (m)     count      (km)      cell       (deg)       (deg)       bins    Method    Flag     points      (m)     Year Mo Dy  Hr Mn  S
-             0    999.00 999.00     0.0    300.3      1.50      144        nan        2      0.0000000   0.0000000       3        2      240           0     0.00    2026 07 01  00 00 00
-           600      5.23   8.00   242.0     77.0      0.98      144        nan       10      0.0000000   0.0000000      23        2        0           2     0.11    2026 07 01  00 10 00
-          1200      5.06   8.33   245.6     46.5      0.99      144        nan       10      0.0000000   0.0000000      19        2        0           3     0.26    2026 07 01  00 20 00
-          1800      4.92   8.50   259.5     12.0      0.95      168        nan        7      0.0000000   0.0000000      17        2        0           2     0.21    2026 07 01  00 30 00
-          2400    999.00 999.00     0.0    303.3      1.54      168        nan        2            nan         nan       3        2      240           0     0.00    2026 07 01  00 40 00
+             0    999.00 999.00     0.0    219.7      0.87      168        nan        2      0.0000000   0.0000000       0        2       16           0     0.00    2026 07 01  00 00 00
+           600    999.00 999.00     0.0    223.5      0.93      168        nan        2      0.0000000   0.0000000       0        2       16           0     0.00    2026 07 01  00 10 00
+          1200    999.00 999.00     0.0    224.2      0.98      168        nan        2      0.0000000   0.0000000       0        2       16           0     0.00    2026 07 01  00 20 00
+          1800    999.00 999.00     0.0    225.1      0.99      168        nan        2      0.0000000   0.0000000       0        2       16           0     0.00    2026 07 01  00 30 00
+          2400    999.00 999.00     0.0    226.4      1.00      168        nan        2            nan         nan       0        2       16           0     0.00    2026 07 01  00 40 00
 %TableEnd:
 %%
 %%
-%ProcessedTimeStamp: 2026 07 01  01 19 23
+%ProcessedTimeStamp: 2026 07 01  01 19 07
 %ProcessingTool: "WaveModelFilter" 4.0.4
 %ProcessingTool: "SpectraToWavesModel" 11.10.0
 %ProcessingTool: "WaveModelForFive" 11.8.0
