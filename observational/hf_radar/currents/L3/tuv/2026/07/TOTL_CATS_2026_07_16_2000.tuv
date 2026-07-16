@@ -1,0 +1,57 @@
+%CTF: 1.00
+%FileType: LLUV tots "CurrentMap"
+%LLUVSpec: merge_radials 0.6 2026 02 23
+%UUID: 03f75143-f8b1-450f-8002-ba044febeecb
+%Manufacturer: CODAR Ocean Sensors. SeaSonde
+%Site: CATS 
+%TimeStamp: 2026 07 16  20 00 00
+%TimeZone: "UTC" +0.000 0 "UTC"
+%TimeCoverage: 75.000 Minutes
+%Origin:    40.5061167      1.1244500 
+%GreatCircle: "WGS84" 6378137.000  298.257223562997
+%DistanceMethod: "haversine" 1.0 2023 02 27 defined in merge_radials 0.6
+%LLUVTrustData: all %% all lluv xyuv rbvd
+%GridAxisOrientation: 0.0 True
+%GridFileName: "hfradar_totals_grid_icatmar.nc"
+%GridVersion: 2.1
+%GridTimeStamp: 2024 03 07  15 45 03
+%GridLastModified: 2026 03 05  11 18 19
+%GridAxisOrientation: 0.0 DegNCW
+%GridSpacing: 3 km
+%AveragingRadius: 6100.0 m
+%DistanceAngularLimit: None
+%CurrentVelocityLimit: None
+%TableType: LLUV TOT4
+%TableColumns: 19
+%TableColumnTypes: LOND LATD VELU VELV VFLG VELO HEAD UQAL VQAL CQAL GDOP S1CN S2CN S3CN S4CN S5CN S6CN S7CN S8CN
+%TableRows: 9
+%TableStart:
+%%   Longitude   Latitude    U comp   V comp  VectorFlag   Velocity  Direction   Std_U   Std_V     COV     GDOP     Site Contri   Site Contri   Site Contri   Site Contri   Site Contri   Site Contri   Site Contri   Site Contri
+%%     (deg)       (deg)     (cm/s)   (cm/s)  (GridCode)    (cm/s)     (True)   (cm/s)   (cm/s) (cm2/s2) (unitless)       #1            #2            #3            #4            #5            #6            #7            #8
+      3.2087801  41.3130989    4.063   -7.938          0     8.918    152.9       2.773   41.468  -93.896     1.234     0       1       0       0       0       0       2       0
+      3.2441199  41.3130989    4.077   -7.939          0     8.925    152.8       2.728   41.468  -93.801     1.164     0       1       0       0       0       0       3       0
+      3.1734400  41.3400993    5.621   -0.139          0     5.623     91.4       7.690   26.485  -45.300     1.241     0       2       0       0       0       0       1       0
+      3.2087801  41.3400993    3.723   -1.725          0     4.103    114.9       1.638    5.782   -1.999     0.920     0       3       0       0       0       0       2       0
+      3.2441199  41.3400993    3.738   -1.726          0     4.118    114.8       1.563    5.782   -1.981     0.823     0       3       0       0       0       0       3       0
+      3.2794600  41.3400993    3.591   -1.434          0     3.866    111.8       1.682   12.999   -9.207     0.820     0       3       0       0       0       0       3       0
+      3.2087801  41.3670998    4.919    0.026          0     4.919     89.7       7.532    2.118   -4.144     1.127     0       4       0       0       0       0       1       0
+      3.2441199  41.3670998    3.623    0.116          0     3.625     88.2       1.612    2.056   -0.408     0.873     0       4       0       0       0       0       2       0
+      3.2794600  41.3670998    3.025    0.040          0     3.025     89.2       1.567    1.993   -0.372     0.803     0       7       0       0       0       0       2       0
+%TableEnd:
+%%
+%TableType: MRGS src3
+%TableColumns: 15
+%TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
+%TableRows: 2
+%TableStart: 2
+%%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
+%%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
+%%
+%      2   "CREU"     42.3190500    3.3158500       75.000    1.664243    "Meas"      79.0      2000      43.2658615   41.3602362     4.6079545     2.9011194             "/home/icatmar/data/radars/CREU/L2/L2B//2026/07/RDLm_CREU_2026_07_16_2000_l2b.ruv"  "C870815A-0E8D-453D-9CF7-93DB3E9C26AB"
+%      7   "GNST"     41.2560667    1.9221833       75.000    1.664243    "Meas"     206.0      1326      41.3200681   40.3251196     3.2904155     1.0717832             "/home/icatmar/data/radars/GNST/L2/L2B//2026/07/RDLm_GNST_2026_07_16_2000_l2b.ruv"  "A542AB53-82F5-4B0E-BCBF-A50D30AC4756"
+%TableEnd: 2
+%%
+%%
+%ProcessedTimeStamp: 2026 07 16  22 59 13
+%ProcessingTool: merge_radials 0.6
+%End:
