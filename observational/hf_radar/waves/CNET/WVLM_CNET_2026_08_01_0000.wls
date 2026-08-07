@@ -45,7 +45,7 @@
 %TableType: WAVL WM11
 %TableColumns: 33
 %TableColumnTypes: TIME MWHT MWPD WAVB WNDB PMWH ACNT DIST RCLL LOND LATD WDPT MTHD FLAG WHNM WHSD WWHT WWPD WWFB WWDP WWFL SWHT SWPD SWFB SWDP SWFL SWBD TYRS TMON TDAY THRS TMIN TSEC 
-%TableRows: 870
+%TableRows: 871
 %TableStart:
 %%     Time     ----------Wave----------    Wind    WaveNF                                  Placement   Placement                                Height    Height   --Wind----------------------------Wind--  -Swell---------------------------Swell-- -Bimodal-                       
 %%   FromStart   Height  Period   From      From    Height   Spectra   Distance   Range     Longitude    Latitude   Doppler    Wave    Vector    Valid      StdDv    Height  Period   From   Doppler Vector    Height  Period   From   Doppler Vector   Boundary   Time                
@@ -920,10 +920,11 @@
         520800    999.00 999.00  1080.0     68.5      0.42       91        nan        3      3.2025210  42.7178682       9        2      464           0     0.00       0.00   0.00     0.0       0       0       0.00   0.00     0.0       0       0       0.00   2026 08 07  00 40 00
         521400    999.00 999.00  1080.0     67.0      0.40       91        nan        3      3.2025210  42.7178682       9        2      464           0     0.00       0.00   0.00     0.0       0       0       0.00   0.00     0.0       0       0       0.00   2026 08 07  00 50 00
         522000      5.42   7.50   104.5    347.0      0.55        2        nan       12      3.2025210  42.7178682      10        2        0           2     1.17     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 08 07  01 00 00
+        522600    999.00 999.00  1080.0     62.6      0.37       91        nan        3      3.2025210  42.7178682       9        2      464           0     0.00       0.00   0.00     0.0       0       0       0.00   0.00     0.0       0       0       0.00   2026 08 07  01 10 00
 %TableEnd:
 %%
 %%
-%ProcessedTimeStamp: 2026 08 07  01 39 54
+%ProcessedTimeStamp: 2026 08 07  01 48 27
 %ProcessingTool: "SpectraToWavesModel" 11.10.0
 %ProcessingTool: "WaveModelForFive" 11.8.1
 %ProcessingTool: "WaveModelFilter" 6.1.2
