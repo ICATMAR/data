@@ -44,7 +44,7 @@
 %TableType: WAVL WVM9
 %TableColumns: 22
 %TableColumnTypes: TIME MWHT MWPD WAVB WNDB PMWH ACNT DIST RCLL LOND LATD WDPT MTHD FLAG WHNM WHSD TYRS TMON TDAY THRS TMIN TSEC 
-%TableRows: 1814
+%TableRows: 1816
 %TableStart:
 %%     Time     ----------Wave----------    Wind    WaveNF                                  Placement   Placement                                Height    Height                        
 %%   FromStart   Height  Period   From      From    Height   Spectra   Distance   Range     Longitude    Latitude   Doppler    Wave    Vector    Valid      StdDv    Time                
@@ -1862,11 +1862,13 @@
        1332600      0.80   6.00   162.0     32.0      0.10       98        nan       15      0.0000000   0.0000000      15        2        0           1     0.00    2026 08 16  10 10 00
        1333200      0.80   6.00   162.0     32.0      0.10       98        nan       15      0.0000000   0.0000000      15        2        0           1     0.00    2026 08 16  10 20 00
        1333800      0.80   6.00   162.0     32.0      0.10       98        nan       15      0.0000000   0.0000000      15        2        0           1     0.00    2026 08 16  10 30 00
-       1334400      0.63   5.80   157.0     38.0      0.08       98        nan       15            nan         nan      14        2        0           5     0.13    2026 08 16  10 40 00
+       1334400      0.63   5.80   157.0     38.0      0.08       98        nan       15      0.0000000   0.0000000      14        2        0           5     0.13    2026 08 16  10 40 00
+       1335000      0.63   6.00   155.3     42.0      0.07       98        nan       13      0.0000000   0.0000000      15        2        0           3     0.08    2026 08 16  10 50 00
+       1335600      0.63   6.00   155.3     42.0      0.07       98        nan       13            nan         nan      15        2        0           3     0.08    2026 08 16  11 00 00
 %TableEnd:
 %%
 %%
-%ProcessedTimeStamp: 2026 08 16  11 18 12
+%ProcessedTimeStamp: 2026 08 16  11 39 48
 %ProcessingTool: "WaveModelFilter" 4.0.4
 %ProcessingTool: "SpectraToWavesModel" 11.10.0
 %ProcessingTool: "WaveModelForFive" 11.8.0
