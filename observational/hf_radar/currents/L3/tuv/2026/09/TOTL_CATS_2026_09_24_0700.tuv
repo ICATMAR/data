@@ -1,7 +1,7 @@
 %CTF: 1.00
 %FileType: LLUV tots "CurrentMap"
 %LLUVSpec: merge_radials 0.7 2026 08 31
-%UUID: e8cd587d-0527-4a76-990d-723de8c9c1d0
+%UUID: 3f958aca-1225-47e6-a346-3f52eb7bf516
 %Manufacturer: CODAR Ocean Sensors. SeaSonde
 %Site: CATS 
 %TimeStamp: 2026 09 24  07 00 00
@@ -4212,7 +4212,7 @@
 %TableType: MRGS src3
 %TableColumns: 15
 %TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
-%TableRows: 10
+%TableRows: 11
 %TableStart: 2
 %%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
 %%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
@@ -4224,12 +4224,13 @@
 %      7   "GNST"     41.2560667    1.9221833       75.000    1.664243    "Meas"     206.0      1484      41.3049404   40.3570173     3.0473715     0.9727578             "/home/icatmar/data/radars/GNST/L2/L2B//2026/09/RDLm_GNST_2026_09_24_0700_l2b.ruv"  "47A53FB7-D490-4ECA-83A7-B6A146D59BEA"
 %      4   "TOSS"     41.7157000    2.9339000       75.000    1.664243    "Meas"     201.0      2118      42.4295062   40.6841878     4.2544142     1.7363679             "/home/icatmar/data/radars/TOSS/L2/L2B//2026/09/RDLm_TOSS_2026_09_24_0700_l2b.ruv"  "B377E8E8-24C7-431E-ABC6-6D4BBE69B9E9"
 %      8   "SCAL"     41.1862833    1.6073000       75.000    1.664243    "Meas"     217.0      1094      41.3650359   40.1676679     2.7528222     0.4617778             "/home/icatmar/data/radars/SCAL/L2/L2B//2026/09/RDLm_SCAL_2026_09_24_0700_l2b.ruv"  "2A05FD43-A34A-4377-A1A3-2AB55C5506E5"
+%      1   "CNET"     42.7020167    3.0380167       65.000    1.510147    "Meas"     132.0        98      42.9467610   42.6128984     3.6362506     3.0569398             "/home/icatmar/data/radars/CNET/L2/L2B//2026/09/RDLm_CNET_2026_09_24_0700_l2b.ruv"  "81932898-C335-41D7-9E89-50CC2A75FDCB"
 %      11   "VINA"     40.4611500    0.4782833       75.000    1.664243    "Meas"     164.0       752      40.8400382   39.7593571     1.5936349     0.3542702             "/home/icatmar/data/radars/VINA/L2/L2B//2026/09/RDLm_VINA_2026_09_24_0700_l2b.ruv"  "946AD470-8A41-41A5-915A-4BD8B9949430"
 %      10   "ALFA"     40.6708833    0.8269500       75.000    1.664243    "Meas"     167.0      1407      40.8979472   39.7850918     2.2046472     0.1872826             "/home/icatmar/data/radars/ALFA/L2/L2B//2026/09/RDLm_ALFA_2026_09_24_0700_l2b.ruv"  "D2398B74-C146-4E25-BCE8-7F1E21B281FB"
 %      9   "SALO"     41.0555000    1.1717333       75.000    1.664243    "Meas"     211.0      1466      41.2824713   40.1697652     2.3563791     0.6040608             "/home/icatmar/data/radars/SALO/L2/L2B//2026/09/RDLm_SALO_2026_09_24_0700_l2b.ruv"  "4B0287BF-6A4B-4875-80C0-6A3A637E9729"
 %TableEnd: 2
 %%
 %%
-%ProcessedTimeStamp: 2026 09 24  10 23 35
+%ProcessedTimeStamp: 2026 09 24  11 36 52
 %ProcessingTool: merge_radials 0.7
 %End:
