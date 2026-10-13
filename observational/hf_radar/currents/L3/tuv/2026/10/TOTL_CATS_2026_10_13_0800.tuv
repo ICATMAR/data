@@ -1,0 +1,51 @@
+%CTF: 1.00
+%FileType: LLUV tots "CurrentMap"
+%LLUVSpec: merge_radials 0.7 2026 08 31
+%UUID: 73d91ac0-9d6d-46a9-9dff-7b6edba00030
+%Manufacturer: CODAR Ocean Sensors. SeaSonde
+%Site: CATS 
+%TimeStamp: 2026 10 13  08 00 00
+%TimeZone: "UTC" +0.000 0 "UTC"
+%TimeCoverage: 75.000 Minutes
+%Origin:    40.5061167      1.1244500 
+%GreatCircle: "WGS84" 6378137.000  298.257223562997
+%DistanceMethod: "haversine" 1.0 2023 02 27 defined in merge_radials 0.7
+%LLUVTrustData: all %% all lluv xyuv rbvd
+%GridAxisOrientation: 0.0 True
+%GridFileName: "hfradar_totals_grid_icatmar.nc"
+%GridVersion: 3.0
+%GridTimeStamp: 2024 03 07  15 45 03
+%GridLastModified: 2026 08 25  16 40 24
+%GridAxisOrientation: 0.0 DegNCW
+%GridSpacing: 3 km
+%AveragingRadius: 6100.0 m
+%DistanceAngularLimit: None
+%CurrentVelocityLimit: None
+%TableType: LLUV TOT4
+%TableColumns: 22
+%TableColumnTypes: LOND LATD VELU VELV VFLG VELO HEAD UQAL VQAL CQAL GDOP S1CN S2CN S3CN S4CN S5CN S6CN S7CN S8CN S9CN S10CN S11CN
+%TableRows: 2
+%TableStart:
+%%   Longitude   Latitude    U comp   V comp  VectorFlag   Velocity  Direction   Std_U   Std_V     COV     GDOP     Site Contri   Site Contri   Site Contri   Site Contri   Site Contri   Site Contri   Site Contri   Site Contri   Site Contri   Site Contri   Site Contri
+%%     (deg)       (deg)     (cm/s)   (cm/s)  (GridCode)    (cm/s)     (True)   (cm/s)   (cm/s) (cm2/s2) (unitless)       #1            #2            #3            #4            #5            #6            #7            #8            #9           #10           #11
+      3.1734400  41.3941002   -3.874   -7.605          0     8.535    207.0       3.500    6.688   17.501     0.926     0       4       0       0       1       0       0       0       0       0       0
+      3.1734400  41.4211006  -10.115  -12.070          0    15.748    220.0       3.543    6.562   17.340     1.217     0       3       0       0       1       0       0       0       0       0       0
+%TableEnd:
+%%
+%TableType: MRGS src3
+%TableColumns: 15
+%TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
+%TableRows: 3
+%TableStart: 2
+%%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
+%%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
+%%
+%      2   "CREU"     42.3190500    3.3158500       75.000    1.664243    "Meas"      79.0      2095      43.2157053   41.3602362     4.6079545     2.9075104             "/home/icatmar/data/radars/CREU/L2/L2B//2026/10/RDLm_CREU_2026_10_13_0800_l2b.ruv"  "4C02E682-E58F-48BA-9582-46EBAF74C154"
+%      5   "AREN"     41.5775833    2.5577333       75.000    1.664243    "Meas"     197.0       253      41.6266540   41.1817776     3.1113703     2.1653444             "/home/icatmar/data/radars/AREN/L2/L2B//2026/10/RDLm_AREN_2026_10_13_0800_l2b.ruv"  "5D2C8CB9-10C4-41A0-BDA2-92B7D8418895"
+%      10   "ALFA"     40.6708833    0.8269500       75.000    1.664243    "Meas"     167.0      1506      40.8868645   39.7185831     2.2046472     0.2527733             "/home/icatmar/data/radars/ALFA/L2/L2B//2026/10/RDLm_ALFA_2026_10_13_0800_l2b.ruv"  "4699DF17-A8BA-40CB-9C37-0EC0F6F04EA4"
+%TableEnd: 2
+%%
+%%
+%ProcessedTimeStamp: 2026 10 13  10 52 43
+%ProcessingTool: merge_radials 0.7
+%End:
