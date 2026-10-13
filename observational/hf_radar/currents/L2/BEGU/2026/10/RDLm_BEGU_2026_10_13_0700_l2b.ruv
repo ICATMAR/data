@@ -1655,28 +1655,11 @@
    3.7580550 41.1103699   2.567  -5.594          0   0.000    3.274       0.0   7.7    -2.88   -9.429       1        4    44.3104   -95.0239  104.8473   155.0   -6.155     335.3      63      1      1      1      2      1      1      1      1
 %TableEnd: 
 %%
-%TableType: rads rad1
-%TableColumns: 31
-%TableColumnTypes: TIME AMP1 AMP2 PH13 PH23 CPH1 CPH2 SNF1 SNF2 SNF3 SSN1 SSN2 SSN3 DGRC DOPV DDAP RADV RAPR RARC RADR RMCV RACV RABA RTYP STYP TYRS TMON TDAY THRS TMIN TSEC
-%TableRows: 7
-%TableStart: 2
-%%   Time       Calculated      Calculated     Corrected        Noise Floor     SignalToNoise   Diag  Valid  Dual  Radial RadsV Rads   Max   Vel    Vel    Bearing  Radial Spectra Time
-%% FromStart   Amp1    Amp2   Phase13 Phase23 Phase1 Phase2   NF1   NF2   NF3   SN1  SN2  SN3   Range Dopplr Angle Vector  per  Range Range  Max    Aver   Average   Type   Type   Year Mo Dy  Hr Mn  S
-%%  Seconds  (1/v^2) (1/v^2)   (deg)   (deg)   (deg)  (deg)  (dBm) (dBm) (dBm)  (dB) (dB) (dB)  Cell  Cells  Prcnt Count  Range Cells  (km) (cm/s) (cm/s) (deg CWN)
-% -1800 1.8284 3.5189 -87.5 -27.1 -42.8 -30.6 -139.0 -140.0 -133.0 35.0 48.0 46.0 4 5516 24 3242 52 62 103.2   99.7 29.2 66.2 2 0 2026 10 13 6 30 0
-% -1200 0.9757 3.4121 -82.2 -26.7 -42.8 -30.6 -138.0 -138.0 -130.0 36.0 48.0 45.0 3 5760 20 3120 51 62 101.5 -101.1 31.0 64.0 2 0 2026 10 13 6 40 0
-%  -600 1.2627 3.4984 -83.0 -27.2 -42.8 -30.6 -139.0 -139.0 -132.0 35.0 47.0 46.0 4 5620 22 3135 50 62 101.5 -105.5 30.3 64.9 2 0 2026 10 13 6 50 0
-%     0 1.5286 3.5027 -80.2 -26.7 -42.8 -30.6 -138.0 -139.0 -131.0 36.0 47.0 46.0 4 5421 24 3176 52 62  96.5   99.7 29.3 65.7 2 0 2026 10 13 7  0 0
-%   600 2.4001 3.3622 -79.1 -27.3 -42.8 -30.6 -138.0 -139.0 -132.0 37.0 49.0 47.0 3 5289 24 3119 50 62  96.5   95.4 28.8 63.6 2 0 2026 10 13 7 10 0
-%  1200 1.7425 3.4529 -76.2 -27.8 -42.8 -30.6 -138.0 -139.0 -131.0 37.0 48.0 46.0 3 5011 24 2985 48 62 101.5   96.8 28.0 61.8 2 0 2026 10 13 7 20 0
-%  1800 1.7464 3.4807 -82.4 -27.3 -42.8 -30.6 -138.0 -138.0 -131.0 37.0 47.0 46.0 3 5069 24 3034 49 62  94.9   93.9 27.8 62.8 2 0 2026 10 13 7 30 0
-%TableEnd: 2
-%%
 %TableType: rcvr rcv3
 %TableColumns: 33
 %TableColumnTypes: TIME RTMP MTMP XTRP RUNT SP24 SP05 SN05 SP12 XPHT XAHT XAFW XARW X1VR XP28 XP05 GRMD GDMD GSLK GSUL PLLL HTMP HUMI RBIA EXTA EXTB CRUN TYRS TMON TDAY THRS TMIN TSEC
 %TableRows: 15
-%TableStart: 3
+%TableStart: 2
 %%   Minutes  Rcvr  Awg XmitTrip  AwgRun   Supply  +5VDC  -5VDC +12VDC XInt XAmp XForw XRefl  Xmit  X+Ampl  X+5V   GpsRcv GpsDsp GpsSat GpsSat   PLL   HiRcvr  Humid Supply Extern Extern CompRunTime    Date
 %%  FromStart degC degC  HexCode  Seconds   Volts  Volts  Volts  Volts degC degC Watts Watts  VSWR   Volts  Volts   Mode   Mode   Lock  Unlock Unlock   degC     %    Amps  InputA InputB   Minutes      Year Mo Dy Hr Mn Sec
 % -35.0 26 34 0 166562 0.0 4.93 -4.98 11.95 25 31 38 3 1.7 24.37 5.05 0 0 10 0 0 25.7 44 0.0 0 0 1345.45 2026 10 13 6 25 0
@@ -1694,9 +1677,9 @@
 %  25.0 26 34 0 170154 0.0 4.93 -4.98 11.95 25 31 38 3 1.8 24.37 5.05 0 0 12 0 0 25.9 44 0.0 0 0 1405.58 2026 10 13 7 25 0
 %  30.0 26 34 0 170453 0.0 4.93 -4.98 11.95 25 31 38 3 1.8 24.37 5.05 0 0 11 1 0 25.7 44 0.0 0 0 1410.59 2026 10 13 7 30 0
 %  35.0 26 34 0 170752 0.0 4.93 -4.98 11.95 25 31 38 3 1.8 24.37 5.05 0 0 11 1 0 25.8 44 0.0 0 0 1415.60 2026 10 13 7 35 0
-%TableEnd: 3
+%TableEnd: 2
 %%
-%ProcessedTimeStamp: 2026 10 13  07 38 48
+%ProcessedTimeStamp: 2026 10 13  08 02 50
 %ProcessingTool: "LLUVMusic" 13.4.2
 %ProcessingTool: "LLUVMerger" 3.2.1
 %ProcessingTool: "LLUVCutoff" 3.1.0
