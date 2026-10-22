@@ -4,34 +4,56 @@ on:
   push:
     branches: [main]
     paths:
-      - 'observational/hf_radar/**'      # only when radar files change
-      - '!observational/hf_radar/manifest.json'
-  workflow_dispatch:                      # adds a "Run workflow" button
+      - 'observational/hf_radar/currents/**'   # new or changed .ruv / .tuv
+  workflow_dispatch:                            # "Run workflow" button
 
 permissions:
-  contents: write                         # lets it commit the manifest
+  contents: write                               # to commit the manifest
 
-concurrency:                              # hourly pushes: never two runs at once
+concurrency:
   group: manifest
-  cancel-in-progress: true
+  cancel-in-progress: false                     # finish a run; only the newest push waits
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      # Only the manifest, its state and the script: no history, no data files
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            observational/hf_radar/manifest.json
+            observational/hf_radar/manifest.state.json
+            scripts/build_manifest.py
+          sparse-checkout-cone-mode: false
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
-      - name: Build manifest
+      - name: Update manifest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          REF: ${{ github.sha }}
         run: python scripts/build_manifest.py
 
       - name: Commit it if it changed
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add observational/hf_radar/manifest.json
-          git diff --cached --quiet || git commit -m "Update HF radar manifest"
-          git push
+          git config user.name  "github-actions[bot-by-gerard]"
+          git config user.email "github-actions[bot-by-gerard]@users.noreply.github.com"
+          git add observational/hf_radar/manifest.json observational/hf_radar/manifest.state.json
+          if git diff --cached --quiet; then
+            echo "Manifest unchanged"
+            exit 0
+          fi
+          git commit -m "Update HF radar manifest"
+          # New data may have been pushed meanwhile: rebase onto it and retry
+          for attempt in 1 2 3; do
+            git push && exit 0
+            echo "Push rejected, rebasing (attempt $attempt)"
+            git pull --rebase origin main
+          done
+          exit 1
