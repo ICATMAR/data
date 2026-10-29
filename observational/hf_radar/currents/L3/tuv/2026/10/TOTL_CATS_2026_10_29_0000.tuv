@@ -1,0 +1,56 @@
+%CTF: 1.00
+%FileType: LLUV tots "CurrentMap"
+%LLUVSpec: merge_radials 0.7 2026 08 31
+%UUID: 9db4d5ed-024e-4eca-8e64-9b1dcd2e4361
+%Manufacturer: CODAR Ocean Sensors. SeaSonde
+%Site: CATS 
+%TimeStamp: 2026 10 29  00 00 00
+%TimeZone: "UTC" +0.000 0 "UTC"
+%TimeCoverage: 75.000 Minutes
+%Origin:    40.5061167      1.1244500 
+%GreatCircle: "WGS84" 6378137.000  298.257223562997
+%DistanceMethod: "haversine" 1.0 2023 02 27 defined in merge_radials 0.7
+%LLUVTrustData: all %% all lluv xyuv rbvd
+%GridAxisOrientation: 0.0 True
+%GridFileName: "hfradar_totals_grid_icatmar.nc"
+%GridVersion: 3.0
+%GridTimeStamp: 2024 03 07  15 45 03
+%GridLastModified: 2026 08 25  16 40 24
+%GridAxisOrientation: 0.0 DegNCW
+%GridSpacing: 3 km
+%AveragingRadius: 6100.0 m
+%DistanceAngularLimit: None
+%CurrentVelocityLimit: None
+%TableType: LLUV TOT4
+%TableColumns: 22
+%TableColumnTypes: LOND LATD VELU VELV VFLG VELO HEAD UQAL VQAL CQAL GDOP S1CN S2CN S3CN S4CN S5CN S6CN S7CN S8CN S9CN S10CN S11CN
+%TableRows: 8
+%TableStart:
+%%   Longitude   Latitude    U comp   V comp  VectorFlag   Velocity  Direction   Std_U   Std_V     COV     GDOP     Site Contri   Site Contri   Site Contri   Site Contri   Site Contri   Site Contri   Site Contri   Site Contri   Site Contri   Site Contri   Site Contri
+%%     (deg)       (deg)     (cm/s)   (cm/s)  (GridCode)    (cm/s)     (True)   (cm/s)   (cm/s) (cm2/s2) (unitless)       #1            #2            #3            #4            #5            #6            #7            #8            #9           #10           #11
+      3.5268400  42.0690994   -2.379  -41.554          0    41.622    183.3       6.107    4.110   16.174     0.915     2       0       0       3       0       0       0       0       0       0       0
+      3.5621800  42.0690994    3.026  -39.586          0    39.702    175.6       6.105    4.294   14.497     1.121     1       0       0       4       0       0       0       0       0       0       0
+      3.5975201  42.0960999   19.378  -55.909          0    59.172    160.9       7.060   10.453  -69.958     1.155     1       0       0       3       0       0       0       0       0       0       0
+      3.7035401  42.1501007    5.065  -19.477          0    20.125    165.4       4.784    6.313  -10.827     1.441     1       0       0       1       0       0       0       0       0       0       0
+      3.7388799  42.1501007    5.065  -19.477          0    20.125    165.4       4.784    6.313  -10.827     1.441     1       0       0       1       0       0       0       0       0       0       0
+      3.7388799  42.1771011    2.173  -15.099          0    15.255    171.8       3.787    4.501    2.111     1.248     2       0       0       1       0       0       0       0       0       0       0
+      3.7742200  42.1771011   -2.425  -10.073          0    10.360    193.5       4.577    6.005   -8.116     1.259     2       0       0       1       0       0       0       0       0       0       0
+      3.8095601  42.1771011   -8.702    1.371          0     8.809    279.0       9.796   14.574 -123.128     1.471     1       0       0       1       0       0       0       0       0       0       0
+%TableEnd:
+%%
+%TableType: MRGS src3
+%TableColumns: 15
+%TableColumnTypes: SNDX SITE OLAT OLON COVH RNGS PATK REFB NUMV MAXN MAXS MAXE MAXW PATH UUID
+%TableRows: 2
+%TableStart: 2
+%%  Site    Site         Origin       Origin      Coverage    RangeStep  Pattern  Reference   Vectors       Maximum      Maximum       Maximum       Maximum                                               Source                                                             UUID 
+%%  Index               Latitude     Longitude    (minutes)     (km)       Kind    Bearing                   North        South         East          West                                                  Path
+%%
+%      4   "TOSS"     41.7157000    2.9339000       75.000    1.664243    "Meas"     201.0      1835      42.3353423   40.8037974     4.1039274     1.7363679             "/home/icatmar/data/radars/TOSS/L2/L2B//2026/10/RDLm_TOSS_2026_10_29_0000_l2b.ruv"  "2B1911C8-B303-459C-AD55-A0439F794150"
+%      1   "CNET"     42.7020167    3.0380167       75.000    1.510147    "Meas"     132.0      1359      43.4015606   42.1006109     4.1254028     3.0475534             "/home/icatmar/data/radars/CNET/L2/L2B//2026/10/RDLm_CNET_2026_10_29_0000_l2b.ruv"  "8FC7E54F-6999-446A-8FCE-520E746C2E4A"
+%TableEnd: 2
+%%
+%%
+%ProcessedTimeStamp: 2026 10 29  01 51 37
+%ProcessingTool: merge_radials 0.7
+%End:
