@@ -47,7 +47,7 @@
 %TableType: WAVL WM11
 %TableColumns: 33
 %TableColumnTypes: TIME MWHT MWPD WAVB WNDB PMWH ACNT DIST RCLL LOND LATD WDPT MTHD FLAG WHNM WHSD WWHT WWPD WWFB WWDP WWFL SWHT SWPD SWFB SWDP SWFL SWBD TYRS TMON TDAY THRS TMIN TSEC 
-%TableRows: 464
+%TableRows: 465
 %TableStart:
 %%     Time     ----------Wave----------    Wind    WaveNF                                  Placement   Placement                                Height    Height   --Wind----------------------------Wind--  -Swell---------------------------Swell-- -Bimodal-                       
 %%   FromStart   Height  Period   From      From    Height   Spectra   Distance   Range     Longitude    Latitude   Doppler    Wave    Vector    Valid      StdDv    Height  Period   From   Doppler Vector    Height  Period   From   Doppler Vector   Boundary   Time                
@@ -516,6 +516,7 @@
         277200      0.45   4.00    80.4     69.5      0.06        4    4.53044        3      3.0928421  42.7073268      12        2        0           4     0.16     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 00 00
         277800      0.54   4.00   117.4     72.0      0.07        4    4.53044        3      3.0928421  42.7073268      13        2        0           4     0.12     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 10 00
         278400      0.58   4.00   117.4     72.0      0.07        4    4.53044        3      3.0928421  42.7073268      13        2        0           4     0.06     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 20 00
+        279000      0.57   4.00   122.5     72.0      0.07        5    4.53044        3      3.0928421  42.7073268      14        2        0           5     0.05     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 30 00
 %TableEnd:
 %%
 %Distance: 6.04059 km
@@ -523,7 +524,7 @@
 %TableType: WAVL WM11
 %TableColumns: 33
 %TableColumnTypes: TIME MWHT MWPD WAVB WNDB PMWH ACNT DIST RCLL LOND LATD WDPT MTHD FLAG WHNM WHSD WWHT WWPD WWFB WWDP WWFL SWHT SWPD SWFB SWDP SWFL SWBD TYRS TMON TDAY THRS TMIN TSEC 
-%TableRows: 464
+%TableRows: 465
 %TableStart: 2
 %%     Time     ----------Wave----------    Wind    WaveNF                                  Placement   Placement                                Height    Height   --Wind----------------------------Wind--  -Swell---------------------------Swell-- -Bimodal-                       
 %%   FromStart   Height  Period   From      From    Height   Spectra   Distance   Range     Longitude    Latitude   Doppler    Wave    Vector    Valid      StdDv    Height  Period   From   Doppler Vector    Height  Period   From   Doppler Vector   Boundary   Time                
@@ -992,6 +993,7 @@
         277200      0.55   4.00    81.8     69.5      0.06        4    6.04059        4      3.1111194  42.7090910      14        2        0           4     0.15     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 00 00
         277800      0.62   4.00   107.3     72.0      0.07        3    6.04059        4      3.1111194  42.7090910      14        2        0           3     0.12     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 10 00
         278400      0.77   4.00   142.0     72.0      0.07        3    6.04059        4      3.1111194  42.7090910      11        2        0           3     0.12     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 20 00
+        279000      0.95   4.00   137.0     72.0      0.08        5    6.04059        4      3.1111194  42.7090910      13        2        0           5     0.11     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 30 00
 %TableEnd: 2
 %%
 %Distance: 7.55073 km
@@ -999,7 +1001,7 @@
 %TableType: WAVL WM11
 %TableColumns: 33
 %TableColumnTypes: TIME MWHT MWPD WAVB WNDB PMWH ACNT DIST RCLL LOND LATD WDPT MTHD FLAG WHNM WHSD WWHT WWPD WWFB WWDP WWFL SWHT SWPD SWFB SWDP SWFL SWBD TYRS TMON TDAY THRS TMIN TSEC 
-%TableRows: 464
+%TableRows: 465
 %TableStart: 3
 %%     Time     ----------Wave----------    Wind    WaveNF                                  Placement   Placement                                Height    Height   --Wind----------------------------Wind--  -Swell---------------------------Swell-- -Bimodal-                       
 %%   FromStart   Height  Period   From      From    Height   Spectra   Distance   Range     Longitude    Latitude   Doppler    Wave    Vector    Valid      StdDv    Height  Period   From   Doppler Vector    Height  Period   From   Doppler Vector   Boundary   Time                
@@ -1468,6 +1470,7 @@
         277200      0.66   4.00    46.4     69.5      0.07        4    7.55073        5      3.1293976  42.7108523      16        2     1024           4     0.09     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 00 00
         277800      0.72   4.00    64.9     70.0      0.08        5    7.55073        5      3.1293976  42.7108523      16        2        0           5     0.10     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 10 00
         278400      0.73   4.00    56.0     70.3      0.08        6    7.55073        5      3.1293976  42.7108523      16        2        0           6     0.09     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 20 00
+        279000      0.75   4.00    64.9     70.0      0.08        5    7.55073        5      3.1293976  42.7108523      16        2        0           5     0.08     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 30 00
 %TableEnd: 3
 %%
 %Distance: 9.06088 km
@@ -1475,7 +1478,7 @@
 %TableType: WAVL WM11
 %TableColumns: 33
 %TableColumnTypes: TIME MWHT MWPD WAVB WNDB PMWH ACNT DIST RCLL LOND LATD WDPT MTHD FLAG WHNM WHSD WWHT WWPD WWFB WWDP WWFL SWHT SWPD SWFB SWDP SWFL SWBD TYRS TMON TDAY THRS TMIN TSEC 
-%TableRows: 464
+%TableRows: 465
 %TableStart: 4
 %%     Time     ----------Wave----------    Wind    WaveNF                                  Placement   Placement                                Height    Height   --Wind----------------------------Wind--  -Swell---------------------------Swell-- -Bimodal-                       
 %%   FromStart   Height  Period   From      From    Height   Spectra   Distance   Range     Longitude    Latitude   Doppler    Wave    Vector    Valid      StdDv    Height  Period   From   Doppler Vector    Height  Period   From   Doppler Vector   Boundary   Time                
@@ -1944,6 +1947,7 @@
         277200      0.65   4.00    98.6     67.0      0.07        6    9.06088        6      3.1476769  42.7126106      16        2        0           6     0.12     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 00 00
         277800      0.70   4.00    64.2     70.0      0.08        5    9.06088        6      3.1476769  42.7126106      17        2        0           5     0.09     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 10 00
         278400      0.70   4.00    55.7     70.3      0.08        6    9.06088        6      3.1476769  42.7126106      17        2        0           6     0.08     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 20 00
+        279000      0.74   4.00    38.5     72.0      0.08        6    9.06088        6      3.1476769  42.7126106      17        2        0           6     0.10     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 30 00
 %TableEnd: 4
 %%
 %Distance: 10.57103 km
@@ -1951,7 +1955,7 @@
 %TableType: WAVL WM11
 %TableColumns: 33
 %TableColumnTypes: TIME MWHT MWPD WAVB WNDB PMWH ACNT DIST RCLL LOND LATD WDPT MTHD FLAG WHNM WHSD WWHT WWPD WWFB WWDP WWFL SWHT SWPD SWFB SWDP SWFL SWBD TYRS TMON TDAY THRS TMIN TSEC 
-%TableRows: 464
+%TableRows: 465
 %TableStart: 5
 %%     Time     ----------Wave----------    Wind    WaveNF                                  Placement   Placement                                Height    Height   --Wind----------------------------Wind--  -Swell---------------------------Swell-- -Bimodal-                       
 %%   FromStart   Height  Period   From      From    Height   Spectra   Distance   Range     Longitude    Latitude   Doppler    Wave    Vector    Valid      StdDv    Height  Period   From   Doppler Vector    Height  Period   From   Doppler Vector   Boundary   Time                
@@ -2420,6 +2424,7 @@
         277200      0.60   4.00    77.5     68.7      0.07        6   10.57103        7      3.1659573  42.7143661      18        2        0           6     0.08     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 00 00
         277800      0.62   4.00    62.6     70.0      0.07        5   10.57103        7      3.1659573  42.7143661      19        2        0           5     0.08     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 10 00
         278400      0.62   4.00    62.6     72.0      0.07        5   10.57103        7      3.1659573  42.7143661      19        2        0           5     0.08     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 20 00
+        279000      0.63   4.00    46.4     72.0      0.07        4   10.57103        7      3.1659573  42.7143661      19        2        0           4     0.08     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 30 00
 %TableEnd: 5
 %%
 %Distance: 12.08117 km
@@ -2427,7 +2432,7 @@
 %TableType: WAVL WM11
 %TableColumns: 33
 %TableColumnTypes: TIME MWHT MWPD WAVB WNDB PMWH ACNT DIST RCLL LOND LATD WDPT MTHD FLAG WHNM WHSD WWHT WWPD WWFB WWDP WWFL SWHT SWPD SWFB SWDP SWFL SWBD TYRS TMON TDAY THRS TMIN TSEC 
-%TableRows: 464
+%TableRows: 465
 %TableStart: 6
 %%     Time     ----------Wave----------    Wind    WaveNF                                  Placement   Placement                                Height    Height   --Wind----------------------------Wind--  -Swell---------------------------Swell-- -Bimodal-                       
 %%   FromStart   Height  Period   From      From    Height   Spectra   Distance   Range     Longitude    Latitude   Doppler    Wave    Vector    Valid      StdDv    Height  Period   From   Doppler Vector    Height  Period   From   Doppler Vector   Boundary   Time                
@@ -2896,6 +2901,7 @@
         277200      0.72   4.00    87.0     67.0      0.09        2   12.08117        8      3.1842386  42.7161186      15        2        0           2     0.15     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 00 00
         277800      0.98   4.00   137.1     70.0      0.09        5   12.08117        8      3.1842386  42.7161186      17        2        0           5     0.06     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 10 00
         278400      1.02   4.00   138.2     72.0      0.09        6   12.08117        8      3.1842386  42.7161186      18        2        0           6     0.09     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 20 00
+        279000      1.02   4.00   138.5     72.0      0.09        5   12.08117        8      3.1842386  42.7161186      19        2        0           5     0.07     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 30 00
 %TableEnd: 6
 %%
 %Distance: 13.59132 km
@@ -2903,7 +2909,7 @@
 %TableType: WAVL WM11
 %TableColumns: 33
 %TableColumnTypes: TIME MWHT MWPD WAVB WNDB PMWH ACNT DIST RCLL LOND LATD WDPT MTHD FLAG WHNM WHSD WWHT WWPD WWFB WWDP WWFL SWHT SWPD SWFB SWDP SWFL SWBD TYRS TMON TDAY THRS TMIN TSEC 
-%TableRows: 464
+%TableRows: 465
 %TableStart: 7
 %%     Time     ----------Wave----------    Wind    WaveNF                                  Placement   Placement                                Height    Height   --Wind----------------------------Wind--  -Swell---------------------------Swell-- -Bimodal-                       
 %%   FromStart   Height  Period   From      From    Height   Spectra   Distance   Range     Longitude    Latitude   Doppler    Wave    Vector    Valid      StdDv    Height  Period   From   Doppler Vector    Height  Period   From   Doppler Vector   Boundary   Time                
@@ -3372,6 +3378,7 @@
         277200      1.01   4.00   147.0     62.0      0.10        3   13.59132        9      3.2025210  42.7178682      16        2        0           3     0.03     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 00 00
         277800      1.01   4.00   147.0     62.0      0.10        3   13.59132        9      3.2025210  42.7178682      16        2        0           3     0.03     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 10 00
         278400      1.03   4.00   142.0     62.0      0.11        2   13.59132        9      3.2025210  42.7178682      15        2        0           2     0.01     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 20 00
+        279000      0.95   4.00   137.0     67.0      0.11        2   13.59132        9      3.2025210  42.7178682      15        2        0           2     0.09     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 30 00
 %TableEnd: 7
 %%
 %Distance: 15.10147 km
@@ -3379,7 +3386,7 @@
 %TableType: WAVL WM11
 %TableColumns: 33
 %TableColumnTypes: TIME MWHT MWPD WAVB WNDB PMWH ACNT DIST RCLL LOND LATD WDPT MTHD FLAG WHNM WHSD WWHT WWPD WWFB WWDP WWFL SWHT SWPD SWFB SWDP SWFL SWBD TYRS TMON TDAY THRS TMIN TSEC 
-%TableRows: 464
+%TableRows: 465
 %TableStart: 8
 %%     Time     ----------Wave----------    Wind    WaveNF                                  Placement   Placement                                Height    Height   --Wind----------------------------Wind--  -Swell---------------------------Swell-- -Bimodal-                       
 %%   FromStart   Height  Period   From      From    Height   Spectra   Distance   Range     Longitude    Latitude   Doppler    Wave    Vector    Valid      StdDv    Height  Period   From   Doppler Vector    Height  Period   From   Doppler Vector   Boundary   Time                
@@ -3848,6 +3855,7 @@
         277200      0.88   4.00   133.9     67.0      0.10        6   15.10147       10      3.2208044  42.7196149      18        2        0           6     0.09     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 00 00
         277800      0.88   4.00   133.9     67.0      0.10        6   15.10147       10      3.2208044  42.7196149      18        2        0           6     0.09     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 10 00
         278400      0.88   4.00   127.6     68.7      0.11        6   15.10147       10      3.2208044  42.7196149      17        2        0           6     0.09     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 20 00
+        279000      0.87   4.00   122.4     68.0      0.11        5   15.10147       10      3.2208044  42.7196149      17        2        0           5     0.10     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 30 00
 %TableEnd: 8
 %%
 %Distance: 16.61161 km
@@ -3855,7 +3863,7 @@
 %TableType: WAVL WM11
 %TableColumns: 33
 %TableColumnTypes: TIME MWHT MWPD WAVB WNDB PMWH ACNT DIST RCLL LOND LATD WDPT MTHD FLAG WHNM WHSD WWHT WWPD WWFB WWDP WWFL SWHT SWPD SWFB SWDP SWFL SWBD TYRS TMON TDAY THRS TMIN TSEC 
-%TableRows: 464
+%TableRows: 465
 %TableStart: 9
 %%     Time     ----------Wave----------    Wind    WaveNF                                  Placement   Placement                                Height    Height   --Wind----------------------------Wind--  -Swell---------------------------Swell-- -Bimodal-                       
 %%   FromStart   Height  Period   From      From    Height   Spectra   Distance   Range     Longitude    Latitude   Doppler    Wave    Vector    Valid      StdDv    Height  Period   From   Doppler Vector    Height  Period   From   Doppler Vector   Boundary   Time                
@@ -4324,6 +4332,7 @@
         277200      1.02   4.00   146.0     70.0      0.11        5   16.61161       11      3.2390889  42.7213587      17        2        0           5     0.07     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 00 00
         277800      1.03   4.00   145.3     61.0      0.12        6   16.61161       11      3.2390889  42.7213587      17        2        0           6     0.07     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 10 00
         278400      1.07   4.00   144.5     46.2      0.13        6   16.61161       11      3.2390889  42.7213587      17        2        0           6     0.07     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 20 00
+        279000      1.14   4.00   142.8     46.2      0.14        6   16.61161       11      3.2390889  42.7213587      18        2        0           6     0.11     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 30 00
 %TableEnd: 9
 %%
 %Distance: 18.12176 km
@@ -4331,7 +4340,7 @@
 %TableType: WAVL WM11
 %TableColumns: 33
 %TableColumnTypes: TIME MWHT MWPD WAVB WNDB PMWH ACNT DIST RCLL LOND LATD WDPT MTHD FLAG WHNM WHSD WWHT WWPD WWFB WWDP WWFL SWHT SWPD SWFB SWDP SWFL SWBD TYRS TMON TDAY THRS TMIN TSEC 
-%TableRows: 464
+%TableRows: 465
 %TableStart: 10
 %%     Time     ----------Wave----------    Wind    WaveNF                                  Placement   Placement                                Height    Height   --Wind----------------------------Wind--  -Swell---------------------------Swell-- -Bimodal-                       
 %%   FromStart   Height  Period   From      From    Height   Spectra   Distance   Range     Longitude    Latitude   Doppler    Wave    Vector    Valid      StdDv    Height  Period   From   Doppler Vector    Height  Period   From   Doppler Vector   Boundary   Time                
@@ -4800,6 +4809,7 @@
         277200      1.22   4.00   154.5     62.0      0.21        2   18.12176       12      3.2573743  42.7230995      16        2        0           2     0.12     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 00 00
         277800      1.11   4.00   150.8     64.5      0.17        4   18.12176       12      3.2573743  42.7230995      16        2        0           4     0.14     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 10 00
         278400      1.11   4.00   150.8     64.5      0.17        4   18.12176       12      3.2573743  42.7230995      16        2        0           4     0.14     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 20 00
+        279000      1.00   4.00   149.5     69.5      0.15        4   18.12176       12      3.2573743  42.7230995      17        2        0           4     0.06     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 30 00
 %TableEnd: 10
 %%
 %Distance: 19.63191 km
@@ -4807,7 +4817,7 @@
 %TableType: WAVL WM11
 %TableColumns: 33
 %TableColumnTypes: TIME MWHT MWPD WAVB WNDB PMWH ACNT DIST RCLL LOND LATD WDPT MTHD FLAG WHNM WHSD WWHT WWPD WWFB WWDP WWFL SWHT SWPD SWFB SWDP SWFL SWBD TYRS TMON TDAY THRS TMIN TSEC 
-%TableRows: 464
+%TableRows: 465
 %TableStart: 11
 %%     Time     ----------Wave----------    Wind    WaveNF                                  Placement   Placement                                Height    Height   --Wind----------------------------Wind--  -Swell---------------------------Swell-- -Bimodal-                       
 %%   FromStart   Height  Period   From      From    Height   Spectra   Distance   Range     Longitude    Latitude   Doppler    Wave    Vector    Valid      StdDv    Height  Period   From   Doppler Vector    Height  Period   From   Doppler Vector   Boundary   Time                
@@ -5276,6 +5286,7 @@
         277200      1.04   4.00   150.0     64.0      0.14        5   19.63191       13      3.2756608  42.7248375      16        2        0           5     0.04     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 00 00
         277800      1.05   4.00   146.0     66.0      0.14        5   19.63191       13      3.2756608  42.7248375      15        2        0           5     0.04     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 10 00
         278400      1.07   4.00   143.2     67.0      0.15        4   19.63191       13      3.2756608  42.7248375      15        2        0           4     0.04     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 20 00
+        279000      1.16   4.00   142.0     67.0      0.16        4   19.63191       13      3.2756608  42.7248375      15        2        0           4     0.14     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 30 00
 %TableEnd: 11
 %%
 %Distance: 21.14205 km
@@ -5283,7 +5294,7 @@
 %TableType: WAVL WM11
 %TableColumns: 33
 %TableColumnTypes: TIME MWHT MWPD WAVB WNDB PMWH ACNT DIST RCLL LOND LATD WDPT MTHD FLAG WHNM WHSD WWHT WWPD WWFB WWDP WWFL SWHT SWPD SWFB SWDP SWFL SWBD TYRS TMON TDAY THRS TMIN TSEC 
-%TableRows: 464
+%TableRows: 465
 %TableStart: 12
 %%     Time     ----------Wave----------    Wind    WaveNF                                  Placement   Placement                                Height    Height   --Wind----------------------------Wind--  -Swell---------------------------Swell-- -Bimodal-                       
 %%   FromStart   Height  Period   From      From    Height   Spectra   Distance   Range     Longitude    Latitude   Doppler    Wave    Vector    Valid      StdDv    Height  Period   From   Doppler Vector    Height  Period   From   Doppler Vector   Boundary   Time                
@@ -5752,6 +5763,7 @@
         277200      1.39   4.00   145.3     55.3      0.19        3   21.14205       14      3.2939483  42.7265725      15        2        0           3     0.09     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 00 00
         277800      1.49   4.00   142.0     55.3      0.24        3   21.14205       14      3.2939483  42.7265725      16        2        0           3     0.08     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 10 00
         278400      1.48   4.00   139.5     57.0      0.28        2   21.14205       14      3.2939483  42.7265725      16        2        0           2     0.10     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 20 00
+        279000      1.48   4.00   139.5     57.0      0.28        2   21.14205       14      3.2939483  42.7265725      16        2        0           2     0.10     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 30 00
 %TableEnd: 12
 %%
 %Distance: 22.65220 km
@@ -5759,7 +5771,7 @@
 %TableType: WAVL WM11
 %TableColumns: 33
 %TableColumnTypes: TIME MWHT MWPD WAVB WNDB PMWH ACNT DIST RCLL LOND LATD WDPT MTHD FLAG WHNM WHSD WWHT WWPD WWFB WWDP WWFL SWHT SWPD SWFB SWDP SWFL SWBD TYRS TMON TDAY THRS TMIN TSEC 
-%TableRows: 464
+%TableRows: 465
 %TableStart: 13
 %%     Time     ----------Wave----------    Wind    WaveNF                                  Placement   Placement                                Height    Height   --Wind----------------------------Wind--  -Swell---------------------------Swell-- -Bimodal-                       
 %%   FromStart   Height  Period   From      From    Height   Spectra   Distance   Range     Longitude    Latitude   Doppler    Wave    Vector    Valid      StdDv    Height  Period   From   Doppler Vector    Height  Period   From   Doppler Vector   Boundary   Time                
@@ -6228,10 +6240,11 @@
         277200      1.26   4.00   153.7     52.0      0.18        3   22.65220       15      3.3122369  42.7283046      17        2        0           3     0.02     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 00 00
         277800      1.26   4.00   153.7     52.0      0.18        3   22.65220       15      3.3122369  42.7283046      17        2        0           3     0.02     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 10 00
         278400      1.27   4.00   152.0     57.0      0.20        2   22.65220       15      3.3122369  42.7283046      17        2        0           2     0.02     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 20 00
+        279000      1.25   4.00   147.0     62.0      0.14        1   22.65220       15      3.3122369  42.7283046      17        2        0           1     0.00     999.00 999.00     0.0       0       0     999.00 999.00     0.0       0       0       0.00   2026 11 04  05 30 00
 %TableEnd: 13
 %%
 %%
-%ProcessedTimeStamp: 2026 11 04  05 59 49
+%ProcessedTimeStamp: 2026 11 04  06 07 53
 %ProcessingTool: "SpectraToWavesModel" 11.10.0
 %ProcessingTool: "WaveModelForFive" 11.8.1
 %ProcessingTool: "WaveModelFilter" 6.1.2
