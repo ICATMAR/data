@@ -43,7 +43,7 @@
 %TableType: WAVL WVM9
 %TableColumns: 22
 %TableColumnTypes: TIME MWHT MWPD WAVB WNDB PMWH ACNT DIST RCLL LOND LATD WDPT MTHD FLAG WHNM WHSD TYRS TMON TDAY THRS TMIN TSEC 
-%TableRows: 3392
+%TableRows: 3398
 %TableStart:
 %%     Time     ----------Wave----------    Wind    WaveNF                                  Placement   Placement                                Height    Height                        
 %%   FromStart   Height  Period   From      From    Height   Spectra   Distance   Range     Longitude    Latitude   Doppler    Wave    Vector    Valid      StdDv    Time                
@@ -3439,11 +3439,17 @@
        2037600      0.77   4.00   256.7    217.7      0.11      168        nan       23      0.0000000   0.0000000      18        2        0          62     0.10    2026 11 24  14 00 00
        2038200      0.78   4.00   257.7    216.6      0.12      168        nan       23      0.0000000   0.0000000      18        2        0          75     0.10    2026 11 24  14 10 00
        2038800      0.77   4.00   253.8    216.3      0.12      168        nan       23      0.0000000   0.0000000      18        2        0          83     0.11    2026 11 24  14 20 00
-       2039400      0.76   4.00   249.7    216.0      0.12      168        nan       25            nan         nan      18        2        0          83     0.10    2026 11 24  14 30 00
+       2039400      0.76   4.00   249.7    216.0      0.12      168        nan       25      0.0000000   0.0000000      18        2        0          83     0.10    2026 11 24  14 30 00
+       2040000      0.74   4.00   248.6    215.0      0.11      168        nan       25      0.0000000   0.0000000      18        2        0          83     0.11    2026 11 24  14 40 00
+       2040600      0.73   4.00   250.3    215.8      0.11      168        nan       25      0.0000000   0.0000000      18        2        0          87     0.11    2026 11 24  14 50 00
+       2041200      0.72   4.00   251.5    215.7      0.11      168        nan       25      0.0000000   0.0000000      18        2        0          91     0.11    2026 11 24  15 00 00
+       2041800      0.71   4.00   254.8    214.3      0.11      168        nan       25      0.0000000   0.0000000      18        2        0          96     0.12    2026 11 24  15 10 00
+       2042400      0.70   4.00   255.9    213.3      0.11      168        nan       25      0.0000000   0.0000000      18        2        0          93     0.12    2026 11 24  15 20 00
+       2043000      0.69   4.00   260.6    213.6      0.10      168        nan       25            nan         nan      19        2        0          94     0.11    2026 11 24  15 30 00
 %TableEnd:
 %%
 %%
-%ProcessedTimeStamp: 2026 11 24  15 12 03
+%ProcessedTimeStamp: 2026 11 24  16 12 05
 %ProcessingTool: "WaveModelFilter" 4.0.4
 %ProcessingTool: "SpectraToWavesModel" 11.10.0
 %ProcessingTool: "WaveModelForFive" 11.8.0
